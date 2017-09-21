@@ -1,0 +1,412 @@
+li{
+    list-style-image: url(../img/Bullet.png) !important;
+}
+#pendiente{
+    background: url(../img/seccion4/Seccion_4.png) center center no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+}
+.pSec{
+    display: none;
+    text-align: center;
+    color: #87868a;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+/* Banner */
+.banner{
+    flex-flow: column;
+    height: 100vh;
+    background: url(../img/Fondo.svg) center;
+    justify-content: center;
+}
+.ImgFlash{
+    width: 100%;
+    height: 80vh;
+    background: url(../img/flash.gif) center no-repeat;
+    background-size: contain;
+}
+.ttlBanner{
+    text-align: center;
+    margin-top: -75px;
+    text-transform: uppercase;
+    font-family: Bebas-Bold;
+    font-size: 40pt;
+    line-height: 32pt;
+    margin-bottom: 30px;
+    color: #51a231;
+}
+/* Seccion 2 */
+#seccion2{
+    padding: 90px;
+    text-align: justify;
+    background: #51a332;
+}
+#seccion2 p{
+    font-size: 14pt;
+    color: #fff;
+}
+
+#seccion2 p:first-child {
+    margin-bottom: 20px;
+}
+#seccion2 p:nth-child(2) {
+    margin-bottom: 20px;
+}
+.options{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+.option-1{
+    flex-flow: column;
+    width: 190px;
+    height: 290px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.options img{
+    width: 100%;
+    height: auto;
+}
+.options h3{
+    color: #87868a;
+    font-size: 20pt;
+    margin-top: 10px;
+}
+
+.options a{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    cursor: hand;
+    cursor: pointer;
+}
+.showOption{
+    display: none;
+    width: 100%;
+    background: #f4f4f4;
+    margin-top: 50px;
+}
+.closeDiv{
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.closeDiv span{
+    color: #89888c;
+}
+.closeDiv a{
+    padding: 7px 10px;
+    border-radius: 50%;
+    color: #87868a;
+    border: solid 2px #87868a;
+    cursor: hand; cursor: pointer;
+}
+.rotarX{
+    transform: rotate(180deg);
+}
+/* Seccion 3 */
+#seccion3 {
+    background: #f3f3f3;
+    padding-top: 50px;
+    position: relative;
+}
+#seccion3 p{
+    text-align: center;
+    color: #8A868A;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+#seccion3 h2, #seccion4 h2{
+    font-size: 42pt;
+    text-align: center;
+}
+#seccion3  h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 50%;
+    margin: 25px auto;
+    color: #87868a;
+    font-family: Bebas-Bold;
+}
+.content-sec3{
+    margin-top: 30px;
+}
+.col1-sec3, .col2-sec3{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.col1-sec3 img{
+    width: 90%;
+    align-self: flex-end;
+}
+.col2-sec3 p:first-child{
+    margin-bottom: 20px;
+}
+.col2-sec3{
+    flex-flow: column;
+    padding: 50px;
+}
+
+/* seccion 4 */
+#aGrafica1, #aGrafica2{
+    cursor: hand;cursor: pointer;
+}
+#graficaForest, #cumulativeInvestiments{
+    width: 90%;
+    margin: 10px auto;
+    padding: 30px 0px;
+    max-width: 700px;
+}
+.graficasCont{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.graficasEmisions{
+    text-align: center;
+    padding-bottom: 30px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0px auto;
+}
+.graficasEmisions .highcharts-label text {
+    font-size: 18px !important;
+    fill: #87868a !important;
+    color: #87868a !important;
+}
+.graficasEmisions #emmisions2015{
+    max-width: 420px;
+    margin: 0px auto;
+}
+.graficasEmisions #emmisions2050{
+    max-width: 300px;
+    margin: 0px auto;
+}
+.graficasEmisions b{
+    color: #c5c5c5;
+    font-size: 15px;
+    font-family: century;
+}
+#emmisions2015, #emmisions2050, #emmisions2015_2050{
+    display: none;
+}
+.tablaGraf {
+    position: absolute;
+    bottom: 140px;
+}
+.tablaGraf span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#emmisions2015_2050 .highcharts-legend{
+    display: none;
+}
+#seccion3 div.tablaGraf p.flex{
+    padding-bottom: 0px;
+    margin-right: 16px;
+    margin-bottom: 5px;
+}
+
+.tablaGraf p:nth-child(1) span{
+    background: #8bc540;
+}
+.tablaGraf p:nth-child(2) span{
+    background: #56b6cc;
+}
+.tablaGraf p:nth-child(3) span{
+    background: #57a133;
+}
+#seccion4{
+    padding: 60px 0px 30px 0px;
+}
+
+.actionBtn {
+    max-width: 860px;
+    min-width: 300px;
+    margin: 0px auto;
+    justify-content: space-between;
+    width: 90%;
+    height: 125px;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.actionBtn > a{
+    background: #fff;
+    border: solid 2px #51a332;
+    color: #51a332;
+    border-radius: 9px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+a.activeLk {
+    background: #51a332;
+    color: #fff;
+}
+
+
+
+/* Menu icons */
+#Layer_9, #Layer_2, #Layer_3, #Layer_4, #Layer_5, #Layer_6, #Layer_7{
+    cursor: hand; cursor: pointer;
+    -webkit-transition: fill .4s ease;
+        -moz-transition: fill .4s ease;
+        -o-transition: fill .4s ease;
+        transition: fill .4s ease;   
+}
+#Layer_9:hover #imgMarket, #Layer_2:hover circle, #Layer_3:hover circle, #Layer_4:hover circle, #Layer_5:hover circle, #Layer_6:hover circle, #Layer_7:hover circle{
+    fill:#51A332;
+}
+#Layer_9:hover g, #Layer_9:hover path, #Layer_2:hover g, #Layer_2:hover path, #Layer_3:hover g, #Layer_3:hover path, #Layer_4:hover g, #Layer_4:hover path, #Layer_5:hover g, #Layer_5:hover path, #Layer_6:hover g, #Layer_6:hover path, #Layer_7:hover g, #Layer_7:hover path{
+    stroke:#fff;
+    fill:#fff;
+}
+#market p {
+    color: #87868a;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+#market b{
+    color: #54a23a;
+}
+#market img{
+    width: 100% !important;
+}
+#market .item1-Col1 img {
+    display: none;
+}
+.contenidoItem{
+    padding: 50px;
+}
+.contenidoItem ul{
+    list-style: initial;
+    text-align: justify;
+}
+
+
+.demograhpGrap {
+    background: url(../img/menu-interior/2/grafico.svg) center;
+    background-repeat: no-repeat;
+    background-size: 430px;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 0px auto;
+}
+.demogCount1{
+    position: absolute;
+    top: 138px;
+    left: 100px;
+}
+.demogCount1 > h3{
+    color: #51a332;
+}
+h3#demG1 {
+    font-size: 56px;
+    margin-top: 13px;
+}
+h3#demG2 {
+    margin-top: 97px;
+    font-size: 45px;
+    margin-left: -8px;
+}
+h3#demG3 {
+    margin-left: 289px;
+    margin-top: -205px;
+    font-size: 52px;
+}
+h3#demG4 {
+    margin-left: 219px;
+    margin-top: 104px;
+    font-size: 45px;
+}
+#demographics .item1-Col1 img, #resourceEficent .item1-Col1 img, #market .item1-Col1 img{
+    width: 90%;
+}
+#demographics .item1-Col2{
+    align-items: center;
+    text-align: justify;
+    flex-flow: column;
+}
+#demographics .item1-Col2 ul{
+    padding: 0px 40px;
+}
+.item1-Col2 p {
+    color: #87868a;
+    margin-bottom: 20px;
+    line-height: 23px;
+    text-align: justify;
+}
+.item1-Col2 p > b{
+    color: #54a23a;
+}
+.tabs_item > p{
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    color: #87868a;
+}
+#demographics .graphicTab h2{
+    font-size: 25pt;
+    width: 600px;
+}
+#energy .item1-Col1 img{
+    width: 70%;
+}
+#energy .item1-Col1{
+    justify-content: center;
+    align-items: center;
+}
+#manufacturing .item1-Col1{
+    justify-content: center;
+    align-items: center;
+}
+#climate .item1-Col1 img, #manufacturing .item1-Col1 img, #otherTrends .item1-Col1 img{
+    width: 90%;
+}
+#grafica2{
+    display: none;
+}
+
+.hideBlock{
+    display: none !important;
+}
+.showBlock{
+    display: block !important;
+}
+#grafica1, #grafica2{
+    height: 400px;
+    width: 100%;
+    max-width: 800px;
+}
+.graphicTab > p{
+    color: #8A868A;
+    font-size: 14px;
+    text-align: center;
+}
+.highcharts-background{
+    fill: #f4f4f4;;
+}
+.optionsBtn {
+    margin: 20px 0px;
+}
+.btnActive {
+    background: #54a23a;
+    color: #fff !important;
+}
+.highcharts-button, .highcharts-axis, .highcharts-credits{
+    display: none;
+}

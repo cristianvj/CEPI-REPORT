@@ -1,0 +1,225 @@
+@media screen and (max-width: 1270px)  {
+	.options, #seccion3 h2, #seccion4 h2{
+		width: 90%;
+		margin: auto;
+	}
+	.col1-sec3 img {
+	    width: 100%;
+	}
+	.flex.contInvest {
+	    flex-flow: column;
+	}
+	.imgMaxHeig {
+	    margin-bottom: 30px;
+	}
+	section.investments p {
+	    width: 95%;
+	}
+	.imgInvest{
+		margin: 0px auto;
+    	max-width: 600px;
+	}
+}
+@media screen and (max-width: 1060px)  {
+	.option-1 {
+	    width: 150px;
+	}
+}
+@media screen and (max-width: 980px)  {
+	.content-sec3 {
+	    flex-flow: column;
+	}
+	.actionBtn > a{
+		font-size: 12px;
+	    width: 140px;
+	    height: 35px;
+	}
+	.actionBtn {
+	    max-width: 640px;
+	}
+	.pSec{
+		display: block;
+	}
+	.col1-sec3 img {
+	    width: 80%;
+	}
+	.overF {
+	    overflow: scroll;
+	}
+	.options{
+		width: 676px;
+	    margin: auto;
+	    flex-flow: row;
+	}
+	.option-1{
+		width: 150px;
+		height: 180px;
+	}
+	.contenidoItem{
+		flex-flow: column;
+	}
+}
+@media screen and (max-width: 800px)  {
+	#seccion3 h2, #seccion4 h2 {
+	    font-size: 35pt;
+	}
+	#demographics .item1-Col1 img, #resourceEficent .item1-Col1 img, #market .item1-Col1 img {
+	    width: 100%;
+	}
+	.googPractive {
+	    position: absolute;
+	    top: 130px;
+	    right: 10px;
+	}
+	.bioeconomyImg {
+	    height: 400px;
+	}
+	section.investments p {
+	    width: 100%;
+	}
+	.tablaGraf {
+	    position: absolute;
+	    bottom: 50px;
+	    left: 20px;
+	}
+	.itemGraf {
+	    display: flex;
+	    width: 100%;
+	    text-align: center;
+	    margin: 0px auto;
+	}
+	.tablaGraf span {
+	    margin-right: 5px;
+	    display: inline-table;
+	}
+}
+@media screen and (max-width: 600px)  {
+	#seccion2, .col2-sec3{
+	    padding: 40px;
+	}
+	#seccion3 p {
+	    width: 100%;
+	}
+	#demographics .graphicTab h2 {
+	    width: 90%;
+	    margin: 20px 0px;
+	}
+	.optionsBtn{
+		flex-flow:column;
+	}
+	.optionsBtn a{
+		width: 90%;
+    	margin: auto;
+    	margin-bottom: 20px;
+    	text-align: center;
+	}
+	.ImgFlash {
+	    height: 66vh;
+	    background: url(../img/flash.gif) center no-repeat;
+	    background-size: contain;
+	}
+	#seccion3 h2, #seccion4 h2 {
+	    font-size: 30pt;
+	}
+	#demographics .item1-Col1 img, #resourceEficent .item1-Col1 img, #market .item1-Col1 img {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.contenidoItem {
+	    padding: 25px !important;
+	}
+	.contenidoItem ul{
+		padding: 0px !important;
+	}
+	#climate .item1-Col1 img, #manufacturing .item1-Col1 img, #otherTrends .item1-Col1 img {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.demograhpGrap {
+	    background-size: 300px;
+	    width: 300px;
+	    height: 300px;
+	}
+	.demogCount1 {
+	    left: 0px;
+	}
+	#seccion3 h4 {
+	    font-size: 1.5rem;
+	    width: 90%;
+	}
+	#seccion2 p {
+	    font-size: 12pt;
+	}
+	.imgInvest {
+	    background: url(../img/Grafico_1.svg) no-repeat;
+	    background-size: 320px;
+	    width: 100%;
+	    height: 100%;
+	    position: relative;
+	}
+	.imgMaxHeig {
+	    height: 350px;
+	}
+	h3#investCount2 {
+	    bottom: 147px;
+	    font-size: 26px;
+	    left: 163px;
+	}
+	h3#investCount1 {
+	    font-size: 60px;
+	    top: 150px;
+	    left: 53px;
+	}
+	h3#investCount3{
+		width: 90%;
+		left: 10px;
+	}
+	section.bioeconomy {
+	    margin: 0px;
+	}
+	.bioeconomyImg {
+	    height: 300px;
+	}
+	h2.title {
+	    font-size: 2rem;
+	}
+	.graficasEmisions #emmisions1990{
+		max-width: 350px;
+	    margin: 0px auto;
+	}
+	.graficasEmisions #emmisions2015{
+	    max-width: 300px;
+	    margin: 0px auto;
+	}
+	.graficasEmisions #emmisions2050{
+	    max-width: 200px;
+	    margin: 0px auto;
+	}
+}
+@media screen and (max-width: 540px)  {
+	.imgMaxHeig {
+	    height: 423px;
+	}
+	h3#investCount2 {
+	    bottom: 221px;
+	}
+	.flex.contForest {
+	    flex-flow: column;
+	}
+}
+@media screen and (max-width: 370px)  {
+	.actionBtn > a {
+	    width: 130px;
+	}
+	.bioeconomyImg {
+	    height: 198px;
+	}
+}
+@media screen and (max-width: 330px)  {
+	#resourceEficent .tabs {
+	    margin-top: -120px;
+	}
+	#resourceEficent{
+		margin-top: 80px;
+	}
+}

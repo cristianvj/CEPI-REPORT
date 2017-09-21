@@ -1,0 +1,82 @@
+@media screen and (max-width: 1090px)  {
+	#latest p {
+	    margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 900px)  {
+	.flex.countFuter {
+	    flex-flow: column;
+	}
+	.pdT{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 770px)  {
+	h2.title{
+	    font-size: 2rem;
+	}
+	.bannerForest {
+	    background: url(../img/grafica.gif) no-repeat center;
+	    background-size: 700px;
+	    height: 80vh;
+	}
+	section.pulping > p {
+	    width: 100%;
+	}
+	section.pulping {
+	    background: url(../img/Parlante_Fondo.svg) no-repeat left top #51a332;
+	    background-size: 128px;
+	}
+}
+@media screen and (max-width: 750px)  {
+	section.flex.progress {
+	    flex-flow: column;
+	}
+}
+
+@media screen and (max-width: 600px)  {
+	.goodPractives {
+	    right: 0px;
+	    top: 150px;
+	}
+	h2.title {
+	    padding-bottom: 0px;
+	}
+	.bannerForest {
+	    background: url(../img/grafica.gif) no-repeat center;
+	    background-size: 320px;
+	    min-height: 500px;
+	}
+	section.progress img {
+	    width: 320px;
+	}
+	h3#countCo1 {
+	    top: 42px;
+	    left: 136px;
+	    font-size: 28px;
+	}
+	h3#countCo2 {
+	    top: 240px;
+	    left: 32px;
+	    font-size: 34px;
+	}
+	h3#countCo3 {
+	    top: 239px;
+	    left: 234px;
+	    font-size: 34px;
+	}
+	section.pulping {
+	    padding: 20px;
+   		margin-bottom: 30px;
+	}
+	.flex.intFut {
+	    flex-flow: column;
+	}
+	.pdT {
+	    padding: 0px;
+	}
+	.flex.contForest {
+	    flex-flow: column;
+	}
+}

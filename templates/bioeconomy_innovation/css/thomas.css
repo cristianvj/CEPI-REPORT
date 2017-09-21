@@ -1,0 +1,402 @@
+.colDiv {
+    flex: 1;
+}
+/* Banner */
+.banner{
+    flex-flow: column;
+    height: 100vh;
+    min-height: 530px;
+    background: url(../img/Fondo.svg) center no-repeat;
+    justify-content: center;
+}
+.colDiv p>b{
+    color: #51a332;
+}
+.ImgFlash{
+    width: 90%;
+    height: 80vh;
+    max-width: 1000px;
+    min-height: 400px;
+    margin: 0px auto;
+    background: url(../img/flash.gif) bottom no-repeat;
+    background-size: contain;
+}
+.googPractive {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+.googPractive a{
+    color: #fff;
+    background: #54a435;
+    padding: 10px 20px;
+    border-radius: 10px;
+    right: 90px;
+}
+/* Seccion 2 */
+#seccion2{
+    padding: 90px;
+    text-align: center;
+    background: #51a332;
+}
+#seccion2 p{
+    font-size: 14pt;
+    color: #fff;
+}
+#seccion2 p:first-child {
+    margin-bottom: 20px;
+}
+#seccion2 p:nth-child(2) {
+    margin-bottom: 20px;
+}
+.options{
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+.option-1{
+    flex-flow: column;
+    width: 190px;
+    height: 290px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.options img{
+    width: 100%;
+    height: auto;
+}
+.options h3{
+    color: #87868a;
+    font-size: 20pt;
+    margin-top: 10px;
+}
+
+.options a{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    cursor: hand;
+    cursor: pointer;
+}
+.showOption{
+    display: none;
+    width: 100%;
+    background: #f4f4f4;
+    margin-top: 50px;
+}
+.closeDiv{
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+.closeDiv span{
+    color: #89888c;
+}
+.closeDiv a{
+    padding: 7px 10px;
+    border-radius: 50%;
+    color: #87868a;
+    border: solid 2px #87868a;
+    cursor: hand; cursor: pointer;
+}
+.rotarX{
+    transform: rotate(180deg);
+}
+
+
+/* Seccion 3 */
+
+/* Seccion 3 */
+#seccion3 {
+    background: #f3f3f3;
+    padding-top: 50px;
+    position: relative;
+}
+#seccion3 p{
+    text-align: center;
+    color: #8A868A;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+#seccion3 h2, #seccion4 h2{
+    font-size: 42pt;
+    text-align: center;
+}
+#seccion3  h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 50%;
+    margin: 25px auto;
+    color: #87868a;
+    font-family: Bebas-Bold;
+}
+.content-sec3{
+    margin-top: 30px;
+}
+.col1-sec3, .col2-sec3{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.col1-sec3 img{
+    width: 90%;
+    align-self: flex-end;
+}
+.col2-sec3 p:first-child{
+    margin-bottom: 20px;
+}
+.col2-sec3{
+    flex-flow: column;
+    padding: 50px;
+}
+
+/* seccion 4 */
+#aGrafica1, #aGrafica2{
+    cursor: hand;cursor: pointer;
+}
+#graficaForest, #cumulativeInvestiments{
+    width: 90%;
+    margin: 10px auto;
+    padding: 30px 0px;
+    max-width: 700px;
+}
+.graficasCont{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.graficasEmisions{
+    text-align: center;
+    padding-bottom: 30px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0px auto;
+}
+.graficasEmisions .highcharts-label text {
+    font-size: 18px !important;
+    fill: #87868a !important;
+    color: #87868a !important;
+}
+.graficasEmisions #emmisions2015{
+    max-width: 420px;
+    margin: 0px auto;
+}
+.graficasEmisions #emmisions2050{
+    max-width: 300px;
+    margin: 0px auto;
+}
+.graficasEmisions b{
+    color: #c5c5c5;
+    font-size: 15px;
+    font-family: century;
+}
+#emmisions2015, #emmisions2050, #emmisions2015_2050{
+    display: none;
+}
+.tablaGraf {
+    position: absolute;
+    bottom: 140px;
+}
+.tablaGraf span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#emmisions2015_2050 .highcharts-legend{
+    display: none;
+}
+#seccion3 div.tablaGraf p.flex{
+    padding-bottom: 0px;
+    margin-right: 16px;
+    margin-bottom: 5px;
+}
+
+.tablaGraf p:nth-child(1) span{
+    background: #8bc540;
+}
+.tablaGraf p:nth-child(2) span{
+    background: #56b6cc;
+}
+.tablaGraf p:nth-child(3) span{
+    background: #57a133;
+}
+#seccion4{
+    padding: 60px 0px 30px 0px;
+}
+
+.actionBtn {
+    max-width: 860px;
+    min-width: 300px;
+    margin: 0px auto;
+    justify-content: space-between;
+    width: 90%;
+    height: 125px;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.actionBtn > a{
+    background: #fff;
+    border: solid 2px #51a332;
+    color: #51a332;
+    border-radius: 9px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+a.activeLk {
+    background: #51a332;
+    color: #fff;
+}
+
+.highcharts-background{
+    fill: #f3f3f3;
+}
+.highcharts-button,  .highcharts-axis, .highcharts-credits{
+    display: none;
+}
+/* seccion 4 */
+
+/* seccion 4 */
+
+/* Latest */
+#latest b{
+    color: #51a332;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Bebas-Bold;
+    letter-spacing: 2px;
+}
+h2.title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section#latest {
+    padding: 40px 0px;
+}
+#latest p{
+    width: 80%;
+    margin: 0px auto;
+}
+#latest a {
+    color: #87868a !important;
+    font-size: 26px;
+    font-family: Bebas-Bold;
+    text-decoration: underline;
+    line-height: 30px;
+}
+#latest h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+
+/* Investments */
+section.investments {
+    padding: 40px 0px;
+    width: 90%;
+    margin: 0px auto;
+}
+section.investments p {
+    color: #868589;
+    margin-top: 20px;
+    width: 85%;
+    line-height: 23px;
+    text-align: justify;
+}
+.imgInvest{
+    background: url(../img/Grafico_1.svg) no-repeat;
+    background-size: 600px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.imgMaxHeig{
+    height: 533px;
+}
+.imgInvest > h3{
+    color: #51a332;
+    position: absolute;
+}
+h3#investCount1{
+    font-size: 107px;
+    top: 284px;
+    left: 96px;
+}
+h3#investCount2{
+    bottom: 156px;
+    font-size: 46px;
+    left: 304px;
+}
+h3#investCount3 {
+    bottom: 0px;
+    font-size: 1.7rem;
+    color: #87868a;
+    text-align: center;
+    width: 460px;
+    left: 62px;
+}
+
+/* Bioeconomy */
+section.bioeconomy {
+    padding: 20px;
+    margin: 30px 0px;
+    text-align: center;
+}
+section.bioeconomy h2, section.bioeconomy h2 > a{
+    font-size: 2rem;
+    font-family: Bebas-Bold;
+}
+section.bioeconomy h2 > a{
+    color: #51a332;
+}
+.bioeconomyImg{
+    background: url(../img/Grafico_2.svg) no-repeat center;
+    height: 600px;
+    width: 100%;
+}
+
+/* Moving */
+section.moving {
+    width: 90%;
+    margin: 0px auto;
+    text-align: justify;
+}
+section.moving h2{
+    margin-bottom: 30px;
+}
+section.moving p {
+    color: #868589;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+section.moving p > a, section.moving p > b, section.moving p > strong{
+    color: #51a332;
+}
+.descMoving {
+    width: 90%;
+    background: #51a332;
+    margin: 0px auto;
+    padding: 7px 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    max-width: 680px;
+}
+section.moving .descMoving p, section.moving .descMoving a {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+section.moving .descMoving a {
+    font-weight: bold;
+}

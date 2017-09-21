@@ -1,0 +1,39 @@
+@media screen and (max-width: 760px)  {
+	footer{
+		height: 100%;
+   		flex-flow: column;
+	}
+	.footer-col1{
+		border: none;
+	}
+	#cd-logo {
+	    display: block;
+	    float: left;
+	    margin: 12px 0 0 20px;
+	    width: 200px;
+	}
+	#cd-logo img {
+	    width: 150px;
+
+}
+@media screen and (max-width: 520px)  {
+	.ft-int-col1{
+		margin-right: 0px;
+	}
+	.ft-int-col1 p, .ft-int-col2 p{
+		text-align: center;
+	}
+	.int-ftr {
+	    flex-flow: column;
+	    align-items: center;
+	}
+}
+@media screen and (max-width: 370px)  {
+	.int-ftr{
+		flex-flow: column;
+    	text-align: center;
+	}
+	.ft-int-col1{
+		margin-right: 0px;
+	}
+}

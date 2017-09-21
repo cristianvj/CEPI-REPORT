@@ -1,0 +1,106 @@
+@media screen and (max-width: 1160px)  {
+	.imgFostering, .imgFostering img{
+	    width: 600px;
+	    margin: 0px auto;
+	}
+	#countFost1 {
+	    top: 178px;
+	    left: 134px;
+	    font-size: 36px;
+	}
+	#countFost2 {
+	    top: 92px;
+	    left: 275px;
+	    font-size: 37px;
+	}
+	#countFost3 {
+	    top: 176px;
+	    font-size: 38px;
+	    left: 416px;
+	}
+}
+@media screen and (max-width: 1090px)  {
+	#latest p {
+	    margin-bottom: 30px;
+	}
+	section#extracting {
+	    flex-flow: column;
+	}
+	.flex.contWorld {
+	    flex-flow: column;
+	}
+	.colDiv {
+	    position: relative;
+	}
+	section.worldwide p{
+		margin: 0px auto;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 770px)  {
+	section.flex.extracting  h2.title, h2.title{
+	    font-size: 2rem;
+	}
+}
+@media screen and (max-width: 660px)  {
+	.imgFostering, .imgFostering img {
+    	width: 320px;
+    }
+    #countFost1 {
+	    top: 94px;
+	    left: 70px;
+	    font-size: 20px;
+	}
+	#countFost2 {
+	    top: 49px;
+	    left: 146px;
+	    font-size: 19px;
+	}
+	#countFost3 {
+	    top: 94px;
+	    font-size: 20px;
+	    left: 222px;
+	}
+}
+@media screen and (max-width: 600px)  {
+	.goodPractives {
+	    right: 0px;
+	    top: 150px;
+	}
+	.imgRight img {
+	    width: 320px;
+	}
+	#countCasc1 {
+	    top: 26px;
+	    left: 26px;
+	    font-size: 32px;
+	}
+	#countCasc2 {
+	    top: 77px;
+	    left: 103px;
+	    font-size: 33px;
+	}
+	#countCasc3 {
+	    top: 166px;
+	    font-size: 32px;
+	    left: 117px;
+	}
+	.flex.contWorld h2{
+		font-size: 17pt;
+	}
+	.bannerForest{
+		background-size: 600px;
+	}
+	section.flex.extracting {
+	    padding-left: 20px;
+	}
+	section.paper {
+	    padding: 30px;
+	}
+	.flex.contForest {
+	    flex-flow: column;
+	}
+	tspan{
+		width: 300px;
+	}
+}
