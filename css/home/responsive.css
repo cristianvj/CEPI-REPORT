@@ -1,0 +1,15 @@
+@media screen and (min-width: 760px) {
+
+  .div-header .div-logo > img{
+    width: 200px;
+    .div-header .div-logo{
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+
+    .title-home{
+      border: 1px solid;
+      background-color: red;
+    }
+}
