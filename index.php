@@ -21,10 +21,12 @@
 
 		<!-- Content menu -->
 		<div id="mySidenav" class="sidenav">
+
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
 			<a href="#" class="li-home">
-				<div class="svg svg-home">
-					<svg class="icon-svg-home" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.5em" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+				<div class="div-svg svg-home">
+					<svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.5em" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 					viewBox="0 0 242 153"
 					 xmlns:xlink="http://www.w3.org/1999/xlink">
 					 <g id="Capa_x0020_1" fill="white">
@@ -40,8 +42,8 @@
 				Home
 			</a>
 			<a href="#">
-				<div class="svg svg-home">
-					<svg class="icon-svg-sustainability" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.5em" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+				<div class="div-svg svg-sustainability">
+					<svg class="icon-svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.5em" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 					viewBox="0 0 225 248"
 					 xmlns:xlink="http://www.w3.org/1999/xlink">
 					 <g id="Capa_x0020_1" fill="white">

@@ -6,12 +6,6 @@ h1{
 header{
   z-index: 10;
 }
-.btn-menu{
-  font-size: 50px;
-  cursor: pointer;
-  color: #bdbdbd;
-  font-weight: bold;
-}
 .container-home{
   padding: 7em 0 0 0;
   overflow-y: hidden;
@@ -33,13 +27,7 @@ header{
 .div-header .div-logo > img{
   width: 150px;
 }
-.div-header .div-menu{
-  position: absolute;
-  top: 20px;
-  right: 35px;
-}
 .img-circle{
-  border-radius: 30%;
   width: 20em;
   height: 20em;
   background: url('../../img/home/circulo-rotar.svg') no-repeat center;
@@ -48,14 +36,10 @@ header{
   -webkit-animation: spin 60s linear infinite;
   animation: spin 60s linear infinite;
 }
-.title-home{
-  padding-bottom: .5em
-}
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); }
 }
-
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -64,25 +48,37 @@ header{
 
 
 /* Styles menu */
+.btn-menu{
+  font-size: 50px;
+  cursor: pointer;
+  color: #bdbdbd;
+  font-weight: bold;
+}
+.div-menu{
+  position: absolute;
+  top: 20px;
+  right: 35px;
+}
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: #F4F4F4;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    z-index: 20;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #F4F4F4;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 20;
 }
 .sidenav a {
-    padding: 25px 8px 8px 20px;
-    text-decoration: none;
-    font-size: 1.1em;
-    color: #bdbdbd;
-    display: block;
-    transition: 0.3s;
+  padding: 10px 8px 8px 10px;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #bdbdbd;
+  display: block;
+  transition: 0.3s;
+  margin: 2px 0 0 0;
 }
 .sidenav .closebtn {
     color: #bdbdbd;
@@ -92,28 +88,24 @@ header{
     font-size: 60px;
     margin-left: 50px;
 }
-.svg{
-  width: 42px;
-  height: 42px;
+.div-svg{
+  width: 44px;
+  height: 44px;
   background-color: green;
   border-radius: 50%;
+  display: inline-block;
 }
-.svg-home{
-  float: left;
-  margin-right: 12px;
-}
-.icon-svg-home{
-  padding: 12px 0 0 7px;
+.icon-svg{
+  padding: 13px 0 0 8px;
 }
 .icon-svg-sustainability{
-  padding: 7px 0 0 7px;
+  padding: 9px 0 0 9px;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 /* /Styles menu */
-
 
 
 
@@ -152,7 +144,6 @@ header{
   box-shadow: 0 0 4px rgba(0,0,0,.14),
     0 4px 8px rgba(0,0,0,.28);
 }
-
 .buttons-fab:not(:last-child) {
   width: 40px;
   height: 40px;
@@ -162,7 +153,6 @@ header{
       -ms-transform: translateY(50px);
           transform: translateY(50px);
 }
-
 .container-fab:hover
 .buttons-fab:not(:last-child) {
   opacity: 1;
@@ -171,34 +161,28 @@ header{
           transform: none;
   margin: 15px auto 0;
 }
-
 /* Unessential styling for sliding up buttons-fab at differnt speeds */
-
 .buttons-fab:nth-last-child(1) {
   -webkit-transition-delay: 25ms;
           transition-delay: 25ms;
   background-size: contain;
 }
-
 .buttons-fab:not(:last-child):nth-last-child(2) {
   -webkit-transition-delay: 50ms;
           transition-delay: 20ms;
   background-size: contain;
 }
-
 .buttons-fab:not(:last-child):nth-last-child(3) {
   -webkit-transition-delay: 75ms;
           transition-delay: 40ms;
   background-size: contain;
 }
-
 .buttons-fab:not(:last-child):nth-last-child(4) {
   -webkit-transition-delay: 100ms;
           transition-delay: 60ms;
   background-size: contain;
 }
 /* Show tooltip content on hover */
-
 [tooltip]:before {
   bottom: 25%;
   font-family: arial;
@@ -216,7 +200,6 @@ header{
   left: 100%;
   white-space: nowrap;
 }
-
 [tooltip]:hover:before,
 [tooltip]:hover:after {
   visibility: visible;
