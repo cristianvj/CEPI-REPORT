@@ -60,6 +60,27 @@ header{
   top: 20px;
   right: 35px;
 }
+.div-item .child{
+
+}
+.div-item a img{
+  width: 40px;
+  background-color: gray;
+  border: 5px solid gray;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.div-item:hover{
+  background-color: red;
+  border-color: red;
+}
+.div-item-child{
+  font-size: 1em !important;
+  padding-left: 1.2em;
+}
+.div-item-child img{
+  width: 30px !important;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -80,9 +101,6 @@ header{
   display: block;
   transition: 0.3s;
   margin: 1em auto;
-}
-.sidenav .menu-child{
-  font-size: 1em;
 }
 .sidenav .closebtn {
     color: #bdbdbd;

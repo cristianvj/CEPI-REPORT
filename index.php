@@ -24,42 +24,78 @@
 
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-			<a href="#" class="li-home">
-				Home
-			</a>
-			<a href="#" class="li-home">
-				Sustainability Vision
-			</a>
-			<a href="#">
-				Cepi in a Snapshot
-			</a>
-			<a href="#">
-				2050 Outlook
-			</a>
-			<a href="#">
-				Policy Blocks
-			</a>
-			<a href="#" class="menu-child">
-				Forest
-			</a>
-			<a href="#" class="menu-child">
-				Bioeconomy and Innovation
-			</a>
-			<a href="#" class="menu-child">
-				Circular Economy
-			</a>
-			<a href="#" class="menu-child">
-				Energy and Climate
-			</a>
-			<a href="#" class="menu-child">
-				Enviroment
-			</a>
-			<a href="#">
-				All Latest Data
-			</a>
-			<a href="#">
-				Glossary
-			</a>
+			<div class="div-item" id="item-home">
+				<a href="#">
+					<img src="img/public/icon.png" alt="">
+					Home
+				</a>
+			</div>
+			<div class="div-item" id="item-sustainability">
+				<a href="#">
+					<img src="img/public/icon.png" alt="">
+					Sustainability Vision
+				</a>
+			</div>
+			<div class="div-item" id="item-snapshot">
+				<a href="#">
+					<img src="img/public/icon.png" alt="">
+					Cepi in a Snapshot
+				</a>
+			</div>
+			<div class="div-item" id="item-outlook">
+				<a href="#">
+					<img src="img/public/icon.png" alt="">
+					2050 Outlook
+				</a>
+			</div>
+			<div class="div-item" id="item-policy">
+				<a href="#">
+					<img src="img/public/icon.png" alt="">
+					Policy Blocks
+				</a>
+			</div>
+			<div class="div-item" id="item-forest">
+				<a href="#" class="div-item-child">
+					<img src="img/public/icon.png" alt="">
+					Forest
+				</a>
+			</div>
+			<div class="div-item" id="item-bioeconomy">
+				<a href="#" class="div-item-child">
+					<img src="img/public/icon.png" alt="">
+					Bioeconomy and Innovation
+				</a>
+			</div>
+			<div class="div-item" id="item-circular">
+				<a href="#" class="div-item-child">
+					<img src="img/public/icon.png" alt="">
+					Circular Economy
+				</a>
+			</div>
+			<div class="div-item" id="item-energy">
+				<a href="#" class="div-item-child">
+					<img src="img/public/icon.png" alt="">
+					Energy and Climate
+				</a>
+			</div>
+			<div class="div-item" id="item-enviroment">
+				<a href="#" class="div-item-child">
+					<img src="img/public/icon.png" alt="">
+					Enviroment
+				</a>
+			</div>
+			<div class="div-item" id="item-latest">
+				<a href="#">
+					<img src="img/public/icon.png" alt="">
+					All Latest Data
+				</a>
+			</div>
+			<div class="div-item" id="item-glossary">
+				<a href="#">
+					<img src="img/public/icon.png" alt="">
+					Glossary
+				</a>
+			</div>
 		</div>
 		<!-- /Content menu -->
 
