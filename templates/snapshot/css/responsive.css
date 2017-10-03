@@ -1,6 +1,6 @@
 @media screen and (max-width: 1130px)  {
 	.certified{
-		height: 317px;
+		padding: 40px 10px;
 	}
 	.keyStatistics{
 		flex-flow: column;
@@ -148,6 +148,12 @@
 	}
 }
 @media screen and (max-width: 805px)  {
+	.sec-graf1 {
+	    height: 434px;
+	}
+	.sec-graf2 {
+	    height: 400px;
+	}
 	.sec-graf1 h2 {
 	    font-size: 26pt;
 	}
@@ -163,6 +169,15 @@
 	}
 	.cont2Div {
 	    width: 336px;
+	}
+	div.graficas h4.ttlPorc{
+		left: 182px;
+		font-size: 19px;
+	}
+
+	div.graficas h4 {
+	    font-size: 23px;
+	    line-height: 19px;
 	}
 }
 @media screen and (max-width: 760px)  {
@@ -201,9 +216,6 @@
 	    width: 100% !important;
 	}
 
-	.sec-graf1 {
-	    height: 513px;
-	}
 	.imgSlide1 {
 	    height: 300px;
 	    background: url(../img/seccion2/slide1.gif) top no-repeat;
@@ -214,11 +226,19 @@
 	.openGraf1, .openGraf2 {
 	    height: 950px !important;
 	}
+}
+@media screen and (max-width: 630px)  {
 	.sec-graf1 {
-	    height: 520px;
+	    height: 448px;
+	}
+	.sec-graf2 {
+	    height: 407px;
 	}
 }
 @media screen and (max-width: 600px)  {
+	.sec-graf1 {
+	    height: 480px;
+	}
 	.informCount{
 	    margin: auto;
 	    margin-bottom: 30px;
@@ -370,6 +390,12 @@
 	}
 }
 @media screen and (max-width: 520px)  {
+	.sec-graf1 {
+	    height: 440px;
+	}
+	.sec-graf2 {
+	    height: 426px;
+	}
 	.imgSlide1 {
 	    height: 280px;
 	}
@@ -392,13 +418,14 @@
 	.gifPaper{
 		height: 390px
 	}
-	.sec-graf1 {
-    	height: 507px;
+	div.graficas h4.ttlPorc {
+	    left: 123px;
 	}
-	.sec-graf2 {
-	    height: 458px;
-	}
-
+}
+@media screen and (max-width: 510px)  {
+.sec-graf1 {
+    height: 465px;
+}
 }
 @media screen and (max-width: 410px)  {
 	.certif-col1 p {
@@ -415,13 +442,38 @@
 	}
 
 	.sec-graf1 {
-	    height: 510px;
+	    height: 476px;
 	}
 	.banner {
 	    height: 85vh;
 	}
+	.flex.graficas{
+		margin-top: 30px;
+	}
+	div.graficas h4 {
+	    font-size: 19px;
+	}
+	div.graficas h4.ttlPorc {
+	    left: 100px;
+	}
+	.sec-graf1 {
+	    height: 476px;
+	}
 }
-
+@media screen and (max-width: 385px)  {
+	.sec-graf2 {
+	    height: 435px;
+	}
+	.sec-graf3{
+		height: 170px;
+	}
+	.sec-graf4{
+		height: 174px
+	}
+	.sec-graf2 {
+	    height: 453px;
+	}
+}
 @media screen and (max-width: 330px)  {
 	 .ImgFlash{
 	   height: 70vh;
@@ -436,17 +488,17 @@
 	    height: 40px;
 	 }
 	.sec-graf2 {
-	    height: 459px;
+	    height: 455px;
 	}
 	.descripcionItem {
 	    height: 415px;
 	    padding: 10px 0px;
 	}
-	.sec-graf3{
-	    height: 207px;
-	} 
+	.sec-graf3 {
+	    height: 170px;
+	}
 	.sec-graf4 {
-	    height: 175px;
+	    height: 195px;
 	}
 	.openGraf3, .openGraf4 {
 	    height: 615px !important;

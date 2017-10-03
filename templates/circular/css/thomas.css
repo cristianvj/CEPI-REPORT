@@ -59,6 +59,11 @@ text {
   fill: #868589 !important;
   color: #868589 !important;
 }
+section.worldwide p.vwLands{
+    display:none;
+     text-align: center;
+    font-size: 14px;
+}
 /* extracting */
 section.flex.extracting {
     background: #51a332;

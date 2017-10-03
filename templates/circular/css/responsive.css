@@ -70,6 +70,7 @@
 	.imgRight img {
 	    width: 320px;
 	}
+
 	#countCasc1 {
 	    top: 26px;
 	    left: 26px;
@@ -102,5 +103,12 @@
 	}
 	tspan{
 		width: 300px;
+	}
+}
+
+@media screen and (max-width: 520px)  {
+
+	section.worldwide p.vwLands{
+	    display:block;
 	}
 }

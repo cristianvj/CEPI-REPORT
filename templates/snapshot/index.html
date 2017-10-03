@@ -16,6 +16,7 @@
 	<!-- Page -->
 	<link rel="stylesheet" type="text/css" href="css/baseInterna.css">
 	<script src="../../shared/js/modernizr.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 	<title>Digital CEPI</title>
 </head>
 <body>
@@ -46,6 +47,7 @@
 
 	<!-- Seccion 2 -->
 	<section class="flex products">
+		<h2 class="title">OUR PRODUCTS ARE AT THE CORE OF EVERYDAY LIFE</h2>
 		<div class="imgSlide1 animate-in" data-anim-type="fade-in-left">
 			<h3><a target="_blank" href="https://www.dropbox.com/sh/f9etu1o7hrk789e/AABY27qaAiaSfO6ZpMC5yLDLa?dl=0"><b>Click here</b></a> to see a whole range of products for everyday life
 			<div class="flex angleDown">
@@ -57,7 +59,31 @@
         	<!-- Grafica -->
 			<div class="sec-graf1">
 	        	<h2>90.8 MILLION TONNES (MT) OF TOTAL PRODUCTION IN 2016</h2>
-				<div id="grafica1" class="chart1Slide2"></div>
+				<div class="flex graficas">
+					<h4>Packaging Paper and Board</h4>
+					<div class="graficaInt" id="grafica1_1"></div>
+					<h4 class="ttlPorc">49%</h4>
+					<h4 class="taLeft">49.6 MT</h4>
+				</div>
+				<div class="flex graficas grf1_2">
+					<h4>Case Materials</h4>
+					<div class="graficaInt intGr" id="grafica1_2"></div>
+					<h4 class="ttlPorc">29.9%</h4>
+					<h4 class="taLeft">28 MT</h4>
+				</div>
+				<div class="flex graficas grf1_2">
+					<h4>Other packaging & paper</h4>
+					<div class="graficaInt intGr" id="grafica1_3"></div>
+					<h4 class="ttlPorc">14.4%</h4>
+					<h4 class="taLeft">4.7 MT</h4>
+				</div>
+				<div class="flex graficas grf1_2">
+					<h4>Wrapping</h4>
+					<div class="graficaInt intGr" id="grafica1_4"></div>
+					<h4 class="ttlPorc">4.7%</h4>
+					<h4 class="taLeft">4.2 MT</h4>
+				</div>
+					
 				<div class="flex abrirSlide2">
 					<h4>Examples</h4>
 					<img class="flecha1" onclick="openGraf1();" src="../../shared/img/Flecha.svg">
@@ -88,7 +114,30 @@
 			</div>
 			<!-- Grafica -->
 			<div class="sec-graf2">
-				<div id="grafica2" class="chart1Slide2"></div>
+				<div class="flex graficas">
+					<h4>Newsprint, Printing and Writing Paper</h4>
+					<div class="graficaInt" id="grafica2_1"></div>
+					<h4 class="ttlPorc">15.2%</h4>
+					<h4 class="taLeft">12.8 MT</h4>
+				</div>
+				<div class="flex graficas grf1_2">
+					<h4>Coated Paper</h4>
+					<div class="graficaInt intGr" id="grafica2_2"></div>
+					<h4 class="ttlPorc">15.2%</h4>
+					<h4 class="taLeft">12.8 MT</h4>
+				</div>
+				<div class="flex graficas grf1_2">
+					<h4>Uncoated Paper</h4>
+					<div class="graficaInt intGr" id="grafica2_3"></div>
+					<h4 class="ttlPorc">15.8%</h4>
+					<h4 class="taLeft">15.2 MT</h4>
+				</div>
+				<div class="flex graficas grf1_2">
+					<h4>Newsprint</h4>
+					<div class="graficaInt intGr" id="grafica2_4"></div>
+					<h4 class="ttlPorc">7.8%</h4>
+					<h4 class="taLeft">6.5 MT</h4>
+				</div>
 				<div class="flex abrirSlide2">
 					<h4>Examples</h4>
 					<img class="flecha2" onclick="openGraf2();" src="../../shared/img/Flecha.svg">
@@ -121,7 +170,12 @@
 			</div>
 			<!-- Grafica -->
 			<div class="sec-graf3">
-				<div id="grafica3" class="chart1Slide2"></div>
+				<div class="flex graficas grf1_2">
+					<h4>Hygiene Paper</h4>
+					<div class="graficaInt" id="grafica3_1"></div>
+					<h4 class="ttlPorc">7.8%</h4>
+					<h4 class="taLeft">7.3 MT</h4>
+				</div>
 				<div class="contenido2">
 				<div class="flex abrirSlide2">
 					<h4>Examples</h4>
@@ -154,7 +208,12 @@
 			</div>
 			<!-- Grafica -->
 			<div class="sec-graf4">
-				<div id="grafica4" class="chart1Slide2"></div>
+				<div class="flex graficas grf1_2">
+					<h4>Other Paper and Board</h4>
+					<div class="graficaInt" id="grafica4_1"></div>
+					<h4 class="ttlPorc">4.4%</h4>
+					<h4 class="taLeft">4.7 MT</h4>
+				</div>
 				<div class="contenido2 cont2Div">
 					<div class="flex abrirSlide2">
 						<h4>Examples</h4>
@@ -283,7 +342,7 @@
 <script src="../../shared/js/animations/appear.min.js" type="text/javascript"></script>
 <script src="../../shared/js/animations/animations.min.js" type="text/javascript"></script>
 <!-- Page -->
-<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="js/countUp.min.js"></script>
 <script src="js/chartSetup.js"></script>
 <script src="../../shared/js/app.js"></script>
@@ -311,7 +370,18 @@ function slidOpen() {
 	$("#main-slider-space").toggleClass('grande');
 	$("#main-slider-next").toggleClass('slOrient');
 }
-
+$( function() {
+    $( "#grafica1_1" ).progressbar({ value: 49 });
+    $( "#grafica1_2" ).progressbar({ value: 29.9 });
+    $( "#grafica1_3" ).progressbar({ value: 14.4 });
+    $( "#grafica1_4" ).progressbar({ value: 4.7 });
+    $( "#grafica2_1" ).progressbar({ value: 38.8 });
+    $( "#grafica2_2" ).progressbar({ value: 15.2 });
+    $( "#grafica2_3" ).progressbar({ value: 15.8 });
+    $( "#grafica2_4" ).progressbar({ value: 7.8 });
+    $( "#grafica3_1" ).progressbar({ value: 7.8 });
+    $( "#grafica4_1" ).progressbar({ value: 4.4 });
+  } );
 
 function conteo() {
 	var options = {

@@ -132,10 +132,10 @@ tspan{
     width: 100%;
 }
 .sec-graf1{
-    height: 520px;
+    height: 445px;
 }
 .sec-graf2{
-    height: 455px;
+    height: 425px;
 }
 .sec-graf1 h2{
     font-size: 34pt;
@@ -144,12 +144,12 @@ tspan{
 }
 .sec-graf3{
     overflow: hidden;
-    height: 209px;
+    height: 160px;
     width: 100%;
 }
 .sec-graf4{
     overflow: hidden;
-    height: 177px;
+    height: 160px;
     width: 100%;
 }
 .abrirSlide2 h4{
@@ -283,9 +283,22 @@ rect.highcharts-background {
     fill: #f9f9fa;
 }
 g.highcharts-axis-labels.highcharts-xaxis-labels tspan{
-font-family: century-bold;
+    font-family: Bebas-Bold !important;
+    font-size: 26px;
 }
 g.highcharts-label.highcharts-data-label.highcharts-data-label-color-0 tspan{
     color: #fff;
     fill: #fff;
+}
+#grafica2 g.highcharts-label.highcharts-data-label.highcharts-data-label-color-0 tspan{
+    color: #8cc640;
+    fill: #8cc640;
+}
+#grafica3 g.highcharts-label.highcharts-data-label.highcharts-data-label-color-0 tspan{
+    color: #26b6cc;
+    fill: #26b6cc;
+}
+#grafica4 g.highcharts-label.highcharts-data-label.highcharts-data-label-color-0 tspan{
+    color: #51a332;
+    fill: #51a332;
 }

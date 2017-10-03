@@ -8,7 +8,6 @@
     font-size: 60px!important;
   }
 }
-
 @media screen and (max-width: 760px)  {
 	footer{
 		height: 100%;
@@ -25,10 +24,7 @@
 	}
 	#cd-logo img {
 	    width: 150px;
-  }
-  #mySidenav{
-    overflow-y : hidden;
-  }
+
 }
 @media screen and (max-width: 520px)  {
 	.ft-int-col1{

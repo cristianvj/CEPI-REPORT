@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>CEPI HOME</title>
-	</head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/public/base.css">
-	<link rel="stylesheet" href="css/home/baseInterna.css">
+<?php 
+	$pageName = "home";
+	include("components/header.php"); 
+?>
 	<body>
 		<header>
 			<div class="div-header">
 				<div class="div-logo">
-					<img src="img/public/logo.svg" alt="">
+					<img src="<?php echo $ruta ?>/img/public/logo.svg" alt="">
 				</div>
 				<div class="div-menu">
 					<span class="btn-menu" onclick="openNav()">&#9776;</span>
@@ -100,6 +95,7 @@
 		<!-- /Content menu -->
 
 		<div class="container-home">
+			<br>
 			<div class="title-home">
 				<h1>SUSTAINABILITY <br> REPORT</h1>
 				<div class="div-download">
@@ -123,9 +119,9 @@
 			<a class="buttons-fab btn-share" href="#"><i class="fa fa-share-alt"></i></a>
 		</nav>
 		<!-- FAB Button -->
-
+		
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/public/app.js"></script>
-		<script type="text/javascript" src="js/home/chartSetup.js"></script>
+		<script type="text/javascript" src="<?php echo $ruta ?>/js/public/app.js"></script>
+		<script type="text/javascript" src="<?php echo $ruta ?>/js/home/chartSetup.js"></script>
 	</body>
 </html>

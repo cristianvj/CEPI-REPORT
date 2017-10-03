@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Creator: CorelDRAW X7 -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="7.7015mm" height="7.6997mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 38 38"
- xmlns:xlink="http://www.w3.org/1999/xlink">
- <defs>
-  <style type="text/css">
-   <![CDATA[
-    .fil1 {fill:#FEFEFE}
-    .fil0 {fill:#E7E7E4}
-   ]]>
-  </style>
- </defs>
- <g id="Capa_x0020_1">
-  <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M38 19c0,10 -9,19 -19,19 -11,0 -19,-9 -19,-19 0,-11 8,-19 19,-19 10,0 19,8 19,19z"/>
-  <path class="fil1" d="M10 13c0,-2 2,-3 3,-3 2,0 4,1 4,3 0,2 -2,3 -4,3 -1,0 -3,-1 -3,-3zm8 0c0,-3 -2,-5 -5,-5 -2,0 -4,2 -4,5 0,3 2,5 4,5 3,0 5,-2 5,-5z"/>
-  <path class="fil1" d="M25 28c-2,0 -3,-2 -3,-4 0,-1 1,-3 3,-3 2,0 3,2 3,3 0,2 -1,4 -3,4zm0 -8c-3,0 -5,2 -5,4 0,3 2,5 5,5 3,0 5,-2 5,-5 0,-2 -2,-4 -5,-4z"/>
-  <path class="fil1" d="M28 10l0 5 -5 -5 5 0zm0 8c0,0 1,0 1,0 0,0 0,0 0,0 1,0 1,-1 1,-1l0 -8c0,0 -1,-1 -1,-1l-8 0c0,0 -1,0 -1,1 0,0 0,0 0,1l4 3 -13 13c-1,0 -1,1 0,1 0,0 0,0 0,0 1,0 1,0 1,0l13 -13 3 4z"/>
- </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="7.7015mm" height="7.6997mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 38 38"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#FEFEFE}
+    .fil0 {fill:#E7E7E4}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M38 19c0,10 -9,19 -19,19 -11,0 -19,-9 -19,-19 0,-11 8,-19 19,-19 10,0 19,8 19,19z"/>
+  <path class="fil1" d="M10 13c0,-2 2,-3 3,-3 2,0 4,1 4,3 0,2 -2,3 -4,3 -1,0 -3,-1 -3,-3zm8 0c0,-3 -2,-5 -5,-5 -2,0 -4,2 -4,5 0,3 2,5 4,5 3,0 5,-2 5,-5z"/>
+  <path class="fil1" d="M25 28c-2,0 -3,-2 -3,-4 0,-1 1,-3 3,-3 2,0 3,2 3,3 0,2 -1,4 -3,4zm0 -8c-3,0 -5,2 -5,4 0,3 2,5 5,5 3,0 5,-2 5,-5 0,-2 -2,-4 -5,-4z"/>
+  <path class="fil1" d="M28 10l0 5 -5 -5 5 0zm0 8c0,0 1,0 1,0 0,0 0,0 0,0 1,0 1,-1 1,-1l0 -8c0,0 -1,-1 -1,-1l-8 0c0,0 -1,0 -1,1 0,0 0,0 0,1l4 3 -13 13c-1,0 -1,1 0,1 0,0 0,0 0,0 1,0 1,0 1,0l13 -13 3 4z"/>
+ </g>
+</svg>
