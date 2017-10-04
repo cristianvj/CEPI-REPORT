@@ -5,12 +5,12 @@
 
 			<div class="div-item" id="item-home">
 				<a href="<?php echo $ruta ?>">
-					<img id="icon-home" src="img/public/icons-menu/home.png" alt="">
+					<img  id="icon-home" class="active" src="img/public/icons-menu/home.png" alt="">
 					Home
 				</a>
 			</div>
 			<div class="div-item" id="item-sustainability">
-				<a href="#">
+				<a href="<?php echo $ruta ?>templates">
 					<img id="icon-sustainability" src="img/public/icons-menu/sustainability.png" alt="">
 					Sustainability Vision
 				</a>

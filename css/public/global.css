@@ -169,6 +169,28 @@ div.footer-col2 a#ftrEnlace{
   border-radius: 50%;
   vertical-align: middle;
 }
+#item-home .active{
+  background-color: #8CC640;
+}
+#item-sustainability .active{
+  background-color: #6CBD56;
+}
+#item-snapshot .active{
+  background-color: #009347;
+}
+#item-outlook .active{
+  background-color: #6AA242;
+}
+#item-policy .active, #item-forest .active, #item-bioeconomy .active, #item-circular .active, #item-energy .active, #item-enviroment .active{
+  background-color: #51A332;
+}
+#item-latest .active{
+  background-color: #039be5;
+}
+#item-glossary .active{
+  background-color: #005EB8;
+}
+
 .div-item-child{
   font-size: 1em !important;
   padding-left: 2.1em;
