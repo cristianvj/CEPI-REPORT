@@ -161,6 +161,7 @@ div.footer-col2 a#ftrEnlace{
   position: absolute;
   top: 2em;
   right: 4em;
+  z-index:50;
 }
 .div-item a img{
   width: 50px;
@@ -208,7 +209,7 @@ div.footer-col2 a#ftrEnlace{
   overflow-x: hidden;
   transition: 0.5s;
   padding: 1em 0 0 1.2em;
-  z-index: 20;
+  z-index: 60;
 }
 .sidenav a {
   padding: 0 auto;

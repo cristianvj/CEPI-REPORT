@@ -25,13 +25,12 @@ header {
 #cd-logo {
     display: block;
     float: left;
-    margin: 12px 0 0 46px;
+    margin: 1px 0 0 46px;
     width: 200px;
 }
 #cd-logo img {
   display: block;
 }
-
 
 header{
   z-index: 10;
@@ -43,8 +42,11 @@ header{
 }
 .div-header .div-logo{
   position: relative;
-  top: 20px;
-  left: 20px;
+  top: 0px;
+  left: 22px;
+}
+.div-header .div-logo > img{
+  width: 150px;
 }
 .img-circle{
   width: 20em;
@@ -70,7 +72,4 @@ header{
 .div-download>p>a{
   color: #51a332;
   font-weight: bold;
-}
-.div-header .div-logo > img{
-  width: 150px;
 }
