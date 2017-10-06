@@ -10,19 +10,19 @@
 		</a>
 	</div>
 	<div class="div-item" id="item-sustainability">
-		<a href="<?php echo $ruta ?>templates/sustainability">
+		<a href="<?php echo $ruta ?>templates/sustainability/index.php">
 			<img id="icon-sustainability" src="<?php echo $ruta ?>img/public/icons-menu/sustainability.png" alt="">
 			Sustainability Vision
 		</a>
 	</div>
 	<div class="div-item" id="item-snapshot">
-		<a href="<?php echo $ruta ?>templates/snapshot">
+		<a href="<?php echo $ruta ?>templates/snapshot/index.php">
 			<img id="icon-snapshot" src="<?php echo $ruta ?>img/public/icons-menu/snapshot.png" alt="">
 			Cepi in a Snapshot
 		</a>
 	</div>
 	<div class="div-item" id="item-outlook">
-		<a href="<?php echo $ruta ?>templates/outlook">
+		<a href="<?php echo $ruta ?>templates/outlook/index.php">
 			<img id="icon-outlook" src="<?php echo $ruta ?>img/public/icons-menu/outlook.png" alt="">
 			2050 Outlook
 		</a>
@@ -34,43 +34,43 @@
 		</a>
 	</div>
 	<div class="div-item" id="item-forest">
-		<a href="<?php echo $ruta ?>templates/forest" class="div-item-child">
+		<a href="<?php echo $ruta ?>templates/forest/index.php" class="div-item-child">
 			<img id="icon-forest" src="<?php echo $ruta ?>img/public/icons-menu/forest.png" alt="">
 			Forest
 		</a>
 	</div>
 	<div class="div-item" id="item-bioeconomy">
-		<a href="<?php echo $ruta ?>templates/bioeconomy" class="div-item-child">
+		<a href="<?php echo $ruta ?>templates/bioeconomy/index.php" class="div-item-child">
 			<img id="icon-bioeconomy" src="<?php echo $ruta ?>img/public/icons-menu/bioeconomy.png" alt="">
 			Bioeconomy and Innovation
 		</a>
 	</div>
 	<div class="div-item" id="item-circular">
-		<a href="<?php echo $ruta ?>templates/circular" class="div-item-child">
+		<a href="<?php echo $ruta ?>templates/circular/index.php" class="div-item-child">
 			<img id="icon-circular" src="<?php echo $ruta ?>img/public/icons-menu/circular.png" alt="">
 			Circular Economy
 		</a>
 	</div>
 	<div class="div-item" id="item-energy">
-		<a href="<?php echo $ruta ?>templates/energy" class="div-item-child">
+		<a href="<?php echo $ruta ?>templates/energy/index.php" class="div-item-child">
 			<img id="icon-energy" src="<?php echo $ruta ?>img/public/icons-menu/energy.png" alt="">
 			Energy and Climate
 		</a>
 	</div>
 	<div class="div-item" id="item-enviroment">
-		<a href="<?php echo $ruta ?>templates/environment" class="div-item-child">
+		<a href="<?php echo $ruta ?>templates/environment/index.php" class="div-item-child">
 			<img id="icon-enviroment" src="<?php echo $ruta ?>img/public/icons-menu/enviroment.png" alt="">
 			Environment
 		</a>
 	</div>
 	<div class="div-item" id="item-latest">
-		<a href="<?php echo $ruta ?>templates/latest">
+		<a href="<?php echo $ruta ?>templates/latest/index.php">
 			<img id="icon-latest" src="<?php echo $ruta ?>img/public/icons-menu/latest.png" alt="">
 			All Latest Data
 		</a>
 	</div>
 	<div class="div-item" id="item-glossary">
-		<a href="<?php echo $ruta ?>templates/glossary">
+		<a href="<?php echo $ruta ?>templates/glossary/index.php">
 			<img id="icon-glossary" src="<?php echo $ruta ?>img/public/icons-menu/glossary.png" alt="">
 			Glossary
 		</a>

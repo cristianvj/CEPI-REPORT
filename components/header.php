@@ -1,4 +1,4 @@
-<?php $ruta = "http://localhost:8080/CEPI-REPORT/"; ?>
+<?php $ruta = "http://localhost/CEPI-REPORT/"; ?>
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
@@ -32,6 +32,9 @@
 		}else{
 			echo '
 				<link rel="stylesheet" href="'.$ruta.'templates/'.$pageName.'/css/slide.css">
+				';
+			echo '
+				<link rel="stylesheet" href="'.$ruta.'templates/'.$pageName.'/css/tab.css">
 				';
 			echo '
 				<link rel="stylesheet" href="'.$ruta.'templates/'.$pageName.'/css/thomas.css">
