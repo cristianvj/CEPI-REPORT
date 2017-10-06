@@ -17,6 +17,7 @@
 		<script src="<?php echo $ruta; ?>templates/<?php echo $pageName; ?>/js/countUp.min.js"></script>
 		<!-- Graficas -->
 		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/drilldown.js"></script>
 		<script src="https://code.highcharts.com/modules/exporting.js"></script>
 		<script src="<?php echo $ruta; ?>templates/<?php echo $pageName; ?>/js/chartSetup.js"></script>
 		<script src="<?php echo $ruta; ?>templates/<?php echo $pageName; ?>/js/graficas.js"></script>

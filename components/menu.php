@@ -28,7 +28,7 @@
 		</a>
 	</div>
 	<div class="div-item" id="item-policy">
-		<a href="">
+		<a href="<?php echo $ruta ?>templates/forest/index.php">
 			<img id="icon-policy" src="<?php echo $ruta ?>img/public/icons-menu/policy.png" alt="">
 			Policy Blocks
 		</a>
