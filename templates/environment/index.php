@@ -2,7 +2,7 @@
 	$pageName = "environment";
 	include('../../components/header.php');
 ?>
-<body>
+<body class="body-environment">
 
 	<header>
 		<a id="cd-logo" href="#0"><img src="<?php echo $ruta; ?>img/public/logo.svg" alt="Homepage"></a>

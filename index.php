@@ -2,7 +2,7 @@
 	$pageName = "home";
 	include("components/header.php"); 
 ?>
-	<body>
+	<body class="body-home">
 		<header>
 			<div class="div-header">
 				<div class="div-logo">

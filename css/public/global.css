@@ -170,25 +170,29 @@ div.footer-col2 a#ftrEnlace{
   border-radius: 50%;
   vertical-align: middle;
 }
-#item-home .active{
+.body-home #icon-home{
   background-color: #8CC640;
 }
-#item-sustainability .active{
+.body-sustainability #icon-sustainability{
   background-color: #6CBD56;
 }
-#item-snapshot .active{
+.body-snapshot #icon-snapshot {
   background-color: #009347;
 }
-#item-outlook .active{
+.body-outlook #icon-outlook {
   background-color: #6AA242;
 }
-#item-policy .active, #item-forest .active, #item-bioeconomy .active, #item-circular .active, #item-energy .active, #item-enviroment .active{
+.body-forest #icon-policy, .body-forest #icon-forest, 
+.body-bioeconomy #icon-policy, .body-bioeconomy #icon-bioeconomy, 
+.body-circular #icon-policy, .body-circular #icon-circular,
+.body-energy #icon-policy, .body-energy #icon-energy,
+.body-environment  #icon-policy, .body-environment  #icon-enviroment{
   background-color: #51A332;
 }
-#item-latest .active{
+.body-latest #icon-latest {
   background-color: #039be5;
 }
-#item-glossary .active{
+.body-glossary #icon-glossary{
   background-color: #005EB8;
 }
 

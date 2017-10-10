@@ -5,7 +5,7 @@
 
 	<div class="div-item" id="item-home">
 		<a href="<?php echo $ruta ?>">
-			<img  id="icon-home" class="active" src="<?php echo $ruta ?>img/public/icons-menu/home.png" alt="">
+			<img  id="icon-home" src="<?php echo $ruta ?>img/public/icons-menu/home.png" alt="">
 			Home
 		</a>
 	</div>

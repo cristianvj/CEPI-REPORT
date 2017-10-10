@@ -120,5 +120,14 @@ $(function() {
   }, function() {
     $('#icon-glossary').css('background-color', '');
   });
+
+  //-- Function click menu --
+    $("#item-home").click(function(){
+      $("#icon-home:first").addClass("active");
+    });
+    
 });
 //-- Function menu hover --
+
+
+
