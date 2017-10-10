@@ -340,3 +340,9 @@ div.footer-col2 a#ftrEnlace{
   opacity: 1;
 }
 /* /Styles FAB button */
+
+/* Good Practices */
+
+.googPractive, .goodPractives{
+  z-index: 40 !important;
+}

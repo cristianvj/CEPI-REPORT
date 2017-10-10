@@ -14,7 +14,7 @@
 
 		<section class="bannerForest">
 			<div class="goodPractives">
-				<a href="#">Good Practices</a>
+				<a href="<?php echo $ruta."templates/practices/index.php"; ?>">Good Practices</a>
 			</div>
 			<div class="flex banner-footer">
 				<div class="flex angleDown">

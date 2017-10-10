@@ -14,7 +14,7 @@
 
 		<section class="bannerForest">
 			<div class="goodPractives animate-in" data-anim-type="fade-in-down">
-				<a href="#">Good Practices</a>
+				<a href="<?php echo $ruta."templates/practices/index.php"; ?>">Good Practices</a>
 				<p><a href="#"><b>Click here</b></a> to download our certification numbers</p>
 			</div>
 			<div class="txtBanneFors">

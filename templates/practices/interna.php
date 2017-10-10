@@ -1,28 +1,16 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<!-- Global Styles -->
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=0,maximum-scale=1,user-scalable=no">
-	<link href='../../shared/css/jquery.fancybox.min.css' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="../../shared/css/base.css">
-	<!-- Iconos -->
-	<link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/baseInterna.css">
-	<!-- HTML5 SHIV -->
-	<!--[if lt IE 9]>
-	  <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	<![endif]-->
-	<!-- Page -->
-	<script src="../../shared/js/modernizr.js"></script>
-	<title>Digital CEPI</title>
-</head>
+<?php
+	$pageName = "practices";
+	include('../../components/header.php');
+?>
 <body>
 
 	<header>
-		<a id="cd-logo" href="#0"><img src="../../shared/img/logo.svg" alt="Homepage"></a>
+			<a id="cd-logo" href="#0"><img src="<?php echo $ruta; ?>img/public/logo.svg" alt="Homepage"></a>
 	</header>
+	<div class="div-menu">
+		<span class="btn-menu" onclick="openNav()">&#9776;</span>
+		<?php include('../../components/menu.php'); ?>
+	</div>	
 
 	<section class="banner">
 		<div class="flex intCont">
@@ -57,19 +45,11 @@
 			in the pharmaceutical industry, paints, varnishes, car care products, and as fuel
 			in buses. The list goes on...</p>
 
-			<a href="index.html">GO BACK TO GOOD PRACTICES</a>
+			<a href="<?php echo $ruta."templates/practices/index.php"?>">GO BACK TO GOOD PRACTICES</a>
 		</div>
 	</section>
 	<!-- /Contenido -->
-<!-- Jquery -->
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<!-- AnimacionJs -->
-<script src="../../shared/js/animations/appear.min.js" type="text/javascript"></script>
-<script src="../../shared/js/animations/animations.min.js" type="text/javascript"></script>
-<script src="../../shared/js/app.js"></script>
-<script src="js/select.js"></script>
+<?php include('../../components/scripts.php'); ?>
+
 </body>
 </html>

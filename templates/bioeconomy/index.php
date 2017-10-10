@@ -22,7 +22,7 @@
 				</div>
 			</div>
 			<div class="googPractive">
-				<a href="#">Good Practices</a>
+				<a href="<?php echo $ruta."templates/practices/index.php"; ?>">Good Practices</a>
 			</div>
 		</section>
 		<!-- /Banner -->
