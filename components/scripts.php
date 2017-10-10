@@ -22,6 +22,7 @@
 		<script src="<?php echo $ruta; ?>templates/<?php echo $pageName; ?>/js/chartSetup.js"></script>
 		<script src="<?php echo $ruta; ?>templates/<?php echo $pageName; ?>/js/graficas.js"></script>
 		<script src="<?php echo $ruta; ?>templates/<?php echo $pageName; ?>/js/tab.js"></script>
+		<script src="<?php echo $ruta; ?>templates/<?php echo $pageName; ?>/js/glosary.js"></script>
 	<?php
 	} 
 	?>

@@ -1,28 +1,16 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<!-- Global Styles -->
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=0,maximum-scale=1,user-scalable=no">
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="../../shared/css/base.css">
-	<!-- Iconos -->
-	<link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/baseInterna.css">
-	<!-- HTML5 SHIV -->
-	<!--[if lt IE 9]>
-	  <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="http://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	<![endif]-->
-	<!-- Page -->
-	<script src="../../shared/js/modernizr.js"></script>
-	<title>Digital CEPI</title>
-</head>
+<?php
+	$pageName = "environment";
+	include('../../components/header.php');
+?>
 <body>
 
 	<header>
-		<a id="cd-logo" href="#0"><img src="../../shared/img/logo.svg" alt="Homepage"></a>
+		<a id="cd-logo" href="#0"><img src="<?php echo $ruta; ?>img/public/logo.svg" alt="Homepage"></a>
 	</header>
+	<div class="div-menu">
+		<span class="btn-menu" onclick="openNav()">&#9776;</span>
+		<?php include('../../components/menu.php'); ?>
+	</div>	
 
 	<!-- Contenido -->
 		<!-- Banner -->
@@ -130,18 +118,12 @@
 			</div>
 
 			<a class="ancla" href="#bannerSec">
-				<img class="footerFlecha" src="../../shared/img/Boton_Flecha-73.svg">
+				<img class="footerFlecha" src="<?php echo $ruta; ?>img/public/Boton_Flecha-73.svg">
 			</a>
 		</footer>
 
 	<!-- /Contenido -->
 
-	
-<!-- Jquery -->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<!-- AnimacionJs -->
-<script src="../../shared/js/animations/appear.min.js" type="text/javascript"></script>
-<script src="../../shared/js/animations/animations.min.js" type="text/javascript"></script>
-<script src="../../shared/js/app.js"></script>
+<?php include('../../components/scripts.php'); ?>	
 </body>
 </html>

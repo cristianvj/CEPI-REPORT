@@ -974,7 +974,8 @@
 	<!-- /Contenido -->
 
 	
-<?php include('../../components/scripts.php') ?>
+<?php include('../../components/scripts.php'); ?>
+
 <script type="text/javascript">	
 	function toogleDiv(contenedor) {
 		$('.emisions').hide();
