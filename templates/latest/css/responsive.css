@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px)  {
+	.select_mate{
+		width: 300px;
+	}
+	.imgSlide {
+	    width: 90%;
+	    justify-content: center;
+	    align-items: center;
+	    flex-flow: row wrap;
+	}
+	.imgSlide img {
+	    width: 300px;
+	    height: auto;
+	    margin-bottom: 30px;
+	    margin-right: 10px;
+	}
+}
+@media screen and (max-width: 500px)  {
+	.itemEmpresa{
+		width: 300px;
+	    margin-right: 0px;
+	}
+}
