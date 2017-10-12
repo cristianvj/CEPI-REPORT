@@ -110,34 +110,62 @@ p>a{
     font-size: 1.5rem;
     color: #87868a;
 }
+/* Charts */
+
+select.charts{
+    padding: 1em;
+    border: 0px;
+    color: #87868a;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+select.charts option{
+    margin-top: 1em !important;
+}
+
+/* /Charts */
 
 /* Tabs */
 
-.tab-links li{
+.tab-links li a{
     border: 1px solid #51a332;
     font-weight: bold;
-    padding: .4em; 
-    margin: .3em;
+    padding: .4em;
     border-radius: .4em;
+    font-size: .9em;
+}
+.tab-links li{
+    margin: .8em .2em;
 }
 .tab-links li a{
     color: #51a332;
 }
-.tab-links li:hover{
+.tab-links li a:hover{
     background-color: #51a332;
 }
 .tab-links li a:hover{
     color: #fff;
 }
-.tab-links li.active{
+.active a{
     background-color: #51a332;
 }
-.tab-links li.active a{
-    color: #fff;
+.active a{
+    color: #fff !important;
 }
 .tab{
    display: none;
 }
 .tab.active{
     display: block;
+}
+
+/* /Tabs */
+
+
+.footer-latest{
+    text-align: center;
+}
+.footer-latest p{
+    font-size: .8em;
+    color: #87868a
 }
