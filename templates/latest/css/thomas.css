@@ -113,14 +113,37 @@ p>a{
 /* Charts */
 
 select.charts{
-    padding: 1em;
-    border: 0px;
-    color: #87868a;
-    background-color: #f4f4f4;
-    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 150%;
 }
-select.charts option{
-    margin-top: 1em !important;
+select.charts:focus{ 
+    outline: none;
+}
+.caja{
+    margin:20px auto;        
+    border:1px solid #d9d9d9;
+    height:30px;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    background-color: #d9d9d9;
+}
+.caja::after{
+     content:"\025be";
+     display:table-cell;
+     text-align:center;
+     padding-top:7px;
+     width:30px;
+     height:30px;
+     background-color:#d9d9d9;
+     position:absolute;
+     top:0;
+     right:0px;
+     pointer-events: none;
 }
 
 /* /Charts */

@@ -33,7 +33,8 @@
 					<!-- Tab1 -->
 					<div id="about" class="tab active">
 						
-							<select id="charts" name="charts" class="charts">
+							<div class="caja">
+								<select id="charts" name="charts" class="charts">
 								<option value="key-figures">Key Figures</option>
 								<option value="1">Direct manufacturing cost structure of the European Pulp & Paper Industry</option>
 								<option value="2" >Profitability European Pulp & Paper Industry</option>
@@ -43,6 +44,7 @@
 								<option>P&B Consumption per Capita</option>
 								<option>CEPI Paper & Board Production by Grade</option>
 							</select>
+							</div>
 						
 					</div>
 					<!-- /Tab1 -->
