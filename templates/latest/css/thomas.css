@@ -119,18 +119,31 @@ select.charts{
     height: 30px;
     padding: 5px;
     width: 150%;
+    color: #AEADB3;
+}
+select.charts option{
+    background-color: #e0e0e0;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 150%;
+    color: #AEADB3;
 }
 select.charts:focus{ 
     outline: none;
 }
+select.charts option:focus{ 
+    outline: none;
+}
 .caja{
     margin:20px auto;        
-    border:1px solid #d9d9d9;
+    border:1px solid #e0e0e0;
     height:30px;
     width: 100%;
     overflow: hidden;
     position:relative;
-    background-color: #d9d9d9;
+    background-color: #e0e0e0;
 }
 .caja::after{
      content:"\025be";
@@ -139,11 +152,12 @@ select.charts:focus{
      padding-top:7px;
      width:30px;
      height:30px;
-     background-color:#d9d9d9;
+     background-color:#e0e0e0;
      position:absolute;
      top:0;
      right:0px;
      pointer-events: none;
+     color: #AEADB3;
 }
 
 /* /Charts */
