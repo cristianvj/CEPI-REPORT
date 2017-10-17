@@ -206,3 +206,30 @@ select.charts option:focus{
     font-size: .8em;
     color: #87868a
 }
+
+
+/* Tables latests */
+
+#table-key{
+    font-family: century;
+    border-collapse: collapse;
+    width: 100%;
+}
+#table-key td, th {
+    text-align: left;
+    padding: 8px;
+}
+#table-key .td-title, .tbody {
+    color: #87868A;
+    font-weight: bold;
+}
+.tbody {
+    border-bottom: 1px solid #87868A;
+}
+#table-key .td-data {
+    color: #51a332;
+}
+#table-key tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* /Tables latests */

@@ -53,7 +53,7 @@ $(document).ready(function(){
    	var dataTable = [
    		{
    			"name":"Turnover (Million €)", 
-	   		"data": 
+	   		"items": 
 	   		{
    				"a": "79,388",
    				"b": "74,537",
@@ -64,7 +64,7 @@ $(document).ready(function(){
    		},
    		{
    			"name":"P&B Production (000 tonnes)",
-	   		"data":
+	   		"items":
 	   		{
 	   			"a": "90,823",
 	   			"b": "98,259",
@@ -75,7 +75,7 @@ $(document).ready(function(){
    		},	
    		{
    			"name":"Market Pulp (000 tonnes)",
-	   		"data":
+	   		"items":
 	   		{
 	   			"a": "11,423",
 	   			"b": "13,142",
@@ -86,7 +86,7 @@ $(document).ready(function(){
    		},
    		{
    			"name":"Share of global production",
-	   		"data":
+	   		"items":
 	   		{
 	   			"a": "27.7%",
 	   			"b": "26.8%",
@@ -97,7 +97,7 @@ $(document).ready(function(){
    		},
    		{
    			"name":"Companies",
-	   		"data":
+	   		"items":
 	   		{
 	   			"a": "929",
 	   			"b": "831",
@@ -108,7 +108,7 @@ $(document).ready(function(){
    		},
    		{
    			"name":"Mills",
-	   		"data":
+	   		"items":
 	   		{
 	   			"a": "1,309",
 	   			"b": "1,224",
@@ -119,7 +119,7 @@ $(document).ready(function(){
    		},
    		{
    			"name":"Employment",
-	   		"data":
+	   		"items":
 	   		{
 	   			"a": "279,987",
 	   			"b": "246,785",
@@ -130,7 +130,7 @@ $(document).ready(function(){
    		},
    		{
    			"name":"Added Value (Million €)",
-	   		"data":
+	   		"items":
 	   		{
 	   			"a": "24,494",
 	   			"b": "18,154",
@@ -141,7 +141,7 @@ $(document).ready(function(){
    		},
    		{
    			"name":"Investments (Million €)",
-	   		"data":
+	   		"items":
 	   		{
 	   			"a": "5,637",
 	   			"b": "5,318",
@@ -152,13 +152,37 @@ $(document).ready(function(){
    		},
    	];
 
+   	$("#charts-latest").html("<div id='title-table'></div> <div id='div-table'></div>");
+   	var titleTable = "<h2>Key Figures</h2><h3>CEPI Statistics - Status as of 2015</h3>"
+   	$("#title-table").html(titleTable);
+   	$("#div-table").html("<table id='table-key'></table>");
+   	var texto = "<tr class='tbody'>";
+   	texto = texto+"<th> </th>";
+   	texto = texto+"<th> 2000 </th>";
+   	texto = texto+"<th> 2005 </th>";
+   	texto = texto+"<th> 2010 </th>";
+   	texto = texto+"<th> 2014 </th>";
+   	texto = texto+"<th> 2015 </th>";
+   	texto = texto+"</tr>";
+   	
+   	for (var i = 1; i < dataTable.length; i ++) {
+   		texto = texto+"<tr>";
+   		texto += "<td class='td-title'>"+dataTable[i].name+"</td>";
+   		texto += "<td class='td-data'>"+dataTable[i].items.a+"</td>";
+   		texto += "<td class='td-data'>"+dataTable[i].items.b+"</td>";
+   		texto += "<td class='td-data'>"+dataTable[i].items.c+"</td>";
+   		texto += "<td class='td-data'>"+dataTable[i].items.d+"</td>";
+   		texto += "<td class='td-data'>"+dataTable[i].items.e+"</td>";
+   		texto = texto+"</tr>";
+   	}
 
+   	$("#table-key").html(texto);
 
-   	alert(dataTable[0].data.a);
+   	//alert(dataTable.length);
    }
 
    function directManufacturing(){
-		var myChart = Highcharts.chart('key-figures', {
+		var myChart = Highcharts.chart('charts-latest', {
 		    chart: {
 		        type: 'bar'
 		    },
