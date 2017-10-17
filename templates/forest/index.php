@@ -171,6 +171,10 @@
 
 	<?php include('../../components/scripts.php'); ?>
 
+	<!-- FAB Button -->
+		<?php include('../../components/fab-button.php') ?>
+	<!-- FAB Button -->
+
 <script type="text/javascript">
 //<![CDATA[
 var audio;

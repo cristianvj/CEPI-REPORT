@@ -86,6 +86,11 @@
 		<!-- Resultado Busqueda -->
 	</section>
 	<!-- /Contenido -->
-<?php include('../../components/scripts.php'); ?>
+
+	<!-- FAB Button -->
+		<?php include('../../components/fab-button.php') ?>
+	<!-- FAB Button -->
+
+	<?php include('../../components/scripts.php'); ?>
 </body>
 </html>

@@ -141,7 +141,11 @@
 		</div>
 	</footer>
 
-<?php include('../../components/scripts.php'); ?>
+	<!-- FAB Button -->
+		<?php include('../../components/fab-button.php') ?>
+	<!-- FAB Button -->
+
+	<?php include('../../components/scripts.php'); ?>
 
 <script type="text/javascript">
 	$(document).ready(function() {

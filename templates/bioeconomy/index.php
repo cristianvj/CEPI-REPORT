@@ -165,18 +165,21 @@
 
 	<!-- /Contenido -->
 
+	<!-- FAB Button -->
+		<?php include('../../components/fab-button.php') ?>
+	<!-- FAB Button -->
 	
-<?php include('../../components/scripts.php'); ?>
+	<?php include('../../components/scripts.php'); ?>
 
-<script type="text/javascript">
-	function toogleDiv(contenedor) {
-		$('.emisions').hide();
-		$(contenedor).slideToggle();
-	}
-	$('div.actionBtn a').click(function() {
-	    $('div.actionBtn a').removeClass("activeLk");
-	    $(this).toggleClass("activeLk");
-	});     
-</script>
+	<script type="text/javascript">
+		function toogleDiv(contenedor) {
+			$('.emisions').hide();
+			$(contenedor).slideToggle();
+		}
+		$('div.actionBtn a').click(function() {
+		    $('div.actionBtn a').removeClass("activeLk");
+		    $(this).toggleClass("activeLk");
+		});     
+	</script>
 </body>
 </html>

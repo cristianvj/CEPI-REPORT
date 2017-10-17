@@ -123,6 +123,10 @@
 		</footer>
 
 	<!-- /Contenido -->
+
+	<!-- FAB Button -->
+		<?php include('../../components/fab-button.php') ?>
+	<!-- FAB Button -->
 	
 <?php include('../../components/scripts.php'); ?>
 

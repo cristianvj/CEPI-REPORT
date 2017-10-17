@@ -209,7 +209,20 @@ select.charts option:focus{
 
 
 /* Tables latests */
-
+tr.sum{
+    font-weight: bold;
+}
+#title-table{
+    padding-bottom: 3em;
+}
+#title-table>h2{
+    font-size: 2.5em;
+}
+#title-table>h3{
+    font-family: century;
+    font-size: 1em;
+    color: #868589;
+}
 #table-key{
     font-family: century;
     border-collapse: collapse;
@@ -232,4 +245,13 @@ select.charts option:focus{
 #table-key tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+/* Styles charts */
+
+.highcharts-subtitle{
+    margin-top: 1em; 
+    font-size: 1em!important;
+    font-weight: bold
+}
+
 /* /Tables latests */
