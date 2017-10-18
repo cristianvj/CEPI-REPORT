@@ -122,7 +122,9 @@
 				</div>				
 			</div> <!-- /Cierra tabs del select  -->
 			<!-- Charts -->
-		<div id="charts-latest" style="width:90%; height:400px; margin: 0em 5% 5em 5%"></div>
+
+
+		<div id="charts-latest"></div>
 		<!-- /Charts -->
 		</div>
 		

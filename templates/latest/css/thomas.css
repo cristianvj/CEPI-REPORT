@@ -209,8 +209,10 @@ select.charts option:focus{
 
 
 /* Tables latests */
-tr.sum{
-    font-weight: bold;
+#charts-latest{
+    width:80%; 
+    height:500px; 
+    margin: 0em 5% 5em 5%
 }
 #title-table{
     padding-bottom: 3em;
@@ -232,9 +234,9 @@ tr.sum{
     text-align: left;
     padding: 8px;
 }
-#table-key .td-title, .tbody {
-    color: #87868A;
-    font-weight: bold;
+tr.sum>.td-data, #table-key .td-title, .tbody {
+    color: #87868A !important;
+    font-weight: bold !important;
 }
 .tbody {
     border-bottom: 1px solid #87868A;
@@ -245,13 +247,16 @@ tr.sum{
 #table-key tr:nth-child(even) {
     background-color: #dddddd;
 }
+/* /Tables latests */
 
 /* Styles charts */
-
-.highcharts-subtitle{
-    margin-top: 1em; 
-    font-size: 1em!important;
-    font-weight: bold
+.highcharts-title span, .highcharts-title tspan{
+    fill: #868589;
+    font-size: 1.3em;
+    font-family: Bebas-Bold !important;
+}
+.highcharts-subtitle tspan {
+    fill: #868589;
+    font-size: 1.3em;
 }
 
-/* /Tables latests */

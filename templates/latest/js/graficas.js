@@ -21,7 +21,7 @@ $(document).ready(function(){
 		}
 		if(valor=="4"){
 			$(function() { 
-			    keyFigures();
+			    investment();
 			});
 		}
 		if(valor=="5"){
@@ -273,25 +273,51 @@ $(document).ready(function(){
 
    }
 
-   function profitability(){
+   function profitability (){
 		var myChart = Highcharts.chart('charts-latest', {
 		    chart: {
-        type: 'column'
+        type: 'column',
+        events: {
+            load: function () {
+                var label = this.renderer.label("TEuropean pulp & paper industry: "+
+                  "EU15 + Norway+Switzerland, with around two thirds of the European"+
+                  " pulp and paper capacities represented </br>ROCE: Return on Capital"+
+                  " Employed </br>EBITDA: Earnings Before Interest, Taxes, Depreciation"+
+                  " and Amortization = sales - operating expenses")
+                .css({
+                    width: '600px',
+                    fontSize: '1em',
+                    color: '#868589'
+                })
+                .attr({
+                    'stroke': 'silver',
+                    'stroke-width': 0,
+                    'r': 2,
+                    'padding': 5
+                })
+                .add();
+                
+                label.align(Highcharts.extend(label.getBBox(), {
+                    align: 'center',
+                    x: 20, // offset
+                    verticalAlign: 'bottom',
+                    y: 0 // offset
+                }), null, 'spacingBox');
+                
+            }
+        },
+        marginBottom: 120
     },
     title: {
         text: 'Profitability European pulp & paper industry',
         style: {
             color: '#868589',
-            fontFamily: 'Bebas',
-            fontWeight: 'bold',
+            fontFamily: 'Bebas-Bold',
             fontSize: '2.5em'
         }
     },
     subtitle: {
-        text: 'CEPI Statistics - Status as of 2015',
-        style: {
-            fontSize: '1em'
-        }
+        text: 'CEPI Statistics - Status as of 2015'
     },
     xAxis: {
         categories: [
@@ -330,6 +356,11 @@ $(document).ready(function(){
             borderWidth: 0
         }
     },
+    legend: {
+        align: 'center',
+        verticalAlign: 'bottom',
+        y: -55
+    },
     series: [{
         name: 'ROCE',
         color:'#009347',
@@ -343,5 +374,72 @@ $(document).ready(function(){
     }]
 		});
 	}
+
+  function investment(){
+    $('#charts-latest').highcharts({   
+      chart: {
+        type: 'column',
+        events: {
+          load: function () {
+                var label = this.renderer.label("* Estimated Capital Expenditures")
+                .css({
+                    width: '600px',
+                    fontSize: '1em',
+                    color: '#868589'
+                })
+                .attr({
+                    'stroke': 'silver',
+                    'stroke-width': 0,
+                    'r': 2,
+                    'padding': 5
+                })
+                .add();
+                
+                label.align(Highcharts.extend(label.getBBox(), {
+                    align: 'center',
+                    x: 20, // offset
+                    verticalAlign: 'bottom',
+                    y: 0 // offset
+                }), null, 'spacingBox');
+                
+            }
+        },
+        marginBottom: 130
+      },
+      title: {
+        text: 'Investment* / Turnover Ratio in the Pulp & Paper Industry - CEPI',
+        style: {
+            color: '#868589',
+            fontFamily: 'Bebas-Bold',
+            fontSize: '2.5em'
+        }
+      },
+      subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+      },
+      xAxis: {
+        categories: [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
+      }, 
+      yAxis: {
+        min: 0,
+        title: {
+            text: 'In %'
+        }
+      },  
+      legend: {
+        align: 'center',
+        verticalAlign: 'bottom',
+        y: -55
+      },
+      series: [{
+        name: 'Investment/Turnover',
+        color:'#8CC640',
+        data: [7.1, 8.8, 6.5, 6.6, 7.2, 7.1, 6.5, 6.5, 6.0, 5.2, 3.8, 4.0, 3.9, 4.4, 4.1, 4.4]
+      }],
+      credits: {
+        enabled: false
+      }
+    });
+  }
 });
 
