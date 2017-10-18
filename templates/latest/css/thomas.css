@@ -252,7 +252,6 @@ tr.sum>.td-data, #table-key .td-title, .tbody {
 /* Styles charts */
 .highcharts-title span, .highcharts-title tspan{
     fill: #868589;
-    font-size: 1.3em;
     font-family: Bebas-Bold !important;
 }
 .highcharts-subtitle tspan {

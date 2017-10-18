@@ -20,13 +20,13 @@
 			<div class="tabs">
 				<!-- Botones -->
 				<ul class="flex contBusqueda tab-links">
-					<li class="active"><a href="#about">About our Industry/Paper & Board</a></li>
-					<li><a href="#wood">Wood</a></li>
-					<li><a href="#raw">Raw Materials</a></li>
-					<li><a href="#paper">Paper for Recycling</a></li>
-					<li><a href="#energy">Energy</a></li>
-					<li><a href="#environment">Environment</a></li>
-					<li><a href="#social">Social Affairs</a></li>
+					<li id="li-about" class="active"><a href="#about">About our Industry/Paper & Board</a></li>
+					<li id="li-wood"><a href="#wood">Wood</a></li>
+					<li id="li-raw"><a href="#raw">Raw Materials</a></li>
+					<li id="li-paper"><a href="#paper">Paper for Recycling</a></li>
+					<li id="li-energy"><a href="#energy">Energy</a></li>
+					<li id="li-environment"><a href="#environment">Environment</a></li>
+					<li id="li-social"><a href="#social">Social Affairs</a></li>
 				</ul>
 				<!-- /Botones -->
 				<div class="tab-content flex contBusqueda">

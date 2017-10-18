@@ -1,7 +1,31 @@
 $(document).ready(function(){
-
 	keyFigures();
 
+  //change botons
+  $( "#li-about" ).click(function() {
+    keyFigures();
+  });
+  $( "#li-wood" ).click(function() {
+    keyFigures();
+  });
+  $( "#li-raw" ).click(function() {
+    keyFigures();
+  });
+  $( "#li-paper" ).click(function() {
+    keyFigures();
+  });
+  $( "#li-energy" ).click(function() {
+    keyFigures();
+  });
+  $( "#li-environment" ).click(function() {
+    keyFigures();
+  });
+  $( "#li-social" ).click(function() {
+    keyFigures();
+  });
+  //end change botons
+
+  //change buton about
    $('#chart-about').change(function(){
 	    var valor = $(this).val();
 		if(valor=="1"){
@@ -26,25 +50,43 @@ $(document).ready(function(){
 		}
 		if(valor=="5"){
 			$(function() { 
-			    keyFigures();
+			    labourProductivity();
 			});
 		}
 		if(valor=="6"){
 			$(function() { 
-			    keyFigures();
+			    evolutionPB();
 			});
 		}
 		if(valor=="7"){
 			$(function() { 
-			    keyFigures();
+			    consuptionCapita();
 			});
 		}
 		if(valor=="8"){
 			$(function() { 
-			    keyFigures();
+			    boardProduction();
 			});
 		}
 	});
+  //end change buton about
+
+  //change buton wood
+  $('#chart-wood').change(function(){
+      var valor = $(this).val();
+    if(valor=="1"){
+      $(function() { 
+        woodConsuption();
+      });
+    }
+    if(valor=="2"){
+      $(function() { 
+        alert("ok2");
+        //keyFigures();
+      });
+    }
+  });
+  //end change buton wood
 
    //Functions charts
 
@@ -311,9 +353,7 @@ $(document).ready(function(){
     title: {
         text: 'Profitability European pulp & paper industry',
         style: {
-            color: '#868589',
-            fontFamily: 'Bebas-Bold',
-            fontSize: '2.5em'
+            fontSize: '3.5em'
         }
     },
     subtitle: {
@@ -409,9 +449,7 @@ $(document).ready(function(){
       title: {
         text: 'Investment* / Turnover Ratio in the Pulp & Paper Industry - CEPI',
         style: {
-            color: '#868589',
-            fontFamily: 'Bebas-Bold',
-            fontSize: '2.5em'
+            fontSize: '3.5em'
         }
       },
       subtitle: {
@@ -441,5 +479,419 @@ $(document).ready(function(){
       }
     });
   }
+
+  function labourProductivity(){
+
+    Highcharts.chart('charts-latest', {
+    chart:{
+      events: {
+        load: function () {
+          var label = this.renderer.label("Source: RISI")
+          .css({
+              width: '600px',
+              fontSize: '1em',
+              color: '#868589'
+          })
+          .attr({
+              'stroke': 'silver',
+              'stroke-width': 0,
+              'r': 2,
+              'padding': 5
+          })
+          .add();                
+            label.align(Highcharts.extend(label.getBBox(), {
+                align: 'center',
+                x: 20, // offset
+                verticalAlign: 'bottom',
+                y: 0 // offset
+            }), null, 'spacingBox');
+          }
+        },
+        marginBottom: 90
+      },
+      title: {
+        text: 'Labour Productivity: Comparision between Europe and Competing Countries',
+        style: {
+            fontSize: '3.5em'
+        }
+      },
+      subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+      },
+      yAxis: {
+        title: {
+            text: 'Finished metric tonnes / man hour'
+        }
+      },
+      xAxis: {
+        categories: [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
+      }, 
+      legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+      },
+      plotOptions: {
+        series: {
+            label: {
+                connectorAllowed: false
+            },
+            pointStart: 2010
+        }
+      },
+      series: [{
+          color: '#8cc640',
+          name: 'Europe',
+          data: [0.40,0.41,0.41,0.41,0.42,0.44,0.46,0.48,0.50,0.53,0.56,0.55,0.57]
+      },{
+        color: '#005eb8',
+        name: 'USA',
+        data: [0.33,0.33,0.34,0.35,0.37,0.38,0.39,0.42,0.45,0.45,0.46,0.47,0.45]
+      }, {
+        color: '#6cbd56',
+        name: 'Canada',
+        data: [0.31,0.32,0.32,0.33,0.34,0.35,0.36,0.36,0.41,0.43,0.44,0.44,0.48]
+      }, {
+        color: '#2f7cba',
+        name: 'Japan',
+        data: [0.41,0.41,0.41,0.47,0.48,0.51,0.58,0.61,0.70,0.71,0.71,0.71,0.67]
+      }, {
+        color: '#009347',
+        name: 'Brazil',
+        data: [0.23,0.23,0.24,0.25,0.28,0.29,0.30,0.32,0.37,0.37,0.36,0.34,0.32]
+      }, {
+        color: '#26b6cc',
+        name: 'Indonesia',
+        data: [0.21,0.20,0.21,0.22,0.22,0.26,0.27,0.27,0.38,0.39,0.38,0.39,0.37]
+      }, {
+        color: '#6aa242',
+        name: 'China',
+        data: [0.20,0.20,0.20,0.20,0.20,0.25,0.24,0.32,0.41,0.42,0.46,0.44,0.44]
+      }, {
+        color: '#51a332',
+        name: 'Russia',
+        data: [0.12,0.13,0.12,0.13,0.13,0.13,0.14,0.14,0.14,0.16,0.15,0.15,0.15]
+      }],
+      responsive: {
+        rules: [{
+            condition: {
+              maxWidth: 500
+            },
+            chartOptions: {
+              legend: {
+                  layout: 'horizontal',
+                  align: 'center',
+                  verticalAlign: 'bottom'
+              }
+            }
+        }]
+      }
+
+    });
+
+  }
+
+
+  function evolutionPB(){
+
+    Highcharts.chart('charts-latest', {
+    chart:{
+      events: {
+          load: function () {
+                var label = this.renderer.label("Source: RISI")
+                .css({
+                    width: '600px',
+                    fontSize: '1em',
+                    color: '#868589'
+                })
+                .attr({
+                    'stroke': 'silver',
+                    'stroke-width': 0,
+                    'r': 2,
+                    'padding': 5
+                })
+                .add();
+                
+                label.align(Highcharts.extend(label.getBBox(), {
+                    align: 'center',
+                    x: 20, // offset
+                    verticalAlign: 'bottom',
+                    y: 0 // offset
+                }), null, 'spacingBox');
+                
+            }
+        },
+        marginBottom: 90
+    },
+    title: {
+        text: 'Labour Productivity: Comparision between Europe and Competing Countries',
+        style: {
+            fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    yAxis: {
+        title: {
+            text: 'Finished metric tonnes / man hour'
+        }
+    },
+    xAxis: {
+        categories: [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
+      }, 
+    legend: {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
+    },
+
+    plotOptions: {
+        series: {
+            label: {
+                connectorAllowed: false
+            },
+            pointStart: 2010
+        }
+    },
+
+    series: [{
+        color: '#8cc640',
+        name: 'Total Europe',
+        data: [101.296,99.475,102.835,105.865,110.991,111.745,115.420,116.426,112.347,101.376,109.342,108.137,106.969,106.153,106.205,106.506]
+    }, {
+        color: '#005eb851a332',
+        name: 'CEPI Countries',
+        data: [90.823,88.393,91.352,93.529,97.998,98.259,101.584,102.132,97.863,87.744,95.065,93.557,92.251,91.268,91.019,90.872]
+    }, {
+        color: '#6cbd56',
+        name: 'Other Europe',
+        data: [10.473,11.081,11.484,12.336,12.993,13.486,13.835,14.294,14.484,13.631,14.277,14.580,14.718,14.885,15.186,15.634]
+    }, {
+        color: '#2f7cba',
+        name: 'North America',
+        data: [106.823,100.577,101.744,100.633,104.363,102.427,102.119,100.950,95.707,84.585,88.667,87.184,85.094,84.911,84.269,82.992]
+    }, {
+        color: '#009347',
+        name: 'Asia',
+        data: [97.412,98.212,103.436,110.124,119.114,127.030,137.910,148.751,154.716,157.063,167.169,174.788,177.799,182.003,186.103,188.125]
+    }, {
+        color: '#26b6cc',
+        name: 'Latin America',
+        data: [14.894,15.161,15.753,16.299,17.465,17.886,18.501,19.162,19.538,19.659,20.400,20.791,21.047,21.231,21.291,21.577]
+    }, {
+        color: '#6aa242',
+        name: 'Africa',
+        data: [3.253,3.419,3.584,3.642,3.920,4.002,4.123,4.398,4.603,3.946,4.336,4.183,4.423,4.513,4.525,4.634]
+    }, {
+        color: '#005eb8',
+        name: 'Oceania',
+        data: [3.518,3.584,3.874,3.904,4.021,4.044,3.939,3.989,4.001,3.891,4.093,4.084,4.008,3.736,3.727,3.762]
+    }, {
+        color: '#87868a',
+        name: 'World',
+        data: [327.197,320.427,331.225,340.467,359.874,367.133,382.012,393.676,390.912,370.520,394.007,399.167,399.339,402.546,406.119,407.59]
+    }],
+
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                legend: {
+                    layout: 'horizontal',
+                    align: 'center',
+                    verticalAlign: 'bottom'
+                }
+            }
+        }]
+    }
+
+});
+
+  }
+
+  function consuptionCapita(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: 'column',
+        events: {
+        load: function () {
+          var label = this.renderer.label("Source: RISI")
+          .css({
+              width: '600px',
+              fontSize: '1em',
+              color: '#868589'
+          })
+          .attr({
+              'stroke': 'silver',
+              'stroke-width': 0,
+              'r': 2,
+              'padding': -15
+          })
+          .add();                
+            label.align(Highcharts.extend(label.getBBox(), {
+                align: 'center',
+                x: 20, // offset
+                verticalAlign: 'bottom',
+                y: 0 // offset
+            }), null, 'spacingBox');
+          }
+        },
+        marginBottom: 110
+    },
+    title: {
+        text: 'Paper & Board Consumption per Capita',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: [
+            'Unites States', 'Japan', 'CEPI countries', 'Hong-Kong', 'South Africa', 'Brazil', 'China', 'Russia', 'India'],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: 'Rainfall (mm)'
+        }
+    },
+    tooltip: {
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+            '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            pointPadding: 0.2,
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: '2000',
+        color: '#8cc640',
+        data: [328.9,253.1,182.3,0,39.5,39.8,29.7,22.7,5.1]
+
+    }, {
+        name: '2005',
+        color: '#005eb8',
+        data: [303.5,248.3,188.3,154.9,47.8,40.1,45.7,37.4,7.1]
+
+    }, {
+        name: '2010',
+        color: '#2f7cba',
+        data: [240.5,218.8,174.4,147.6,49,49.5,68.7,46.8,9.2]
+
+    }, {
+        name: '201426b6cc',
+        color: '#26b6cc',
+        data: [224,215.1,163.5,123.5,42.6,49.1,77,46.6,9.8]
+
+    }, {
+        name: '2015',
+        color: '#6aa242',
+        data: [220.6,210.8,163.7,114.7,44,45.7,78.4,44.3,10]
+
+    }]
+});
+
+  }
+
+  function boardProduction(){
+    Highcharts.chart('charts-latest', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'CEPI Paper & Board Production by Grade in 2015',
+        style: {
+          fontSize: '3em'
+        }
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: [{
+            name: 'Newsprint',
+            y: 7.019
+        }, {
+            name: 'Uncoated Mechanical',
+            color: '#87868a',
+            y: 5.503,
+            sliced: true,
+            selected: true
+        }, {
+            name: 'Coated Mechanical',
+            color: '#8cc640',
+            y: 6.789
+        }, {
+            name: 'Uncoated Woodfree',
+            color: '#005eb8',
+            y: 8.934
+        }, {
+            name: 'Coated Woodfree',
+            color: '#aeadb3',
+            y: 7.020
+        }, {
+            name: 'Sanitary and Household',
+            color: '#2f7cba',
+            y: 7.153
+        }, {
+            name: 'Case Materials',
+            color: '#6cbd56',
+            y: 27.059 
+        }, {
+            name: 'Carton Board',
+            color: '#009347',
+            y: 8.710
+        }, {
+            name: 'Wrappings',
+            color: '#26b6cc',
+            y: 4.071
+        }, {
+            name: 'Other Paper & Board for Packaging',
+            color: '#6aa242',
+            y: 4.733
+        }, {
+            name: 'Other Paper & Board',
+            color: '#51a332',
+            y: 3.881
+        }]
+    }]
+});
+  }
+
+  function woodConsuption(){
+    
+  }
+
 });
 
