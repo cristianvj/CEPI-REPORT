@@ -1,4 +1,4 @@
-<?php $ruta = "http://localhost/CEPI-REPORT/"; ?>
+<?php $ruta = "http://localhost:8080/CEPI-REPORT/"; ?>
 <!doctype html>
 <html lang="en" class="no-js">
 <head>

@@ -15,7 +15,7 @@ $(document).ready(function(){
     recyclingRate();
   });
   $( "#li-energy" ).click(function() {
-    keyFigures();
+    totalEnergyConsumption();
   });
   $( "#li-environment" ).click(function() {
     keyFigures();
@@ -121,6 +121,41 @@ $(document).ready(function(){
     }
   });
   //end change buton paper
+
+  //change buton energy
+  $('#chart-energy').change(function(){
+      var valor = $(this).val();
+    if(valor=="1"){
+      $(function() { 
+        totalEnergyConsumption();
+      });
+    }
+    if(valor=="2"){
+      $(function() { 
+        specificElectricityConsumption();
+        //keyFigures();
+      });
+    }
+    if(valor=="3"){
+      $(function() { 
+        electricityThroughCHP();
+        //keyFigures();
+      });
+    }
+    if(valor=="4"){
+      $(function() { 
+        evolutionEnergyConsumption();
+        //keyFigures();
+      });
+    }
+    if(valor=="5"){
+      $(function() { 
+        europeanRecycling();
+        //keyFigures();
+      });
+    }
+  });
+  //end change buton energy
 
    //Functions charts
 
@@ -1010,11 +1045,6 @@ $(document).ready(function(){
     yAxis: {
         title: {
             text: 'Millon Tones'
-        },
-        labels: {
-            formatter: function () {
-                return this.value / 1000;
-            }
         }
     },
     tooltip: {
@@ -1192,6 +1222,210 @@ $(document).ready(function(){
         color: '#8cc640',
         name: 'Paper & Board Consumption',
         data: [71.5,71.3,67.3,58.6,53.1,45.9,35.1]
+      }]
+    });
+
+  }
+
+  function totalEnergyConsumption(){
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Total Specific Energy Consumption',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: 'TJ/kt'
+        }
+    },
+    tooltip: {
+        split: true,
+        valueSuffix: 'TJ/kt'
+    },
+    plotOptions: {
+        area: {
+            stacking: 'normal',
+            lineColor: '#666666',
+            lineWidth: 1,
+            marker: {
+                lineWidth: 1,
+                lineColor: '#666666'
+            }
+        }
+    },
+      series: [{
+          name: 'Total Specific Primary Energy Consumption of which',
+          color: '#8cc640',
+          data: [16.17,15.78,15.56,15.66,15.21,15.35,15.61,15.07,14.69,14.55,14.07,14.26,14.34,14.18,14.00,13.65,13.85,13.73,13.63,14.14,14.00,13.47,13.33,13.12,12.73,12.87]
+      }, {
+          name: 'Specific Fuels Consumption',
+          color: '#6cbd56',
+          data: [13.18,12.92,12.79,12.93,12.67,12.75,13.04,12.52,12.24,12.08,11.56,11.85,12.05,11.91,11.90,11.57,11.69,11.63,11.62,12.18,12.08,11.64,11.55,11.39,11.01,11.19]
+      }, {
+          name: 'Specific Net Bought Electricity',
+          color: '#009347',
+          data: [2.99,2.86,2.77,2.73,2.53,2.60,2.57,2.55,2.45,2.47,2.50,2.42,2.30,2.27,2.11,2.08,2.17,2.10,2.02,1.96,1.91,1.82,1.78,1.73,1.72,1.68]
+      }]
+    });
+  }
+
+  function specificElectricityConsumption(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Specific Electricity Consumption',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: 'MWh/kt'
+        }
+    },
+    tooltip: {
+        split: true,
+        valueSuffix: 'MWh/kt'
+    },
+    plotOptions: {
+        area: {
+            stacking: 'normal',
+            lineColor: '#666666',
+            lineWidth: 1,
+            marker: {
+                lineWidth: 1,
+                lineColor: '#666666'
+            }
+        }
+    },
+      series: [{
+          name: 'Specific Electricity Consumption',
+          color: '#8cc640',
+          data: [1.25,1.20,1.19,1.20,1.14,1.16,1.17,1.15,1.14,1.13,1.12,1.13,1.11,1.09,1.06,1.04,1.07,1.05,1.04,1.06,1.07,1.03,1.01,0.99,0.98,0.98]
+      }]
+    });
+
+  }
+
+
+  function electricityThroughCHP(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Electricity produced through CHP compared to Total on-site Electricity Generation',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: '%'
+        }
+    },
+    tooltip: {
+        split: true,
+        valueSuffix: '%'
+    },
+    plotOptions: {
+        area: {
+            stacking: 'normal',
+            lineColor: '#666666',
+            lineWidth: 1,
+            marker: {
+                lineWidth: 1,
+                lineColor: '#666666'
+            }
+        }
+    },
+      series: [{
+          name: 'Electricity produced through CHP',
+          color: '#8cc640',
+          data: [88.22,87.96,87.91,87.84,88.93,89.19,90.70,92.34,90.46,91.41,90.35,92.68,94.21,96.67,93.66,94.40,95.22,94.54,94.23,94.42,95.44,95.25,96.40,96.10,95.98,96.10]
+      }]
+    });
+
+  }
+
+  function evolutionEnergyConsumption(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Evolution of Energy Consumption',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: 'TJ/kt'
+        }
+    },
+          series: [{
+          name: 'Coal',
+          color: '#8cc640',
+          data: [1.74,1.58,1.44,1.30,1.16,1.04,0.95,0.81,0.75,0.68,0.60,0.52,0.48,0.49,0.54,0.44,0.52,0.48,0.44,0.50,0.50,0.49,0.42,0.45,0.39,0.44]
+      },{
+          name: 'Gas',
+          color: '#6cbd56',
+          data: [3.53,3.61,3.79,3.98,3.98,4.19,4.49,4.32,4.23,4.29,4.10,4.46,4.61,4.60,4.56,4.46,4.33,4.36,4.47,4.57,4.61,4.23,4.20,3.96,3.86,3.88]
+      },{
+          name: 'Fuel Oil',
+          color: '#009347',
+          data: [1.85,1.80,1.73,1.61,1.65,1.59,1.70,1.43,1.32,1.13,0.92,0.88,0.84,0.77,0.68,0.62,0.60,0.51,0.45,0.44,0.36,0.29,0.26,0.25,0.19,0.19]
+      },{
+          name: 'Total Biomass Used as Fuel in Mills',
+          color: '#6aa242',
+          data: [5.83,5.74,5.62,5.83,5.68,5.73,5.66,5.71,5.67,5.72,5.70,5.75,5.87,5.81,5.87,5.80,5.95,6.03,6.07,6.46,6.39,6.41,6.44,6.49,6.34,6.45]
+      },{
+          name: 'Other Fossil Fuels',
+          color: '#51a332',
+          data: [0.18,0.14,0.15,0.15,0.14,0.14,0.18,0.20,0.22,0.21,0.19,0.19,0.19,0.20,0.18,0.18,0.21,0.18,0.13,0.13,0.14,0.13,0.11,0.10,0.11,0.10]
+      },{
+          name: 'Other: waste of waste',
+          color: '#26b6cc',
+          data: [0.05,0.05,0.06,0.05,0.06,0.05,0.06,0.06,0.06,0.04,0.04,0.05,0.05,0.05,0.05,0.08,0.07,0.08,0.07,0.08,0.08,0.10,0.12,0.14,0.12,0.12]
+      },{
+          name: 'Net Bought Electricity',
+          color: '#2f7cba',
+          data: [2.99,2.86,2.77,2.73,2.53,2.60,2.57,2.55,2.45,2.47,2.50,2.42,2.30,2.27,2.11,2.08,2.17,2.10,2.02,1.96,1.91,1.82,1.78,1.73,1.72,1.68]
       }]
     });
 

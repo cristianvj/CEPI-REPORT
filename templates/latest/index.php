@@ -87,9 +87,9 @@
 							<select id="chart-energy" name="chart-energy" class="charts">
 								<option value="1">Total Specific Energy Consumption</option>
 								<option value="2">Specific Electricity Consumption</option>
-								<option>Electricity produced through CHP compared to Total on-site Electricity Generation</option>
-								<option>Evolution of Energy Consumption</option>
-								<option>Biomass Utilisation - Fuel Consumption</option>
+								<option value="3">Electricity produced through CHP compared to Total on-site Electricity Generation</option>
+								<option value="4">Evolution of Energy Consumption</option>
+								<option value="5">Biomass Utilisation - Fuel Consumption</option>
 							</select>
 						</div>
 					</div>
