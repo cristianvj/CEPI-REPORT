@@ -211,7 +211,7 @@ select.charts option:focus{
 /* Tables latests */
 #charts-latest{
     width:80%; 
-    height:500px; 
+    max-height:500px; 
     margin: 0em 5% 5em 5%
 }
 #title-table{
@@ -258,4 +258,14 @@ tr.sum>.td-data, #table-key .td-title, .tbody {
     fill: #868589;
     font-size: 1.3em;
 }
+
+/* Style chart map wood */
+#map-wood{
+    width: 100%;
+    height: 500px;
+    background: url(../img/wood-map.png) center no-repeat;
+    background-size: contain;
+}
+/* end Style chart map wood */
+
 

@@ -6,13 +6,13 @@ $(document).ready(function(){
     keyFigures();
   });
   $( "#li-wood" ).click(function() {
-    keyFigures();
+    woodConsuption();
   });
   $( "#li-raw" ).click(function() {
-    keyFigures();
+    rawMaterials();
   });
   $( "#li-paper" ).click(function() {
-    keyFigures();
+    recyclingRate();
   });
   $( "#li-energy" ).click(function() {
     keyFigures();
@@ -81,12 +81,46 @@ $(document).ready(function(){
     }
     if(valor=="2"){
       $(function() { 
-        alert("ok2");
+        tradeFlows();
         //keyFigures();
       });
     }
   });
   //end change buton wood
+
+  //change buton raw
+  $('#chart-raw').change(function(){
+      var valor = $(this).val();
+    if(valor=="1"){
+      $(function() { 
+        rawMaterials();
+      });
+    }
+    if(valor=="2"){
+      $(function() { 
+        nonFibrous();
+        //keyFigures();
+      });
+    }
+  });
+  //end change buton raw
+
+  //change buton paper
+  $('#chart-paper').change(function(){
+      var valor = $(this).val();
+    if(valor=="1"){
+      $(function() { 
+        recyclingRate();
+      });
+    }
+    if(valor=="2"){
+      $(function() { 
+        europeanRecycling();
+        //keyFigures();
+      });
+    }
+  });
+  //end change buton paper
 
    //Functions charts
 
@@ -890,7 +924,277 @@ $(document).ready(function(){
   }
 
   function woodConsuption(){
-    
+    Highcharts.chart('charts-latest', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'CEPI Wood Consumption Origin in 2015',
+        style: {
+          fontSize: '3em'
+        }
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: [{
+            name: 'CEPI Area',
+            color:'#8cc640',
+            y: 90.845
+        },{
+            name: 'Other EU28 Countries',
+            color: '#6cbd56',
+            y: 6.284
+        }, {
+            name: 'Other Europe',
+            color: '#009347',
+            y: 9.068
+        }, {
+            name: 'Rest of the world',
+            color: '#6aa242',
+            y: 1.071
+        }]
+      }]
+    });
+  }
+
+  function tradeFlows(){
+
+    $("#charts-latest").html("<div id='title-table'></div> <div id='div-table'></div>");
+    var titleTable = "<h2>CEPI Trade Flows of Wood in 2015</h2>"
+    $("#title-table").html(titleTable);
+    $("#div-table").html("<div id='map-wood'></div");
+
+  }
+
+  function rawMaterials(){
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: 'area'
+    },
+    title: {
+        text: 'CEPI Raw Materials Consumption',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015'],
+        tickmarkPlacement: 'on',
+        title: {
+            enabled: false
+        }
+    },
+    yAxis: {
+        title: {
+            text: 'Millon Tones'
+        },
+        labels: {
+            formatter: function () {
+                return this.value / 1000;
+            }
+        }
+    },
+    tooltip: {
+        split: true,
+        valueSuffix: 'Millon Tones'
+    },
+    plotOptions: {
+        area: {
+            stacking: 'normal',
+            lineColor: '#666666',
+            lineWidth: 1,
+            marker: {
+                lineWidth: 1,
+                lineColor: '#666666'
+            }
+        }
+    },
+    series: [{
+        name: 'Woodpulp',
+        color: '#8cc640',
+        data: [37.162,36.212,37.488,40.046,41.139,39.060,42.538,43.332,43.796,45.619,44.603,45.265,46.335,47.960,46.861,48.671,48.920,46.167,39.833,43.533,43.188,41.682,40.911,40.649,40.755]
+      }, {
+          name: 'Pulp Other than Wood',
+          color: '#6cbd56',
+          data: [0.653,0.647,0.598,0.579,0.600,0.563,0.546,0.588,0.698,0.758,0.590,0.610,0.713,0.564,0.631,0.737,0.757,0.438,0.419,0.316,0.398,0.377,0.288,0.321,0.333]
+      }, {
+          name: 'Paper for Recycling',
+          color: '#009347',
+          data: [25.360,26.353,27.137,30.125,31.511,32.672,34.873,36.731,38.373,40.922,41.396,42.519,43.371,45.341,46.745,48.620,49.401,48.114,44.507,48.122,47.316,46.709,47.534,47.635,47.710]
+      }, {
+          name: 'Non-Fibrous Materials',
+          color: '#51a332',
+          data: [9.504,9.718,10.246,11.879,12.203,12.267,13.546,13.832,14.163,15.545,14.520,15.101,16.523,16.056,16.496,16.909,17.189,16.577,14.271,16.163,16.042,15.610,15.434,15.503,14.887]
+      }]
+    });
+  }
+
+  function nonFibrous(){
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: 'area'
+    },
+    title: {
+        text: 'CEPI Non-Fibrous Materials Consumption',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015'],
+        tickmarkPlacement: 'on',
+        title: {
+            enabled: false
+        }
+    },
+    yAxis: {
+        title: {
+            text: '`000 Tones'
+        },
+        labels: {
+            formatter: function () {
+                return this.value / 1000;
+            }
+        }
+    },
+    tooltip: {
+        split: true,
+        valueSuffix: '`000 Tones'
+    },
+    plotOptions: {
+        area: {
+            stacking: 'normal',
+            lineColor: '#666666',
+            lineWidth: 1,
+            marker: {
+                lineWidth: 1,
+                lineColor: '#666666'
+            }
+        }
+    },
+      series: [{
+          name: 'Clays Total',
+          color: '#8cc640',
+          data: [3842,3787,3720,3953,4065,3932,4376,4653,4486,4716,4431,4363,4496,4337,4323,4277,4148,3839,3238,3825,3828,3600,3399,3186,3095]
+      }, {
+          name: 'Calcium Carbonate Total',
+          color: '#6cbd56',
+          data: [4349,4445,4685,5429,5580,5607,6188,6314,6466,7247,6739,7238,8166,8255,8662,8649,9075,8976,7776,8903,8881,8827,8842,9197,8703]
+      }, {
+          name: 'Starches Total (native and modified)',
+          color: '#009347',
+          data: [989,1088,1277,1509,1430,1512,1538,1570,1430,1551,1401,1587,1563,1472,1535,1606,1637,1543,1394,1593,1560,1549,1589,1524,1528]
+      }, {
+          name: 'Other Non-Fibrous Materials',
+          color: '#51a332',
+          data: [324,398,563,988,1128,1217,1443,1296,1781,2031,1949,1913,2298,1992,1976,2377,2329,2219,1863,1842,1773,1634,1603,1595,1562]
+      }]
+    });
+  }
+
+  function recyclingRate(){
+
+    Highcharts.chart('charts-latest', {
+    title: {
+        text: 'European Recycling Rate of Paper for Recycling',
+        style: {
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    labels: {
+        items: [{
+            html: 'Total fruit consumption',
+            style: {
+                left: '50px',
+                top: '18px',
+                color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
+            }
+        }]
+    },
+    series: [{
+        type: 'column',
+        color: '#8cc640',
+        name: 'Paper & Board Consumption',
+        data: [64.801,65.576,65.863,70.939,70.937,71.124,76.629,79.788,82.228,86.826,83.878,84.895,86.673,88.918,89.903,91.916,93.165,90.209,80.996,84.873,83.496,81.280,80.161,81.288,82.484]
+    }, {
+        type: 'column',
+        color: '#6cbd56',
+        name: 'Recycling inside Europe',
+        data: [26.641,27.781,28.611,31.823,33.359,34.597,36.960,38.906,40.544,43.174,43.658,44.800,45.730,47.641,49.011,50.731,51.504,50.184,46.149,49.800,49.108,48.420,49.287,49.511,49.583]
+    }, {
+        type: 'column',
+        color: '#009347',
+        name: 'Recycling Outside Europe',
+        data: [-0.512,-1.038,-0.598,-0.662,-0.319,0.358,0.725,1.109,2.339,1.779,2.347,2.436,3.029,4.655,6.587,7.306,8.535,9.853,12.058,8.371,9.406,9.446,8.319,8.561,9.384]
+    }, {
+        name: 'Recycling Rate',
+        color: '#2f7cba',
+        data: [40.3,40.8,42.5,43.9,46.6,49.1,49.2,50.2,52.2,51.8,54.8,55.6,56.3,58.8,61.8,63.1,64.4,66.6,71.9,68.5,70.1,71.2,71.9,71.4,71.5],
+        marker: {
+            lineWidth: 1,
+            lineColor: '#2f7cba'
+        }
+      }]
+    });
+
+  }
+
+
+  function europeanRecycling(){
+
+    Highcharts.chart('charts-latest', {
+    title: {
+        text: 'European Recycling Rate in the World',
+        style: {
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['EU-28+2', 'CEPI Countries', 'North America', 'Total World', 'Asia', 'Latin America', 'Africa']
+    },
+    series: [{
+        type: 'column',
+        color: '#8cc640',
+        name: 'Paper & Board Consumption',
+        data: [71.5,71.3,67.3,58.6,53.1,45.9,35.1]
+      }]
+    });
+
   }
 
 });
