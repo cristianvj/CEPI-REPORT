@@ -18,10 +18,10 @@ $(document).ready(function(){
     totalEnergyConsumption();
   });
   $( "#li-environment" ).click(function() {
-    keyFigures();
+    evolutionEnvironmentalImpacts();
   });
   $( "#li-social" ).click(function() {
-    keyFigures();
+    accidentRate();
   });
   //end change botons
 
@@ -82,7 +82,6 @@ $(document).ready(function(){
     if(valor=="2"){
       $(function() { 
         tradeFlows();
-        //keyFigures();
       });
     }
   });
@@ -99,7 +98,6 @@ $(document).ready(function(){
     if(valor=="2"){
       $(function() { 
         nonFibrous();
-        //keyFigures();
       });
     }
   });
@@ -116,7 +114,6 @@ $(document).ready(function(){
     if(valor=="2"){
       $(function() { 
         europeanRecycling();
-        //keyFigures();
       });
     }
   });
@@ -133,30 +130,67 @@ $(document).ready(function(){
     if(valor=="2"){
       $(function() { 
         specificElectricityConsumption();
-        //keyFigures();
       });
     }
     if(valor=="3"){
       $(function() { 
         electricityThroughCHP();
-        //keyFigures();
       });
     }
     if(valor=="4"){
       $(function() { 
         evolutionEnergyConsumption();
-        //keyFigures();
       });
     }
     if(valor=="5"){
       $(function() { 
-        europeanRecycling();
-        //keyFigures();
+        biomassUtilisation();
       });
     }
   });
   //end change buton energy
 
+  //change buton environment
+  $('#chart-environment').change(function(){
+      var valor = $(this).val();
+    if(valor=="1"){
+      $(function() { 
+        evolutionEnvironmentalImpacts();
+      });
+    }
+    if(valor=="2"){
+      $(function() { 
+        waterProfile();
+      });
+    }
+    if(valor=="3"){
+      $(function() { 
+        biomassUtilisation();
+      });
+    }
+    if(valor=="4"){
+      $(function() { 
+        specificAirEmissions();
+      });
+    }
+    if(valor=="5"){
+      $(function() { 
+        specificAmountResidues();
+      });
+    }
+    if(valor=="6"){
+      $(function() { 
+        waterEmissions();
+      });
+    }
+    if(valor=="7"){
+      $(function() { 
+        residuesByDestination();
+      });
+    }
+  });
+  //end change buton environment
+  
    //Functions charts
 
    function keyFigures(){
@@ -1426,6 +1460,322 @@ $(document).ready(function(){
           name: 'Net Bought Electricity',
           color: '#2f7cba',
           data: [2.99,2.86,2.77,2.73,2.53,2.60,2.57,2.55,2.45,2.47,2.50,2.42,2.30,2.27,2.11,2.08,2.17,2.10,2.02,1.96,1.91,1.82,1.78,1.73,1.72,1.68]
+      }]
+    });
+
+  }
+
+  function biomassUtilisation(){
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Biomass Utilisation',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: '%'
+        }
+    },
+          series: [{
+          name: 'Percentage of Biomass Utilisation compared to Total Fuels Consumption',
+          color: '#8cc640',
+          data: [44.24,44.44,43.95,45.11,44.80,44.96,43.38,45.57,46.34,47.41,49.45,46.34,49.13,49.12,49.39,50.08,50.90,51.83,52.24,53.05,52.86,55.06,55.79,57.01,57.55,57.70]
+      }]
+    });
+  }
+
+  function evolutionEnvironmentalImpacts(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Evolution of Environmental Impacts of the CEPI Pulp and Paper Industry',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: ''
+        }
+    },
+          series: [{
+          name: 'Production of Market Pulp and Paper',
+          color: '#87868a',
+          data: [1.00,1.03,1.06,1.08,1.17,1.19,1.17,1.27,1.30,1.34,1.41,1.38,1.42,1.50,1.56,1.57,1.63,1.63,1.57,1.40,1.52,1.50,1.48,1.47,1.46,1.46]
+      },{
+          name: 'Total Primary Energy Consumption',
+          color: '#8cc640',
+          data: [1.00,0.98,0.96,0.97,0.94,0.95,0.97,0.93,0.91,0.90,0.87,0.88,0.89,0.88,0.87,0.84,0.86,0.85,0.84,0.87,0.87,0.83,0.82,0.81,0.79,0.80]
+      },{
+          name: 'Biomass Utilisation',
+          color: '#005eb8',
+          data: [1.00,0.98,0.96,1.00,0.98,0.99,0.98,0.98,0.98,0.99,0.97,0.98,1.00,0.99,0.98,0.96,0.98,0.99,1.00,1.05,1.03,1.03,1.05,1.05,1.01,1.04]
+      },{
+          name: 'Electricity consumption',
+          color: '#aeadb3',
+          data: [1.00,0.96,0.95,0.96,0.92,0.93,0.94,0.92,0.92,0.90,0.90,0.90,0.89,0.87,0.85,0.83,0.86,0.84,0.84,0.85,0.86,0.83,0.81,0.80,0.79,0.79]
+      },{
+          name: 'CO2',
+          color: '#2f7cba',
+          data: [1.00,0.95,0.94,0.91,0.89,0.88,0.91,0.83,0.81,0.79,0.75,0.75,0.74,0.73,0.68,0.68,0.65,0.63,0.63,0.64,0.62,0.60,0.58,0.57,0.54,0.54]
+      },{
+          name: 'NOX',
+          color: '#6cbd56',
+          data: [1.00,1.00,0.96,0.94,0.89,0.85,0.84,0.79,0.74,0.73,0.69,0.70,0.71,0.71,0.69,0.64,0.66,0.63,0.63,0.66,0.65,0.65,0.60,0.61,0.56,0.56]
+      },{
+          name: 'Water intake ',
+          color: '#009347',
+          data: [1.00,0.93,0.89,0.83,0.77,0.75,0.73,0.68,0.65,0.64,0.60,0.62,0.61,0.61,0.63,0.55,0.55,0.56,0.55,0.58,0.54,0.55,0.56,0.54,0.54,0.54]
+      },{
+          name: 'COD',
+          color: '#26b6cc',
+          data: [1.00,0.88,0.73,0.63,0.55,0.53,0.48,0.44,0.40,0.35,0.34,0.33,0.31,0.30,0.28,0.25,0.25,0.24,0.23,0.24,0.24,0.23,0.23,0.22,0.21,0.21]
+      },{
+          name: 'SO2',
+          color: '#6aa242',
+          data: [1.00,0.82,0.74,0.63,0.55,0.49,0.46,0.40,0.34,0.29,0.25,0.25,0.24,0.21,0.19,0.20,0.21,0.19,0.17,0.17,0.15,0.13,0.11,0.12,0.09,0.10]
+      },{
+          name: 'BOD',
+          color: '#51a332',
+          data: [1.00,0.88,0.74,0.66,0.55,0.54,0.46,0.44,0.40,0.36,0.32,0.31,0.30,0.27,0.24,0.20,0.19,0.18,0.17,0.17,0.17,0.17,0.16,0.16,0.15,0.14]
+      },{
+          name: 'AOX',
+          color: '#878686',
+          data: [1.00,0.75,0.47,0.29,0.20,0.16,0.12,0.11,0.10,0.09,0.08,0.08,0.08,0.08,0.06,0.05,0.06,0.05,0.05,0.05,0.05,0.05,0.05,0.04,0.04,0.04]
+      }]
+    });
+
+  }
+
+  function waterProfile(){
+
+    $("#charts-latest").html("<div id='title-table'></div> <div id='div-table'></div>");
+    var titleTable = "<h2>Water Profile</h2>"
+    $("#title-table").html(titleTable);
+    $("#div-table").html("<div id='water-profile'></div");
+
+  }
+
+  function specificAirEmissions(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Specific Air Emissions',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: 'kt/kt of product'
+        }
+    },
+          series: [{
+          name: 'Specific So2 Emissions',
+          color: '#8cc640',
+          data: [1.61,1.32,1.19,1.01,0.89,0.80,0.75,0.65,0.54,0.47,0.40,0.40,0.38,0.34,0.31,0.32,0.33,0.31,0.28,0.27,0.24,0.21,0.18,0.20,0.15,0.15]
+      },{
+          name: 'Specifix Nox Emissions',
+          color: '#6cbd56',
+          data: [1.31,1.31,1.25,1.23,1.16,1.11,1.10,1.03,0.97,0.96,0.90,0.92,0.92,0.93,0.90,0.83,0.87,0.83,0.82,0.86,0.85,0.84,0.79,0.80,0.73,0.73]
+      },{
+          name: 'Specific Direct CO2 Emissions',
+          color: '#6aa242',
+          data: [0.57,0.54,0.53,0.52,0.51,0.50,0.52,0.48,0.46,0.45,0.42,0.43,0.42,0.42,0.39,0.39,0.37,0.36,0.36,0.36,0.35,0.34,0.33,0.32,0.31,0.31]
+      },{
+          name: 'Specific Indirect CO2 Emissions',
+          color: '#009347',
+          data: [0.20,0.19,0.19,0.18,0.17,0.17,0.17,0.16,0.16,0.15,0.15,0.15,0.14,0.16,0.13,0.11,0.14,0.13,0.11,0.11,0.11,0.10,0.12,0.12,0.12,0.12]
+      }]
+    });
+
+  }
+
+  function specificAmountResidues(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Specific Amount of Residues Landfilled',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: 'kg/t of product'
+        }
+    },
+          series: [{
+          name: 'Specific Amount of Residues Landfilled',
+          color: '#8cc640',
+          data: [76.70,85.52,65.96,74.17,57.45,61.86,60.68,52.96,40.70,38.30,31.97,33.95,29.73,27.96,25.80,20.26,18.93,17.48,17.73,16.72,16.33,15.32,14.46,13.43,11.75,10.89]
+      }]
+    });
+
+  }
+
+
+  function waterEmissions(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Water Emissions',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: 'kg/t of product'
+        }
+    },
+          series: [{
+          name: 'COD',
+          color: '#8cc640',
+          data: [76.70,85.52,65.96,74.17,57.45,61.86,60.68,52.96,40.70,38.30,31.97,33.95,29.73,27.96,25.80,20.26,18.93,17.48,17.73,16.72,16.33,15.32,14.46,13.43,11.75,10.89]
+      },{
+          name: 'BOD',
+          color: '#8cc640',
+          data: [76.70,85.52,65.96,74.17,57.45,61.86,60.68,52.96,40.70,38.30,31.97,33.95,29.73,27.96,25.80,20.26,18.93,17.48,17.73,16.72,16.33,15.32,14.46,13.43,11.75,10.89]
+      },{
+          name: 'AOX',
+          color: '#8cc640',
+          data: [76.70,85.52,65.96,74.17,57.45,61.86,60.68,52.96,40.70,38.30,31.97,33.95,29.73,27.96,25.80,20.26,18.93,17.48,17.73,16.72,16.33,15.32,14.46,13.43,11.75,10.89]
+      }]
+    });
+
+  }
+
+  function residuesByDestination(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: 'Residues by Destination in 2015',
+        style: {
+          fontSize: '3.5em'
+        }
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: [{
+        name: 'Brands',
+        colorByPoint: true,
+        data: [{
+            name: 'Residues to Landfills',
+            color:'#8cc640',
+            y: 7
+        },{
+            name: 'Residues Incinerated with Energy Recovery',
+            color: '#6cbd56',
+            y: 58
+        }, {
+            name: ' Residues Used on Land',
+            color: '#009347',
+            y: 13
+        }, {
+            name: ' Residues Used in Other Industries and in the Process',
+            color: '#6aa242',
+            y: 22
+        }]
+      }]
+    });
+
+  }
+
+  function accidentRate(){
+
+    Highcharts.chart('charts-latest', {
+    chart: {
+        type: ''
+    },
+    title: {
+        text: 'Accident Rate ',
+        style:{
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    xAxis: {
+        categories: ['2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
+    },
+    yAxis: {
+        title: {
+            text: ''
+        }
+    },
+          series: [{
+          name: 'Accident Rate',
+          color: '#8cc640',
+          data: [44.9,44.4,40.4,32.1,27.0,24.3,24.8,23.7,23.1,19.8,19.5,18.5,16.9,16.5,15.7,16.0]
       }]
     });
 
