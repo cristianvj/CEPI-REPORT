@@ -346,3 +346,11 @@ div.footer-col2 a#ftrEnlace{
 .googPractive, .goodPractives{
   z-index: 40 !important;
 }
+
+/* Styles table cepi */
+
+.table-cepi{
+    margin: 3em 0;
+}
+
+/* End styles table cepi */

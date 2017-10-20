@@ -258,8 +258,9 @@ tr.sum>.td-data, #table-key .td-title, .tbody {
     fill: #868589;
     font-size: 1.3em;
 }
-
 /* Style chart map wood */
+
+/* end Style chart map wood */
 #map-wood{
     width: 100%;
     height: 500px;

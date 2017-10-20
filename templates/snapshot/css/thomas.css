@@ -452,3 +452,30 @@ section.latesData p{
 section.latesData a{
     color: #009347;
 }
+
+
+/* Charts latest */
+
+#grafica5 {
+    min-width: 310px;
+    max-width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 3em;
+    background-color: white;
+}
+#grafica5 rect.highcharts-background {
+    fill: #fff;
+}
+
+#grafica5 g.highcharts-axis-labels.highcharts-xaxis-labels tspan {
+    font-family: century;
+    font-size: 12px;
+}
+
+#grafica5 .highcharts-title tspan,
+#grafica5 .highcharts-title span {
+    font-family: Bebas-Bold;
+    color: #868589;
+    fill: #868589;
+}
