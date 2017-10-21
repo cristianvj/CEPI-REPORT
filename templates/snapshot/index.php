@@ -294,39 +294,42 @@
 		<h2>Latest Data</h2>
 		<p><a href="#" target="_blank">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
 
-		<div id="grafica5"></div>
+		<div id="grafica5" class="grafica"></div>
 		<div class="grafica5-table">
 			<table class="table-cepi">
-				<tr>
+				<thead>
+					<tr>
 					<th></th>
-					<th>1990</th>
-					<th>1991</th>
-					<th>1992</th>
-					<th>1993</th>
-					<th>1994</th>
-					<th>1995</th>
-					<th>1996</th>
-					<th>1997</th>
-					<th>1998</th>
-					<th>1999</th>
-					<th>2000</th>
-					<th>2001</th>
-					<th>2002</th>
-					<th>2003</th>
-					<th>2004</th>
-					<th>2005</th>
-					<th>2006</th>
-					<th>2007</th>
-					<th>2008</th>
-					<th>2009</th>
-					<th>2010</th>
-					<th>2011</th>
-					<th>2012</th>
-					<th>2013</th>
-					<th>2014</th>
-					<th>2015</th>
+					<th>'90</th>
+					<th>'91</th>
+					<th>'92</th>
+					<th>'93</th>
+					<th>'94</th>
+					<th>'95</th>
+					<th>'96</th>
+					<th>'97</th>
+					<th>'98</th>
+					<th>'99</th>
+					<th>'00</th>
+					<th>'01</th>
+					<th>'02</th>
+					<th>'03</th>
+					<th>'04</th>
+					<th>'05</th>
+					<th>'06</th>
+					<th>'07</th>
+					<th>'08</th>
+					<th>'09</th>
+					<th>'10</th>
+					<th>'11</th>
+					<th>'12</th>
+					<th>'13</th>
+					<th>'14</th>
+					<th>'15</th>
 				</tr>
-				<tr>
+				</thead>
+				<tbody>
+					<tr>
 					<th>Production of Market Pulp and Paper </th>
 					<td>1.00</td>
 					<td>1.03</td>
@@ -645,9 +648,14 @@
 					<td>0.04</td>
 					<td>0.04</td>
 				</tr>
+				</tbody>
 			</table>
 		</div>
-		<div id="grafica6"></div>
+		<div id="grafica6" class="grafica"></div>
+		<div class="grafica">
+			<h2>CEPI Trade Flows of Paper & Board</h2>
+			<div id="grafica7" class="grafica-mapa"></div>
+		</div>
 	</section>
 
 	<footer class="flex">

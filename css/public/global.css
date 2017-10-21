@@ -349,8 +349,33 @@ div.footer-col2 a#ftrEnlace{
 
 /* Styles table cepi */
 
-.table-cepi{
-    margin: 3em 0;
+.grafica5-table{
+  overflow-x:auto;
+  margin: 3em 0;
 }
 
+.table-cepi{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+.table-cepi th, td {
+  color: #aeadb3;
+  border: none;
+  text-align: left;
+  padding: 8px;
+  font-family: century;
+  font-size: .8em;
+}
+.table-cepi tbody th{
+  font-weight: bold;
+  color: #87868a;
+}
+.table-cepi thead th{
+  font-weight: bold;
+  color: #51a332;
+}
+.table-cepi thead th{
+  border-bottom: 1px solid #51a332;
+}
 /* End styles table cepi */

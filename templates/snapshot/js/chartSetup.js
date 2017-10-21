@@ -1,3 +1,5 @@
+//Grafica 5
+
 Highcharts.chart('grafica5', {
     chart:{
       events: {
@@ -38,17 +40,9 @@ Highcharts.chart('grafica5', {
         title: {
             text: ''
         }
-      },
+      },  
       xAxis: {
-        categories: [2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
-      },
-      plotOptions: {
-        series: {
-            label: {
-                connectorAllowed: false
-            },
-            pointStart: 2010
-        }
+        categories: ['90','91','92','93','94','95','96','97','98','99','00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15']
       },
       series: [{
           color: '#8cc640',
@@ -113,6 +107,36 @@ Highcharts.chart('grafica5', {
     });
 
 
+//grafica 6
+
+Highcharts.chart('grafica6', {
+    title: {
+        text: 'CEPI Total Paper and Board Production and Consumption',
+        style: {
+          fontSize: '3.5em'
+        }
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    yAxis: {
+        title: {
+            text: 'Millon Tonness'
+        }
+    },
+    xAxis: {
+        categories: ['91', '93', '95', '97', '99', '01', '03', '05', '07', '09', '11', '13', '15']
+    },
+    series: [{
+        color: '#8cc640',
+        name: 'Paper & Board Production',
+        data: [65,69,76,81,86,89,93,99,102,88,94,91,90]
+    },{
+        color: '#009347',
+        name: 'Paper & Board Consumption',
+        data: [60,62,67,72,79,81,83,86,89,77,80,76,77]
+    }]
+});
 
 //Grafica 1
 var tons_index = 0;
