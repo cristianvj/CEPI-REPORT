@@ -653,8 +653,20 @@
 		</div>
 		<div id="grafica6" class="grafica"></div>
 		<div class="grafica">
-			<h2>CEPI Trade Flows of Paper & Board</h2>
+			<h2>CEPI Trade Flows of Paper and Board in 2015</h2>
 			<div id="grafica7" class="grafica-mapa"></div>
+			<table class="footer-map">
+				<tr>
+					<th>Total Imports CEPI: 5.5 Millon Tones</th>
+					<th></th>
+					<th>Imports to CEPI</th>
+				</tr>
+				<tr>
+					<th>Total Exports from CEPI: 18.9 Millon Tones</th>
+					<th></th>
+					<th>Exports from CEPI</th>
+				</tr>
+			</table>
 		</div>
 	</section>
 

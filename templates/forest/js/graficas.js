@@ -1,3 +1,64 @@
+//Graficas latest
+
+$(document).ready(function () {
+
+    // Build the chart
+    Highcharts.chart('grafica1', {
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: 'CEPI Wood Consumption Origin in 2015',
+            style:{
+                fontSize: '3.5em'
+            }
+        },
+        subtitle: {
+          text: 'CEPI Statistics - Status as of 2015'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false
+                },
+                showInLegend: true
+            }
+        },
+        series: [{
+            name: 'Brands',
+            colorByPoint: true,
+            data: [{
+                name: 'CEPI Area',
+                color: '#8cc640',
+                y: 90.845
+            }, {
+                name: 'Other EU28 Countries',
+                color: '#6cbd56',
+                y: 6.284,
+                sliced: true,
+                selected: true
+            }, {
+                name: 'Other Europe',
+                color: '#009347',
+                y: 9.068
+            }, {
+                name: 'Rest of the world',
+                color: '#6aa242',
+                y: 1.071
+            }]
+        }]
+    });
+});
+
+//graficas elberth
 $(function() {
     var chart = new Highcharts.Chart({
         chart: {
