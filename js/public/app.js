@@ -115,6 +115,12 @@ $(function() {
     $('#icon-latest').css('background-color', '');
   });
 
+  $('#item-practices').hover(function() {
+    $('#icon-practices').css('background-color', '#2f7cba');
+  }, function() {
+    $('#icon-practices').css('background-color', '');
+  });
+
   $('#item-glossary').hover(function() {
     $('#icon-glossary').css('background-color', '#005EB8');
   }, function() {

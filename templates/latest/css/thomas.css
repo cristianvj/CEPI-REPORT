@@ -118,7 +118,7 @@ select.charts{
     font-size: 14px;
     height: 30px;
     padding: 5px;
-    width: 180%;
+    width: 100%;
     color: #AEADB3;
 }
 select.charts option{
@@ -140,7 +140,7 @@ select.charts option:focus{
     margin:20px auto;        
     border:1px solid #e0e0e0;
     height:30px;
-    width: 120%;
+    width: 101%;
     overflow: hidden;
     position:relative;
     background-color: #e0e0e0;

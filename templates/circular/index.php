@@ -80,13 +80,13 @@
 		<section class="latesData">
 			<h2>Latest Data</h2>
 			<p><a href="#" target="_blank">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
+			<div class="grafica" id="grafica1"></div>
+			<div class="grafica" id="grafica2"></div>
+			<div class="grafica" id="grafica3"></div>
 		</section>
 
 		<section id="latest">
 			<h2 class="title">Latest position papers</h2>
-			<div class="grafica" id="grafica1"></div>
-			<div class="grafica" id="grafica2"></div>
-			<div class="grafica" id="grafica3"></div>
 		</br></br>
 			<div class="flex contForest">
 				<div class="colDiv">

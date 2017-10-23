@@ -82,11 +82,11 @@
 
 		<!-- Latest -->
 		<section id="latest">
-			<h2 class="title">Latest position papers</h2>
 			<div class="grafica" id="grafica1"></div>
 			<div class="grafica" id="grafica2"></div>
 			<div class="grafica" id="grafica3"></div>
 			<br><br>
+			<h2 class="title">Latest position papers</h2>
 			<div class="flex contForest">
 				<div class="colDiv">
 					<p><b>17.oct.2016</b><br><br>

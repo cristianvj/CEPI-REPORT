@@ -69,6 +69,12 @@
 			All Latest Data
 		</a>
 	</div>
+	<div class="div-item" id="item-practices">
+		<a href="<?php echo $ruta ?>templates/practices/index.php">
+			<img id="icon-practices" src="<?php echo $ruta ?>img/public/icons-menu/practices.png" alt="">
+			Good Practices
+		</a>
+	</div>
 	<div class="div-item" id="item-glossary">
 		<a href="<?php echo $ruta ?>templates/glossary/index.php">
 			<img id="icon-glossary" src="<?php echo $ruta ?>img/public/icons-menu/glossary.png" alt="">

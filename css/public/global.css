@@ -195,7 +195,9 @@ div.footer-col2 a#ftrEnlace{
 .body-glossary #icon-glossary{
   background-color: #005EB8;
 }
-
+.body-practices #icon-practices{
+  background-color: #2f7cba;
+}
 .div-item-child{
   font-size: .9em !important;
   padding-left: 2.1em;

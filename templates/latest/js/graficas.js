@@ -456,7 +456,7 @@ $(document).ready(function(){
     title: {
         text: 'Profitability European pulp & paper industry',
         style: {
-            fontSize: '3.5em'
+            fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -552,7 +552,7 @@ $(document).ready(function(){
       title: {
         text: 'Investment* / Turnover Ratio in the Pulp & Paper Industry - CEPI',
         style: {
-            fontSize: '3.5em'
+            fontSize: '2.8em'
         }
       },
       subtitle: {
@@ -615,7 +615,7 @@ $(document).ready(function(){
       title: {
         text: 'Labour Productivity: Comparision between Europe and Competing Countries',
         style: {
-            fontSize: '3.5em'
+            fontSize: '2.8em'
         }
       },
       subtitle: {
@@ -729,7 +729,7 @@ $(document).ready(function(){
     title: {
         text: 'Labour Productivity: Comparision between Europe and Competing Countries',
         style: {
-            fontSize: '3.5em'
+            fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -848,7 +848,7 @@ $(document).ready(function(){
     title: {
         text: 'Paper & Board Consumption per Capita',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1063,7 +1063,7 @@ $(document).ready(function(){
     title: {
         text: 'CEPI Raw Materials Consumption',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1124,7 +1124,7 @@ $(document).ready(function(){
     title: {
         text: 'CEPI Non-Fibrous Materials Consumption',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1188,7 +1188,7 @@ $(document).ready(function(){
     title: {
         text: 'European Recycling Rate of Paper for Recycling',
         style: {
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1242,7 +1242,7 @@ $(document).ready(function(){
     title: {
         text: 'European Recycling Rate in the World',
         style: {
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1269,7 +1269,7 @@ $(document).ready(function(){
     title: {
         text: 'Total Specific Energy Consumption',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1323,7 +1323,7 @@ $(document).ready(function(){
     title: {
         text: 'Specific Electricity Consumption',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1371,7 +1371,7 @@ $(document).ready(function(){
     title: {
         text: 'Electricity produced through CHP compared to Total on-site Electricity Generation',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1418,7 +1418,7 @@ $(document).ready(function(){
     title: {
         text: 'Evolution of Energy Consumption',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1473,7 +1473,7 @@ $(document).ready(function(){
     title: {
         text: 'Biomass Utilisation',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1504,7 +1504,7 @@ $(document).ready(function(){
     title: {
         text: 'Evolution of Environmental Impacts of the CEPI Pulp and Paper Industry',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1609,7 +1609,7 @@ $(document).ready(function(){
     title: {
         text: 'Specific Air Emissions',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1653,7 +1653,7 @@ $(document).ready(function(){
     title: {
         text: 'Specific Amount of Residues Landfilled',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1710,7 +1710,7 @@ $(document).ready(function(){
     title: {
         text: 'Water Emissions',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {
@@ -1774,7 +1774,7 @@ $(document).ready(function(){
     title: {
         text: 'Residues by Destination in 2015',
         style: {
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     tooltip: {
@@ -1824,7 +1824,7 @@ $(document).ready(function(){
     title: {
         text: 'Accident Rate ',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.8em'
         }
     },
     subtitle: {

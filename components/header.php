@@ -8,8 +8,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href= "<?php echo $ruta; ?>css/public/reset.css">
 	<link rel="stylesheet" href= "<?php echo $ruta; ?>css/public/animations/animations.min.css">
-	<link rel="stylesheet" href= "<?php echo $ruta; ?>css/public/global.css">
 	<link rel="stylesheet" href= "<?php echo $ruta; ?>css/public/responsive.css">
+	<link rel="stylesheet" href= "<?php echo $ruta; ?>css/public/global.css">
 	<link rel="stylesheet" href="<?php echo $ruta; ?>css/public/jquery.fancybox.min.css" />
 	<!-- Iconos -->
 	<link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">

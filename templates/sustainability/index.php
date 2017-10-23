@@ -17,7 +17,7 @@
 				<p>At CEPI we know that the future is made up of the decisions we take today. The 2050 Roadmap traces the path to guide those decisions and constitutes our sustainability vision.</p>
 			</div>
 			<div class="colBanHome animate-in" data-anim-type="fade-in-left" style="text-align: center;">
-				<a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+				<a data-fancybox href="https://www.youtube.com/watch?v=VqwmnMu7uEA&t=8s">
 					<img src="img/video.jpg">
 				</a>
 			</div>
