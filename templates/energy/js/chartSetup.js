@@ -141,6 +141,68 @@ Highcharts.chart('grafica2', {
       }]
     });
 
+Highcharts.chart('grafica3', {
+    chart: {
+        type: 'pie',
+        events: {
+        load: function () {
+          var label = this.renderer.label("Source: RISI")
+          .css({
+              width: '600px',
+              fontSize: '1em',
+              color: '#868589'
+          })
+          .attr({
+              'stroke': 'silver',
+              'stroke-width': 0,
+              'r': 2,
+              'padding': 10
+          })
+          .add();                
+            label.align(Highcharts.extend(label.getBBox(), {
+                align: 'center',
+                x: 20, // offset
+                verticalAlign: 'bottom',
+                y: 25 // offset
+            }), null, 'spacingBox');
+          }
+        },
+        marginBottom: 90
+    },
+    title: {
+        text: 'CEPI Fuels Consumption in 2015',
+        style: {
+          fontSize: '3.5em',
+        },
+    },
+    subtitle: {
+        text: 'CEPI Statistics - Status as of 2015'
+    },
+    plotOptions: {
+        pie: {
+            innerSize: 100,
+            depth: 45,
+            allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false
+                },
+            showInLegend: true
+        }
+    },
+    series: [{
+        name: 'Delivered amount',
+        colors: ['#8cc640','#6cbd56','#009347','#6aa242','#51a332','#26b6cc'],
+        data: [
+            ['Biomass', 57.7],
+            ['Gas', 34.7],
+            ['Coal', 3.9],
+            ['Fuel oil', 1.7],
+            ['Other Fossil Fuels', 0.9],
+            ['Others', 1.1]
+        ]
+    }]
+});
 //Graficas elberth
 Highcharts.chart('graficaIndustrial', {
     chart: {

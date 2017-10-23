@@ -1580,7 +1580,31 @@ $(document).ready(function(){
 
     Highcharts.chart('charts-latest', {
     chart: {
-        type: ''
+        type: '',
+        events: {
+        load: function () {
+          var label = this.renderer.label("Source: RISI")
+          .css({
+              width: '600px',
+              fontSize: '1em',
+              color: '#868589'
+          })
+          .attr({
+              'stroke': 'silver',
+              'stroke-width': 0,
+              'r': 2,
+              'padding': 10
+          })
+          .add();                
+            label.align(Highcharts.extend(label.getBBox(), {
+                align: 'center',
+                x: 20, // offset
+                verticalAlign: 'bottom',
+                y: 25 // offset
+            }), null, 'spacingBox');
+          }
+        },
+        marginBottom: 90
     },
     title: {
         text: 'Specific Air Emissions',
@@ -1657,7 +1681,31 @@ $(document).ready(function(){
 
     Highcharts.chart('charts-latest', {
     chart: {
-        type: ''
+        type: '',
+        events: {
+        load: function () {
+          var label = this.renderer.label("Source: RISI")
+          .css({
+              width: '600px',
+              fontSize: '1em',
+              color: '#868589'
+          })
+          .attr({
+              'stroke': 'silver',
+              'stroke-width': 0,
+              'r': 2,
+              'padding': 10
+          })
+          .add();                
+            label.align(Highcharts.extend(label.getBBox(), {
+                align: 'center',
+                x: 20, // offset
+                verticalAlign: 'bottom',
+                y: 25 // offset
+            }), null, 'spacingBox');
+          }
+        },
+        marginBottom: 90
     },
     title: {
         text: 'Water Emissions',
@@ -1697,10 +1745,31 @@ $(document).ready(function(){
 
     Highcharts.chart('charts-latest', {
     chart: {
-        plotBackgroundColor: null,
-        plotBorderWidth: null,
-        plotShadow: false,
-        type: 'pie'
+      type: 'pie',
+        events: {
+        load: function () {
+          var label = this.renderer.label("Source: RISI")
+          .css({
+              width: '600px',
+              fontSize: '1em',
+              color: '#868589'
+          })
+          .attr({
+              'stroke': 'silver',
+              'stroke-width': 0,
+              'r': 2,
+              'padding': 10
+          })
+          .add();                
+            label.align(Highcharts.extend(label.getBBox(), {
+                align: 'center',
+                x: 20, // offset
+                verticalAlign: 'bottom',
+                y: 25 // offset
+            }), null, 'spacingBox');
+          }
+        },
+        marginBottom: 90
     },
     title: {
         text: 'Residues by Destination in 2015',
@@ -1716,12 +1785,9 @@ $(document).ready(function(){
             allowPointSelect: true,
             cursor: 'pointer',
             dataLabels: {
-                enabled: true,
-                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                style: {
-                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-                }
-            }
+               enabled: false
+            },
+            showInLegend: true
         }
     },
     series: [{
