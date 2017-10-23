@@ -1572,7 +1572,31 @@ $(document).ready(function(){
     $("#charts-latest").html("<div id='title-table'></div> <div id='div-table'></div>");
     var titleTable = "<h2>Water Profile</h2>"
     $("#title-table").html(titleTable);
-    $("#div-table").html("<div id='water-profile'></div");
+    var contenido = "<h2 class='title'>92% of water used is returned to the environment cleaner than before</h2>"
+      +"<p><b>Water Profile for the Pulp and Paper Industry- CEPI Countries 2015</b><br>Million M3</p>"
+      +"<div class='imgEnvironment'>"
+        +"<h3 id='countEnvir1'>3056</h3>"
+        +"<h3 id='countEnvir2'>50</h3>"
+        +"<h3 id='countEnvir3'>6</h3>"
+        +"<h3 id='countEnvir4'>3049</h3>"
+        +"<h3 id='countEnvir5'>9</h3>"
+        +"<h3 id='countEnvir6'>11</h3>"
+        +"<h3 id='countEnvir7'>270</h3>"
+        +"<h3 id='countEnvir8'>227</h3>"
+        +"<h3 id='countEnvir9'>4</h3>"
+        +"<h3 id='countEnvir10'>121</h3>"
+        +"<h3 id='countEnvir11'>328</h3>"
+        +"<img src='img/water-profile.svg'>"
+      +"</div>"
+      +"<div class='tablaEdit'>"
+        +"<p>Total Water Abstracted....................... 3664</p>"
+        +"<p>Water in Products................................. 59</p>"
+        +"<p>Total Effluents........................................ 3425</p>"
+        +"<p>Water in Residues and Products........ 13</p>"
+        +"<p>Evaporation.......................................... 285</p>"
+        +"<p>Percentage......................................... 7.7%</p>"
+      +"</div>"
+    $("#div-table").html(contenido);
 
   }
 

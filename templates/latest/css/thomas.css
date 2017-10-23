@@ -6,7 +6,7 @@
 h2.title {
     padding: 40px 0px;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2em;
     width: 90%;
     max-width: 1100px;
     margin: 0px auto;
@@ -140,7 +140,7 @@ select.charts option:focus{
     margin:20px auto;        
     border:1px solid #e0e0e0;
     height:30px;
-    width: 101%;
+    width: 103%;
     overflow: hidden;
     position:relative;
     background-color: #e0e0e0;
@@ -211,7 +211,7 @@ select.charts option:focus{
 /* Tables latests */
 #charts-latest{
     width:80%; 
-    max-height:600px; 
+    max-height:1130px; 
     margin: 0em 5% 8em 5%
 }
 #title-table{
@@ -278,4 +278,131 @@ tr.sum>.td-data, #table-key .td-title, .tbody {
 }
 /* end Style chart map water profile */
 
-
+/* sankey environment */
+.environment {
+    width: 100%;
+    margin: 60px auto;
+    text-align: center;
+    position: relative;
+    color: #87868a;
+}
+.environment h2.title{
+    max-width: 900px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.environment p> b{
+    font-weight: bold;
+    font-size: 17px;
+}
+.imgEnvironment {
+    width: 900px;
+    margin: 0px auto;
+    margin-right: -10px;
+    position: relative;
+}
+.imgEnvironment h3{
+    position: absolute;
+    font-size: 34px;
+}
+h3#countEnvir1 {
+    top: 115px;
+    left: 63px;
+    width: 153px;
+    text-align: right;
+    color: #0d60b4;
+}
+h3#countEnvir2 {
+    top: 224px;
+    left: 83px;
+    width: 126px;
+    text-align: right;
+    color: #25b6cb;
+}
+h3#countEnvir3 {
+    top: 324px;
+    left: 50px;
+    width: 135px;
+    text-align: right;
+    color: #32b5c9;
+}
+h3#countEnvir4 {
+    top: 487px;
+    left: 53px;
+    width: 112px;
+    text-align: right;
+    color: #51a332;
+}
+h3#countEnvir5 {
+    top: 664px;
+    left: 290px;
+    color: #8cc34a;
+    width: 89px;
+}
+h3#countEnvir6 {
+    top: 681px;
+    left: 564px;
+    color: #8cc34a;
+}
+h3#countEnvir7 {
+    top: 569px;
+    left: 638px;
+    color: #51a332;
+}
+h3#countEnvir8 {
+    top: 481px;
+    left: 750px;
+    color: #009347;
+}
+h3#countEnvir9 {
+    top: 280px;
+    left: 631px;
+    color: #26b6cc;
+}
+h3#countEnvir10 {
+    top: 159px;
+    left: 614px;
+    color: #0d60b4;
+}
+h3#countEnvir11 {
+    top: 68px;
+    left: 359px;
+    width: 127px;
+    color: #0d60b4;
+}
+.tablaEdit {
+    position: absolute;
+    bottom: 80px;
+    text-align: left;
+    left: 80px;
+}
+.tablaEdit p {
+    margin-bottom: 8px;
+    font-family: century-bold;
+}
+.tablaEdit p:nth-child(1){
+    color: #0d60b4;
+}
+.tablaEdit p:nth-child(2){
+    color: #32b5c9;
+}
+.tablaEdit p:nth-child(3){
+    color: #51a332;
+}
+.tablaEdit p:nth-child(4){
+    color: #8cc34a;
+}
+.tablaEdit p:nth-child(5){
+    color: #009347;
+}
+.tablaEdit p:nth-child(6){
+    color: #868589;
+}
+img.imgEnvir{
+    margin: 15px 0px;
+    max-width: 1200px;
+}
+p {
+    color: #868589;
+}
+/* environment */

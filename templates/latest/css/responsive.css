@@ -15,9 +15,167 @@
 	    margin-right: 10px;
 	}
 }
+@media screen and (max-width: 1154px)  {
+	.tablaEdit {
+	    position: relative;
+	    margin-top: 70px;
+	}
+}
 @media screen and (max-width: 500px)  {
 	.itemEmpresa{
 		width: 300px;
 	    margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 930px)  {
+	.imgEnvironment {
+	    width: 500px;
+	    margin-right: 0px;
+	    margin: 0px auto;
+	}
+	.imgEnvironment h3 {
+	    font-size: 22px;
+	}
+	h3#countEnvir1 {
+	    top: 65px;
+	    left: 0px;
+	    width: 122px;
+	}
+	h3#countEnvir2 {
+	    top: 127px;
+	    left: 0px;
+	    width: 118px;
+	}
+	h3#countEnvir3 {
+	    top: 179px;
+	    left: 0px;
+	    width: 103px;
+	}
+	h3#countEnvir4 {
+	    top: 270px;
+	    left: 0px;
+	    width: 92px;
+	}
+	h3#countEnvir5 {
+	    top: 370px;
+	    left: 143px;
+	    width: 89px;
+	}
+	h3#countEnvir6 {
+	    top: 379px;
+	    left: 312px;
+	}
+	h3#countEnvir7 {
+	    top: 316px;
+	    left: 356px;
+	}
+	h3#countEnvir8 {
+	    top: 267px;
+	    left: 416px;
+	}
+	h3#countEnvir9 {
+	    top: 155px;
+	    left: 351px;
+	}
+	h3#countEnvir10 {
+	    top: 89px;
+	    left: 340px;
+	}
+	h3#countEnvir11 {
+	    top: 38px;
+	    left: 170px;
+	    width: 127px;
+	}
+}
+@media screen and (max-width: 800px)  {
+	.googPractive {
+	    position: absolute;
+	    top: 130px;
+	    right: 10px;
+	}
+	.flex.contForest {
+	    flex-flow: column;
+	}
+	#latest h2{
+		width: 90%;
+	    margin: 0px auto;
+	    margin-bottom: 40px;
+	}
+	.contForest .colDiv {
+	    margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 600px)  {
+	#seccion2, .col2-sec3{
+	    padding: 30px;
+	}
+	#seccion2 p {
+	    font-size: 12pt;
+	}
+	h2.title {
+	    font-size: 2rem;
+	}
+}
+@media screen and (max-width: 530px)  {
+	.imgEnvironment {
+	    width: 300px;
+	}
+	.imgEnvironment h3 {
+	    font-size: 15px;
+	}
+	h3#countEnvir1 {
+	    top: 37px;
+	    left: 0px;
+	    width: 73px;
+	}
+	h3#countEnvir2 {
+	    top: 74px;
+	    left: 0px;
+	    width: 71px;
+	}
+	h3#countEnvir3 {
+	    top: 106px;
+	    left: 0px;
+	    width: 60px;
+	}
+	h3#countEnvir4 {
+	    top: 160px;
+	    left: 0px;
+	    width: 56px;
+	}
+	h3#countEnvir5 {
+	    top: 220px;
+	    left: 68px;
+	    width: 89px;
+	}
+	h3#countEnvir6 {
+	    top: 225px;
+	    left: 188px;
+	}
+	h3#countEnvir7 {
+	    top: 189px;
+	    left: 213px;
+	}
+	h3#countEnvir8 {
+	    top: 159px;
+	    left: 250px;
+	}
+	h3#countEnvir9 {
+	    top: 92px;
+	    left: 211px;
+	}
+	h3#countEnvir10 {
+	    top: 52px;
+	    left: 203px;
+	}
+	h3#countEnvir11 {
+	    top: 21px;
+	    left: 78px;
+	    width: 127px;
+	}
+	.tablaEdit{
+	    left: 4px;
+	    font-size: 13px;
 	}
 }
