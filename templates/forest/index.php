@@ -15,7 +15,7 @@
 		<section class="bannerForest">
 			<div class="goodPractives animate-in" data-anim-type="fade-in-down">
 				<a href="<?php echo $ruta."templates/practices/index.php"; ?>">Good Practices</a>
-				<p><a href="#"><b>Click here</b></a> to download our certification numbers</p>
+				<p><a href="https://drive.google.com/file/d/0B7ILwk9NBa5XQXZSVVQxRncyNEk/view?usp=sharing" target="_blank"><b>Click here</b></a> to download our certification numbers</p>
 			</div>
 			<div class="txtBanneFors">
 				<img onclick="rep();" src="img/btnMusica.svg">
