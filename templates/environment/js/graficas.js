@@ -31,12 +31,10 @@ Highcharts.chart('grafica1', {
     title: {
         text: 'Residues by Destination in 2015',
         style: {
-          fontSize: '3.5em'
+          fontSize: '2.5em'
         }
     },
-    tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-    },
+    tooltip: { enabled: false },
     plotOptions: {
         pie: {
             allowPointSelect: true,
@@ -61,11 +59,13 @@ Highcharts.chart('grafica1', {
         }, {
             name: ' Residues Used on Land',
             color: '#009347',
-            y: 13
+            y: 13,
         }, {
             name: ' Residues Used in Other Industries and in the Process',
             color: '#6aa242',
-            y: 22
+            y: 22,
+            sliced: true,
+            selected: true
         }]
       }]
     });
@@ -101,7 +101,7 @@ Highcharts.chart('grafica3', {
     title: {
         text: 'Air Emissions',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -169,7 +169,7 @@ Highcharts.chart('grafica2', {
     title: {
         text: 'Water Emissions',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {

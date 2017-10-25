@@ -5,23 +5,18 @@ $(document).ready(function () {
     // Build the chart
     Highcharts.chart('grafica1', {
         chart: {
-            plotBackgroundColor: null,
-            plotBorderWidth: null,
-            plotShadow: false,
             type: 'pie'
         },
         title: {
             text: 'CEPI Wood Consumption Origin in 2015',
             style:{
-                fontSize: '3.5em'
+                fontSize: '2.5em'
             }
         },
         subtitle: {
           text: 'CEPI Statistics - Status as of 2015'
         },
-        tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-        },
+        tooltip: { enabled: false },
         plotOptions: {
             pie: {
                 allowPointSelect: true,
@@ -72,7 +67,10 @@ $(function() {
        { enabled: false },
         plotOptions: {
             pie: {
-                innerSize: '90%'
+                innerSize: '90%',
+                dataLabels: {
+                    enabled: false,
+                },
             }
         },
         series: [{
@@ -98,7 +96,10 @@ $(function() {
        { enabled: false },
         plotOptions: {
             pie: {
-                innerSize: '90%'
+                innerSize: '90%',
+                dataLabels: {
+                    enabled: false,
+                },
             }
         },
         series: [{

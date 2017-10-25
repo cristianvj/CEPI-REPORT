@@ -30,7 +30,7 @@
     title: {
         text: 'Electricity produced through CHP compared to Total on-site Electricity Generation',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -96,7 +96,7 @@ Highcharts.chart('grafica2', {
     title: {
         text: 'Evolution of Energy Consumption',
         style:{
-          fontSize: '3.5em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -172,7 +172,7 @@ Highcharts.chart('grafica3', {
     title: {
         text: 'CEPI Fuels Consumption in 2015',
         style: {
-          fontSize: '3.5em',
+          fontSize: '2.5em',
         },
     },
     subtitle: {

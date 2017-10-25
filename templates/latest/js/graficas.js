@@ -456,7 +456,7 @@ $(document).ready(function(){
     title: {
         text: 'Profitability European pulp & paper industry',
         style: {
-            fontSize: '2.8em'
+            fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -552,7 +552,7 @@ $(document).ready(function(){
       title: {
         text: 'Investment* / Turnover Ratio in the Pulp & Paper Industry - CEPI',
         style: {
-            fontSize: '2.8em'
+            fontSize: '2.5em'
         }
       },
       subtitle: {
@@ -615,7 +615,7 @@ $(document).ready(function(){
       title: {
         text: 'Labour Productivity: Comparision between Europe and Competing Countries',
         style: {
-            fontSize: '2.8em'
+            fontSize: '2.5em'
         }
       },
       subtitle: {
@@ -729,7 +729,7 @@ $(document).ready(function(){
     title: {
         text: 'Labour Productivity: Comparision between Europe and Competing Countries',
         style: {
-            fontSize: '2.8em'
+            fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -848,7 +848,7 @@ $(document).ready(function(){
     title: {
         text: 'Paper & Board Consumption per Capita',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -923,20 +923,15 @@ $(document).ready(function(){
           fontSize: '3em'
         }
     },
-    tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-    },
+    tooltip: { enabled: false },
     plotOptions: {
         pie: {
             allowPointSelect: true,
             cursor: 'pointer',
             dataLabels: {
-                enabled: true,
-                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                style: {
-                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-                }
-            }
+                enabled: false,
+            },
+            showInLegend: true
         }
     },
     series: [{
@@ -1006,20 +1001,15 @@ $(document).ready(function(){
           fontSize: '3em'
         }
     },
-    tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-    },
+    tooltip: { enabled: false },
     plotOptions: {
         pie: {
             allowPointSelect: true,
             cursor: 'pointer',
             dataLabels: {
-                enabled: true,
-                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                style: {
-                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-                }
-            }
+                enabled: false,
+            },
+            showInLegend: true
         }
     },
     series: [{
@@ -1063,7 +1053,7 @@ $(document).ready(function(){
     title: {
         text: 'CEPI Raw Materials Consumption',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1124,7 +1114,7 @@ $(document).ready(function(){
     title: {
         text: 'CEPI Non-Fibrous Materials Consumption',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1188,7 +1178,7 @@ $(document).ready(function(){
     title: {
         text: 'European Recycling Rate of Paper for Recycling',
         style: {
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1242,7 +1232,7 @@ $(document).ready(function(){
     title: {
         text: 'European Recycling Rate in the World',
         style: {
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1269,7 +1259,7 @@ $(document).ready(function(){
     title: {
         text: 'Total Specific Energy Consumption',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1323,7 +1313,7 @@ $(document).ready(function(){
     title: {
         text: 'Specific Electricity Consumption',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1371,7 +1361,7 @@ $(document).ready(function(){
     title: {
         text: 'Electricity produced through CHP compared to Total on-site Electricity Generation',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1418,7 +1408,7 @@ $(document).ready(function(){
     title: {
         text: 'Evolution of Energy Consumption',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1473,7 +1463,7 @@ $(document).ready(function(){
     title: {
         text: 'Biomass Utilisation',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1504,7 +1494,7 @@ $(document).ready(function(){
     title: {
         text: 'Evolution of Environmental Impacts of the CEPI Pulp and Paper Industry',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1633,7 +1623,7 @@ $(document).ready(function(){
     title: {
         text: 'Specific Air Emissions',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1677,7 +1667,7 @@ $(document).ready(function(){
     title: {
         text: 'Specific Amount of Residues Landfilled',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1734,7 +1724,7 @@ $(document).ready(function(){
     title: {
         text: 'Water Emissions',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -1798,12 +1788,10 @@ $(document).ready(function(){
     title: {
         text: 'Residues by Destination in 2015',
         style: {
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
-    tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-    },
+    tooltip: { enabled: false },
     plotOptions: {
         pie: {
             allowPointSelect: true,
@@ -1832,7 +1820,9 @@ $(document).ready(function(){
         }, {
             name: ' Residues Used in Other Industries and in the Process',
             color: '#6aa242',
-            y: 22
+            y: 22,
+            sliced: true,
+            selected: true
         }]
       }]
     });
@@ -1848,7 +1838,7 @@ $(document).ready(function(){
     title: {
         text: 'Accident Rate ',
         style:{
-          fontSize: '2.8em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {

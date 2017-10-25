@@ -59,13 +59,14 @@
 					<div class="emisions" id="emmisions2015"></div>
 					<div class="emisions" id="emmisions2050"></div>
 					<div class="emisions" id="emmisions2015_2050"></div>
-					<b>Source: GAIA 2016</b>
 				</div>
 				<div class="tablaGraf">
 					<div class="itemGraf">
 						<p class="flex"><span></span>Direct Emissions</p>
 						<p class="flex"><span></span>Purchased Electricity</p>
 						<p class="flex"><span></span>Transport</p>
+						<br>
+						<p class="flex"><span></span>Source: GAIA 2016</p>
 					</div>
 				</div>
 			</div>

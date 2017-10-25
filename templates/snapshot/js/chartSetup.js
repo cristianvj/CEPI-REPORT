@@ -30,7 +30,7 @@ Highcharts.chart('grafica5', {
       title: {
         text: 'Decoupled Growth Levels and Environmental Impact',
         style: {
-            fontSize: '3.5em'
+            fontSize: '2.5em'
         }
       },
       subtitle: {
@@ -113,7 +113,7 @@ Highcharts.chart('grafica6', {
     title: {
         text: 'CEPI Total Paper and Board Production and Consumption',
         style: {
-          fontSize: '3.5em'
+            fontSize: '2.5em'
         }
     },
     subtitle: {

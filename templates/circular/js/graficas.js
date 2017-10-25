@@ -4,7 +4,7 @@ Highcharts.chart('grafica1', {
     title: {
         text: 'European Recycling Rate of Paper for Recycling',
         style: {
-          fontSize: '3.5em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -79,7 +79,7 @@ Highcharts.chart('grafica2', {
     title: {
         text: 'Specific Amount of Residues Landfilled',
         style: {
-          fontSize: '3.5em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {
@@ -127,7 +127,7 @@ Highcharts.chart('grafica3', {
     title: {
         text: 'European Recycling Rate in the World',
         style: {
-          fontSize: '3.5em'
+          fontSize: '2.5em'
         }
     },
     subtitle: {

@@ -23,8 +23,8 @@
 				<div class="div-download">
 					<br>
 					<p><a href="#">Click to download:</a></p>
-					<p>*Summary Infographic</p>
-					<p>*PEF/LCA</p>
+					<p><a style="color: #bdbdbd" href="https://www.dropbox.com/s/6yn5gfjlqalrm58/AF_Infografia_A_Thriving_Industry.pdf?dl=0" target="_blank">*Summary Infographic</a></p>
+					<p><a style="color: #bdbdbd" href="">*PEF/LCA</a></p>
 				</div>
 			</div>
 			<br>

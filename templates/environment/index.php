@@ -77,14 +77,16 @@
 
 		<section class="latesData">
 			<h2>Latest Data</h2>
-			<p><a href="#" target="_blank">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
+			<p><a href="<?php echo $ruta ?>templates/latest/index.php">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
+			<div class="chart-container">
+				<div class="grafica" id="grafica1"></div>
+				<div class="grafica" id="grafica2"></div>
+				<div class="grafica" id="grafica3"></div>
+			</div>
 		</section>
 
 		<!-- Latest -->
 		<section id="latest">
-			<div class="grafica" id="grafica1"></div>
-			<div class="grafica" id="grafica2"></div>
-			<div class="grafica" id="grafica3"></div>
 			<br><br>
 			<h2 class="title">Latest position papers</h2>
 			<div class="flex contForest">

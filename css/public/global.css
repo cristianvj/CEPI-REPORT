@@ -413,3 +413,10 @@ div.footer-col2 a#ftrEnlace{
     color: #868589;
     fill: #868589;
 }
+
+.chart-container{
+  margin: 0 5%;
+}
+.chart-container>div>h2{
+  font-size: 2em!important;
+}

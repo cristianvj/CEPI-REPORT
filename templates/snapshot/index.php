@@ -292,9 +292,10 @@
 
 	<section class="latesData">
 		<h2>Latest Data</h2>
-		<p><a href="#" target="_blank">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
+		<p><a href="<?php echo $ruta ?>templates/latest/index.php">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
 
-		<div id="grafica5" class="grafica"></div>
+		<div class="chart-container">
+			<div id="grafica5" class="grafica"></div>
 		<div class="grafica5-table">
 			<table class="table-cepi">
 				<thead>
@@ -653,7 +654,7 @@
 		</div>
 		<div id="grafica6" class="grafica"></div>
 		<div class="grafica">
-			<h2>CEPI Trade Flows of Paper and Board in 2015</h2>
+			<h2 style="font-size: 2em">CEPI Trade Flows of Paper and Board in 2015</h2>
 			<div id="grafica7" class="grafica-mapa"></div>
 			<table class="footer-map">
 				<tr>
@@ -668,6 +669,8 @@
 				</tr>
 			</table>
 		</div>
+		</div>
+
 	</section>
 
 	<footer class="flex">

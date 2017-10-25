@@ -121,16 +121,17 @@
 				</div>
 			</div>
 		</section>
-
 		<section class="latesData">
 			<h2>Latest Data</h2>
-			<p><a href="#" target="_blank">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
+			<p><a href="<?php echo $ruta ?>templates/latest/index.php">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
 			
-			<div id="grafica1" class="grafica animate-in"data-anim-type="fade-in-right"></div>
-			
-			<div class="grafica animate-in" data-anim-type="fade-in-left">
-				<h2>CEPI Trade Flows of Wood in 2015</h2>
-				<div id="grafica2" class="grafica-mapa"></div>
+			<div class="chart-container">
+				<div id="grafica1" class="grafica animate-in"data-anim-type="fade-in-right">
+				</div>
+				<div class="grafica animate-in" data-anim-type="fade-in-left">
+					<h2>CEPI Trade Flows of Wood in 2015</h2>
+					<div id="grafica2" class="grafica-mapa"></div>
+				</div>
 			</div>
 		</section>
 
