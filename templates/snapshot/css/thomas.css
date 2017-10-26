@@ -596,10 +596,33 @@ section.latesData a{
     color: #8cc640;
 }
 
-.footer-map{
-    margin-top: 6em;
+.footMapFlow1{
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
     font-family: century;
     color: #868589;
-    font-size: .7em;
+    font-size: 1em;
+    font-weight: bold;
 }
+.footMapFlow1 strong{
+    border-bottom: 2px solid #8cc640;
+    color: #fff;
+    font-weight: bold;
+}
+.footMapFlow2{
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    font-family: century;
+    color: #868589;
+    font-size: 1em;
+    font-weight: bold;
+}
+.footMapFlow2 strong{
+    border-bottom: 2px solid #009347;
+    color: #fff;
+    font-weight: bold;
+}
+
 

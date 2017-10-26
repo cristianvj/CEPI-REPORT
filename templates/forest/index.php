@@ -130,12 +130,27 @@
 			<div class="chart-container show-md">
 				<div id="grafica1" class="grafica animate-in"data-anim-type="fade-in-right">
 				</div>
-				<div class="grafica animate-in" data-anim-type="fade-in-left">
-					<h2>CEPI Trade Flows of Wood in 2015</h2>
-					<div id="grafica2" class="grafica-mapa"></div>
-				</div>
 			</div>
 		</section>
+		
+		<div class="grafica animate-in show-md" data-anim-type="fade-in-left">
+			<h2>CEPI Trade Flows of Wood in 2015</h2>
+			<br>
+			<div class="map-trade-fows">
+
+				<h3 id="countFost1">0.1</h3>
+				<h3 id="countFost2">0.8</h3>
+				<h3 id="countFost3">15.4</h3>
+				<h3 id="countFost4">1.3</h3>
+				<h3 id="countFost5">0.6</h3>
+				<h3 id="countFost6">0.2</h3>
+
+				<img src="img/PB-trade.png">
+				
+			</div>
+		</div>
+
+		
 
 		<section id="latest">
 			<h2 class="title">Latest position papers</h2>

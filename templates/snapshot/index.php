@@ -686,19 +686,9 @@
 				<h3 id="countFost21">1.8</h3>
 				<h3 id="countFost22">0.4</h3>
 				<img src="img/PB-trade.png">
+				<p class="footMapFlow1">Total Imports CEPI: 5.5 Millon Tones <strong>____________________</strong> Imports to CEPI</p>
+				<p class="footMapFlow2">Total Exports from CEPI: 18.9 Millon Tones <strong>____________________</strong> Exports from CEPI</p>
 			</div>
-			<table class="footer-map">
-				<tr>
-					<th>Total Imports CEPI: 5.5 Millon Tones</th>
-					<th></th>
-					<th>Imports to CEPI</th>
-				</tr>
-				<tr>
-					<th>Total Exports from CEPI: 18.9 Millon Tones</th>
-					<th></th>
-					<th>Exports from CEPI</th>
-				</tr>
-			</table>
 		</div>
 
 	<footer class="flex">
