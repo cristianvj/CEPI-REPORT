@@ -24,6 +24,7 @@
 	    background: url(../img/seccion2/slide1.gif) top no-repeat;
 	    background-size: 800px;
 	}
+
 }
 
 @media screen and (max-width: 878px)  {
@@ -146,6 +147,120 @@
 	    margin-left: 339px;
 	    font-size: 43pt;
 	}
+
+
+	/* Responsive Map */
+	.map-trade-fows img{
+    	width: 700px;
+	}
+	#countProduction,#countConsuption,
+	#countFost1, #countFost2, #countFost3, #countFost4,
+	#countFost5, #countFost6,#countFost7,#countFost8,
+	#countFost9,#countFost10,#countFost11,#countFost12,
+	#countFost13,#countFost14,#countFost15,#countFost16,
+	#countFost17,#countFost18,#countFost19,#countFost20,
+	#countFost21,#countFost22{
+	    position: absolute;
+	    font-size: .48em;
+	    font-family: century;
+	}
+	#countProduction{
+	    top: 130px;
+	    left: 110px;
+	}
+	#countConsuption{
+	    top: 148px;
+	    left: 110px;   
+	}
+	#countFost1{
+	    top: 75px;
+	    left: 220px;
+	}
+	#countFost2{
+	    top: 90px;
+	    left: 220px;
+	}
+	#countFost3{
+	    top: 46px;
+	    left: 368px;
+	}
+	#countFost4{
+	    top: 63px;
+	    left: 368px;
+	}
+	#countFost5{
+	    top: 68px;
+	    left: 468px;
+	}
+	#countFost6{
+	    top: 83px;
+	    left: 468px;
+	}
+	#countFost7{
+	    top: 118px;
+	    left: 488px;
+	}
+	#countFost8{
+	    top: 133px;
+	    left: 492px;
+	}
+	#countFost9{
+	    top: 150px;
+	    left: 395px;
+	}
+	#countFost10{
+	    top: 165px;
+	    left: 393px;
+	}
+	#countFost11{
+	    top: 168px;
+	    left: 252px;
+	}
+	#countFost12{
+	    top: 183px;
+	    left: 252px;
+	}
+	#countFost13{
+	    top: 75px;
+	    left: 320px;
+	}
+	#countFost14{
+	    top: 95px;
+	    left: 320px;
+	}
+	#countFost15{
+	    top: 70px;
+	    left: 440px;
+	}
+	#countFost16{
+	    top: 90px;
+	    left: 440px;
+	}
+	#countFost17{
+	    top: 110px;
+	    left: 460px;
+	}
+	#countFost18{
+	    top: 135px;
+	    left: 460px;
+	}
+	#countFost19{
+	    top: 130px;
+	    left: 405px;
+	}
+	#countFost20{
+	    top: 130px;
+	    left: 377px;
+	}
+	#countFost21{
+	    top: 135px;
+	    left: 300px;
+	}
+	#countFost22{
+	    top: 150px;
+	    left: 320px;
+	}
+
 }
 @media screen and (max-width: 805px)  {
 	.sec-graf1 {

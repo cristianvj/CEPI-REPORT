@@ -556,41 +556,45 @@ section.latesData a{
     color: #009347;
 }
 #countFost15{
-    top: 200px;
-    left: 560px;
-    color: #8cc640;
-}
-#countFost16{
-    top: 240px;
-    left: 560px;
+    top: 125px;
+    left: 700px;
     color: #009347;
 }
+#countFost16{
+    top: 160px;
+    left: 700px;
+    color: #8cc640;
+}
 #countFost17{
-    top: 360px;
-    left: 840px;
+    top: 190px;
+    left: 770px;
+    color: #009347;
 }
 #countFost18{
-    top: 360px;
-    left: 840px;
+    top: 225px;
+    left: 770px;
+    color: #8cc640;
 }
 #countFost19{
-    top: 360px;
-    left: 840px;
+    top: 220px;
+    left: 690px;
+    color: #009347;
 }
 #countFost20{
-    top: 360px;
-    left: 840px;
+    top: 220px;
+    left: 645px;
+    color: #8cc640;
 }
 #countFost21{
-    top: 360px;
-    left: 840px;
+    top: 270px;
+    left: 530px;
+    color: #009347;
 }
 #countFost22{
-    top: 360px;
-    left: 840px;
+    top: 260px;
+    left: 480px;
+    color: #8cc640;
 }
-
-
 
 .footer-map{
     margin-top: 6em;
@@ -598,3 +602,4 @@ section.latesData a{
     color: #868589;
     font-size: .7em;
 }
+
