@@ -294,7 +294,9 @@
 		<h2>Latest Data</h2>
 		<p><a href="<?php echo $ruta ?>templates/latest/index.php">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
 
-		<div class="chart-container">
+		<p class="show-sm message-orientation">View graphs in Landscape Orientation</p>
+
+		<div class="chart-container show-md">
 			<div id="grafica5" class="grafica"></div>
 		<div class="grafica5-table">
 			<table class="table-cepi">

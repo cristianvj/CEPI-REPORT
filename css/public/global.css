@@ -427,7 +427,7 @@ div.footer-col2 a#ftrEnlace{
 .message-orientation{
   text-align: center;
   padding: 1em;
-  color: #51a332;
+  color: #51a332 !important;
 }
 
 
