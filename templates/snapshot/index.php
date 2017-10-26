@@ -655,9 +655,38 @@
 			</table>
 		</div>
 		<div id="grafica6" class="grafica"></div>
-		<div class="grafica">
+	</div> <!-- end chart container -->
+	</section>
+		<div class="grafica show-md">
 			<h2 style="font-size: 2em">CEPI Trade Flows of Paper and Board in 2015</h2>
-			<div id="grafica7" class="grafica-mapa"></div>
+			<br>
+			<div class="map-trade-fows">
+				<h3 id="countProduction">PRODUCTION (2014)</h3>
+				<h3 id="countConsuption">CONSUPTION (2014)</h3>
+				<h3 id="countFost1">84.3</h3>
+				<h3 id="countFost2">77.2</h3>
+				<h3 id="countFost3">91.0</h3>
+				<h3 id="countFost4">77.0</h3>
+				<h3 id="countFost5">15.3</h3>
+				<h3 id="countFost6">20.4</h3>
+				<h3 id="countFost7">186.4</h3>
+				<h3 id="countFost8">191</h3>
+				<h3 id="countFost9">8.3</h3>
+				<h3 id="countFost10">13.3</h3>
+				<h3 id="countFost11">21.3</h3>
+				<h3 id="countFost12">28.6</h3>
+				<h3 id="countFost13">1.6</h3>
+				<h3 id="countFost14">2.1</h3>
+				<h3 id="countFost15">7.0</h3>
+				<h3 id="countFost16">2.6</h3>
+				<h3 id="countFost17">5.0</h3>
+				<h3 id="countFost18">0.6</h3>
+				<h3 id="countFost19">3.1</h3>
+				<h3 id="countFost20">0.3</h3>
+				<h3 id="countFost21">1.8</h3>
+				<h3 id="countFost22">0.4</h3>
+				<img src="img/PB-trade.png">
+			</div>
 			<table class="footer-map">
 				<tr>
 					<th>Total Imports CEPI: 5.5 Millon Tones</th>
@@ -671,9 +700,6 @@
 				</tr>
 			</table>
 		</div>
-		</div>
-
-	</section>
 
 	<footer class="flex">
 		<div class="footer-col1">

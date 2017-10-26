@@ -64,6 +64,7 @@ $(function() {
         title: {
             text: ''
         },
+        exporting: { enabled: false },
         tooltip:  
        { enabled: false },
         plotOptions: {
@@ -93,6 +94,7 @@ $(function() {
         title: {
             text: ''
         },
+        exporting: { enabled: false },
         tooltip:  
        { enabled: false },
         plotOptions: {

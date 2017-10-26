@@ -191,6 +191,7 @@ Highcharts.chart('recoveryGraf', {
   title: {
     text: ''
   },
+  exporting: { enabled: false },
   plotOptions: {
     series: {
       dataLabels: {
