@@ -420,3 +420,19 @@ div.footer-col2 a#ftrEnlace{
 .chart-container>div>h2{
   font-size: 2em!important;
 }
+
+
+/* Menssage orientation  */
+
+.message-orientation{
+  text-align: center;
+  padding: 1em;
+  color: #51a332;
+}
+
+
+/* Show hide */
+
+.show-sm{
+  display: none;
+}

@@ -37,6 +37,12 @@
 	    flex-flow: column;
 	    align-items: center;
 	}
+	.show-sm{
+  		display: block!important;
+	}
+	.show-md{
+  		display: none;
+	}
 }
 @media screen and (max-width: 370px)  {
 	.int-ftr{

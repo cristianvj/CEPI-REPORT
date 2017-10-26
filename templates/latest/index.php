@@ -124,9 +124,11 @@
 			<!-- Charts -->
 
 
-		<div id="charts-latest"></div>
+		<div id="charts-latest" class="show-md"></div>
 		<!-- /Charts -->
 		</div>
+		
+		<p class="show-sm message-orientation">View graphs in Landscape Orientation</p>
 		
 
 	</section>

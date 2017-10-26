@@ -11,6 +11,14 @@ h2.title {
     max-width: 1100px;
     margin: 0px auto;
 }
+h2.title-sankey {
+    padding: 4px 0px;
+    text-align: center;
+    font-size: 1.8em;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0px auto;
+}
 p>a{
     color: #51a332;
     font-weight: bold;
@@ -140,7 +148,7 @@ select.charts option:focus{
     margin:20px auto;        
     border:1px solid #e0e0e0;
     height:30px;
-    width: 103%;
+    width: 110%;
     overflow: hidden;
     position:relative;
     background-color: #e0e0e0;

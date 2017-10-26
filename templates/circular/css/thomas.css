@@ -161,26 +161,26 @@ section.fostering {
     position: relative;
 }
 .imgFostering img{
-    width: 1100px;
+    width: 1200px;
 }
 #countFost1, #countFost2, #countFost3{
     position: absolute;
     color: #fff;
 }
 #countFost1{
-    top: 329px;
-    left: 248px;
+    top: 359px;
+    left: 270px;
     font-size: 64px;
 }
 #countFost2{
-    top: 170px;
-    left: 508px;
+    top: 185px;
+    left: 550px;
     font-size: 64px;
 }
 #countFost3{
-    top: 328px;
+    top: 360px;
     font-size: 64px;
-    left: 768px;
+    left: 840px;
 }
 section.fostering p {
     text-align: justify;

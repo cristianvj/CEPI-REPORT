@@ -1562,7 +1562,7 @@ $(document).ready(function(){
     $("#charts-latest").html("<div id='title-table'></div> <div id='div-table'></div>");
     var titleTable = "<h2>Water Profile</h2>"
     $("#title-table").html(titleTable);
-    var contenido = "<h2 class='title'>92% of water used is returned to the environment cleaner than before</h2>"
+    var contenido = "<h2 class='title-sankey'>92% of water used is returned to the environment cleaner than before</h2>"
       +"<p><b>Water Profile for the Pulp and Paper Industry- CEPI Countries 2015</b><br>Million M3</p>"
       +"<div class='imgEnvironment'>"
         +"<h3 id='countEnvir1'>3056</h3>"

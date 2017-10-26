@@ -1,6 +1,32 @@
 
 //Graficas latest
 Highcharts.chart('grafica1', {
+    chart:{
+      events: {
+        load: function () {
+          var label = this.renderer.label("Source: RISI")
+          .css({
+              width: '600px',
+              fontSize: '1em',
+              color: '#868589'
+          })
+          .attr({
+              'stroke': 'silver',
+              'stroke-width': 0,
+              'r': 2,
+              'padding': -15
+          })
+          .add();                
+            label.align(Highcharts.extend(label.getBBox(), {
+                align: 'center',
+                x: 30, // offset
+                verticalAlign: 'bottom',
+                y: 0 // offset
+            }), null, 'spacingBox');
+          }
+        },
+        marginBottom: 90
+      },
     title: {
         text: 'European Recycling Rate of Paper for Recycling',
         style: {
@@ -13,15 +39,10 @@ Highcharts.chart('grafica1', {
     xAxis: {
         categories: ['1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
     },
-    labels: {
-        items: [{
-            html: 'Total fruit consumption',
-            style: {
-                left: '50px',
-                top: '18px',
-                color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
-            }
-        }]
+    yAxis: {
+        title: {
+            text: ''
+        }
     },
     series: [{
         type: 'column',
@@ -88,6 +109,11 @@ Highcharts.chart('grafica2', {
     xAxis: {
         categories: ['2000','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015']
     },
+    yAxis: {
+        title: {
+            text: ''
+        }
+    },
     series: [{
         type: 'column',
         name: 'Residues Landfilled',
@@ -135,6 +161,11 @@ Highcharts.chart('grafica3', {
     },
     xAxis: {
         categories: ['EU-28+2', 'CEPI Countries', 'North America', 'Total World', 'Asia', 'Latin America', 'Africa']
+    },
+    yAxis: {
+        title: {
+            text: ''
+        }
     },
     series: [{
         type: 'column',
