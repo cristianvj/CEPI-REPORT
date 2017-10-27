@@ -43,7 +43,33 @@ $(function() {
     var chart = new Highcharts.Chart({
         chart: {
             renderTo: 'emmisions1990',
-            type: 'pie'
+            type: 'pie',
+            events: {
+            load: function () {
+                    var label = this.renderer.label("60 million tonnes CO2")
+                    .css({
+                        width: '600px',
+                        fontSize: '1em',
+                        color: '#868589'
+                    })
+                    .attr({
+                        'stroke': 'silver',
+                        'stroke-width': 0,
+                        'r': 2,
+                        'padding': 5
+                    })
+                    .add();
+                    
+                    label.align(Highcharts.extend(label.getBBox(), {
+                        align: 'center',
+                        x: 20, // offset
+                        verticalAlign: 'bottom',
+                        y: 0 // offset
+                    }), null, 'spacingBox');
+                    
+                }
+            },
+            marginBottom: 130
         },
         title: {
             text: ''
@@ -71,7 +97,33 @@ $(function() {
     var chart = new Highcharts.Chart({
         chart: {
             renderTo: 'emmisions2015',
-            type: 'pie'
+            type: 'pie',
+            events: {
+            load: function () {
+                    var label = this.renderer.label("49 million tonnes CO2")
+                    .css({
+                        width: '600px',
+                        fontSize: '1em',
+                        color: '#868589'
+                    })
+                    .attr({
+                        'stroke': 'silver',
+                        'stroke-width': 0,
+                        'r': 2,
+                        'padding': 5
+                    })
+                    .add();
+                    
+                    label.align(Highcharts.extend(label.getBBox(), {
+                        align: 'center',
+                        x: 20, // offset
+                        verticalAlign: 'bottom',
+                        y: 0 // offset
+                    }), null, 'spacingBox');
+                    
+                }
+            },
+            marginBottom: 130
         },
         title: {
             text: ''
@@ -99,7 +151,33 @@ $(function() {
     var chart = new Highcharts.Chart({
         chart: {
             renderTo: 'emmisions2050',
-            type: 'pie'
+            type: 'pie',
+            events: {
+            load: function () {
+                    var label = this.renderer.label("12 million tonnes CO2")
+                    .css({
+                        width: '600px',
+                        fontSize: '1em',
+                        color: '#868589'
+                    })
+                    .attr({
+                        'stroke': 'silver',
+                        'stroke-width': 0,
+                        'r': 2,
+                        'padding': 5
+                    })
+                    .add();
+                    
+                    label.align(Highcharts.extend(label.getBBox(), {
+                        align: 'center',
+                        x: 20, // offset
+                        verticalAlign: 'bottom',
+                        y: 0 // offset
+                    }), null, 'spacingBox');
+                    
+                }
+            },
+            marginBottom: 130
         },
         title: {
             text: ''
