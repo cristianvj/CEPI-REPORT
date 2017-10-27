@@ -317,11 +317,14 @@ section.latesData a{
     text-align: center;
     font-size: 2em;
 }
+.height-map{
+    height: 42em; 
+}
 .map-trade-fows{
     position: relative;
 }
 .map-trade-fows img{
-    width: 1100px;
+    width: 1400px;
 }
 #countFost1, #countFost2, #countFost3, #countFost4,
 #countFost5, #countFost6,#countFost7,#countFost8,
@@ -331,32 +334,32 @@ section.latesData a{
     font-family: century;
 }
 #countFost1{
-    top: 190px;
+    top: 250px;
     left: 450px;
     color: #8cc640;
 }
 #countFost2{
-    top: 300px;
+    top: 320px;
     left: 450px;
     color: #8cc640;
 }
 #countFost3{
-    top: 180px;
-    left: 660px;
+    top: 250px;
+    left: 760px;
     color: #009347;
 }
 #countFost4{
-    top: 240px;
-    left: 670px;
+    top: 300px;
+    left: 810px;
     color: #8cc640;
 }
 #countFost5{
-    top: 280px;
-    left: 770px;
+    top: 340px;
+    left: 840px;
     color: #009347;
 }
 #countFost6{
-    top: 330px;
-    left: 770px;
+    top: 390px;
+    left: 840px;
     color: #8cc640;
 }

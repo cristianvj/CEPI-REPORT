@@ -88,7 +88,7 @@
 	    width: 127px;
 	}
 }
-@media screen and (max-width: 800px)  {
+@media screen and (max-width: 870px)  {
 	.googPractive {
 	    position: absolute;
 	    top: 130px;
@@ -104,6 +104,40 @@
 	}
 	.contForest .colDiv {
 	    margin-bottom: 30px;
+	}
+	.height-map{
+	    height: 20em; 
+	}
+	.map-trade-fows img{
+    	width: 800px;
+	}
+	#countFost1, #countFost2, #countFost3, #countFost4,
+	#countFost5, #countFost6{
+	    font-size: 1em;
+	}
+	#countFost1{
+	    top: 140px;
+	    left: 270px;
+	}
+	#countFost2{
+	    top: 235px;
+	    left: 270px;
+	}
+	#countFost3{
+	    top: 135px;
+	    left: 440px;
+	}
+	#countFost4{
+	    top: 175px;
+	    left: 440px;
+	}
+	#countFost5{
+	    top: 195px;
+	    left: 500px;
+	}
+	#countFost6{
+	    top: 240px;
+	    left: 500px;
 	}
 }
 @media screen and (max-width: 600px)  {

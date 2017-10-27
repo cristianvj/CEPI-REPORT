@@ -1043,7 +1043,22 @@ $(document).ready(function(){
     $("#charts-latest").html("<div id='title-table'></div> <div id='div-table'></div>");
     var titleTable = "<h2>CEPI Trade Flows of Wood in 2015</h2>"
     $("#title-table").html(titleTable);
-    $("#div-table").html("<div id='map-wood'></div");
+    var mapTradeFlow = "</section>"
+    +"<div class='height-map grafica'>"
+    +"<br>"
+    +"<div class='map-trade-fows'>"
+      +"<h3 id='countFost1'>0.1</h3>"
+      +"<h3 id='countFost2'>0.8</h3>"
+      +"<h3 id='countFost3'>15.4</h3>"
+      +"<h3 id='countFost4'>1.3</h3>"
+      +"<h3 id='countFost5'>0.6</h3>"
+      +"<h3 id='countFost6'>0.2</h3>"
+
+        +"<img src='img/PB-trade.png'>"
+        
+      +"</div>"
+    +"</div>"
+    $("#div-table").html(mapTradeFlow);
 
   }
 

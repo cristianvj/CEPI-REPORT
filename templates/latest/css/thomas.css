@@ -414,3 +414,54 @@ p {
     color: #868589;
 }
 /* environment */
+
+/* styles map cepi trade flows */
+.grafica{
+    padding: 0 !important;
+}
+.height-map{
+    height: 38em; 
+}
+.map-trade-fows{
+    position: relative;
+}
+.map-trade-fows img{
+    width: 1300px;
+}
+#countFost1, #countFost2, #countFost3, #countFost4,
+#countFost5, #countFost6,#countFost7,#countFost8,
+#countFost9,#countFost10{
+    position: absolute;
+    font-size: 1.3em;
+    font-family: century;
+}
+#countFost1{
+    top: 240px;
+    left: 450px;
+    color: #8cc640;
+}
+#countFost2{
+    top: 370px;
+    left: 450px;
+    color: #8cc640;
+}
+#countFost3{
+    top: 230px;
+    left: 760px;
+    color: #009347;
+}
+#countFost4{
+    top: 270px;
+    left: 810px;
+    color: #8cc640;
+}
+#countFost5{
+    top: 340px;
+    left: 840px;
+    color: #009347;
+}
+#countFost6{
+    top: 390px;
+    left: 840px;
+    color: #8cc640;
+}

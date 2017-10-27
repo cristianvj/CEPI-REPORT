@@ -133,7 +133,7 @@
 			</div>
 		</section>
 		
-		<div class="grafica animate-in show-md" data-anim-type="fade-in-left">
+		<div class="height-map grafica animate-in show-md" data-anim-type="fade-in-left">
 			<h2>CEPI Trade Flows of Wood in 2015</h2>
 			<br>
 			<div class="map-trade-fows">
