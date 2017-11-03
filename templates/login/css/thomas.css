@@ -1,0 +1,50 @@
+.container{
+    padding: 7em 5% 0 5%;
+}
+.title-home h1{
+    color: #51a332;
+    font-family: bebas-bold;
+    font-size: 3.5em;
+    text-align: center;
+}
+.div-form{
+    width: 100%;
+}
+.div-input{
+    padding: 1em 0;
+}
+.form-login{
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    padding: 4em;
+    border-radius: 3px;
+    width: 50%;
+    max-width: 350px;
+    min-width: 200px;
+    text-align: center;
+}
+.form-login label{
+    color: #87868a;
+    font-family: century;
+    font-size: 1.3em;
+}
+.form-login .input{
+    border: 1px solid #87868a;
+    padding: 10px;
+    width: 100%;
+    font-family: century;
+    text-align: center;
+}
+.form-login .input:focus{
+    outline: none !important;
+    border-color: #51a332;
+    box-shadow: 2px 2px 10px #51a332;
+}
+.button-login{
+    padding: 0.5em 3em;
+    color:white;
+    background-color: #51a332;
+    border: 1px solid #51a332;
+    font-size: 1.3em;
+    margin: 0 3%;
+}
