@@ -1,0 +1,200 @@
+@media screen and (max-width: 1090px)  {
+	.flex.contForest {
+	    flex-flow: column;
+	}
+	.legalCont.flex {
+	    flex-flow: column;
+	}
+	.colDiv > p{
+		margin-bottom: 20px;
+	}
+	.employM p{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	#generating h2{
+		text-align: center;
+	}
+	#latest p {
+	    margin-bottom: 30px;
+	}
+	.employM {
+	    padding-top: 0px;
+	}
+	.imgForest{
+		height: 400px;
+	}
+	.imgMin {
+	    min-height: auto;
+	}
+	#forests .imgForest{
+		height: 450px;
+	}
+	#energy .imgForest {
+	    background: url(../img/grafica5.svg) no-repeat;
+	    background-size: 400px;
+		margin-left: 20%;
+	}
+	#count10 {
+	    top: 32px;
+	    left: 32px;
+	    font-size: 42px;
+	}
+	.ttlCascading{
+		top: 290px;
+		max-width: 400px;
+	}
+	h4#count11 {
+	    top: 96px;
+	    left: 128px;
+	    font-size: 42px;
+	}
+	h4#count12 {
+	    top: 208px;
+	    font-size: 39px;
+	    left: 146px;
+	}
+}
+@media screen and (max-width: 870px)  {
+	h1 {
+	    font-size: 4rem;
+	}
+	h1 > span {
+	    font-size: 3.5rem;
+	}
+	.map-trade-fows img{
+    	width: 800px;
+	}
+	#countFost1, #countFost2, #countFost3, #countFost4,
+	#countFost5, #countFost6{
+	    font-size: 1em;
+	}
+	#countFost1{
+	    top: 140px;
+	    left: 270px;
+	}
+	#countFost2{
+	    top: 235px;
+	    left: 270px;
+	}
+	#countFost3{
+	    top: 135px;
+	    left: 440px;
+	}
+	#countFost4{
+	    top: 175px;
+	    left: 440px;
+	}
+	#countFost5{
+	    top: 195px;
+	    left: 500px;
+	}
+	#countFost6{
+	    top: 240px;
+	    left: 500px;
+	}
+}
+
+@media screen and (max-width: 770px)  {
+	.bannerForest {
+	    background: url(../img/grafica.svg) no-repeat bottom right;
+	    background-size: cover;
+	}
+	.txtBanneFors {
+	    bottom: 80px;
+	    width: 100%;
+	    right: 0px;
+	}
+	.txtBanneFors > img {
+	    margin-right: 40px;
+	}
+	h1, h1 > span {
+	    font-size: 2.3rem;
+	    width: 100%;
+	     line-height: 34px;
+	}
+	h2.title, #generating h2, #energy > h2.title {
+	    font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 670px)  {
+	#forests .imgForest {
+	    width: 310px;
+	    height: 260px;
+	    min-height: auto;
+	}
+	#seccion3 > img {
+	    margin: 30px auto;
+	}
+	.imgForest {
+	    background: url(../img/grafico2.svg) no-repeat;
+	    background-size: 310px;
+	}
+	.ttlCascading {
+	    top: 236px;
+	    max-width: 320px;
+	}
+	#count1 {
+	    top: 85px;
+	    left: 70px;
+	    font-size: 16px;
+	}
+	#count2 {
+	    top: 98px;
+	    right: 42px;
+	    font-size: 28px;
+	}
+	#count3 {
+	    top: 130px;
+	    left: 36px;
+	    font-size: 25px;
+	}
+	#count4 {
+	    top: 130px;
+	    left: 104px;
+	    font-size: 25px;
+	}
+	#energy .imgForest {
+	    background: url(../img/grafica5.svg) no-repeat;
+	    background-size: 320px;
+	}
+	#count10 {
+	    top: 26px;
+	    left: 24px;
+	    font-size: 32px;
+	}
+	h4#count11 {
+	    top: 77px;
+	    left: 101px;
+	    font-size: 34px;
+	}
+	h4#count12 {
+	    top: 167px;
+	    font-size: 31px;
+	    left: 116px;
+	}
+}
+
+@media screen and (max-width: 600px)  {
+	.goodPractives {
+	    right: 0px;
+	    top: 150px;
+	}
+	.paisaje p{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 450px)  {
+	#energy .imgForest {
+	    margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 450px)  {
+	#energy .imgForest {
+	    margin-left: 0px;
+	}
+}

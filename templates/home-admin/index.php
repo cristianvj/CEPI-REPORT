@@ -1,9 +1,9 @@
 <?php
-	$pageName = "circular";
+	$pageName = "home";
 	$pageAdmin = true;
 	include('../../components/header.php');
 ?>
-<body class="body-circular">
+<body class="body-home">
 
 		<header>
 			<a id="cd-logo" href="#0"><img src="<?php echo $ruta; ?>img/public/logo.svg" alt="Homepage"></a>

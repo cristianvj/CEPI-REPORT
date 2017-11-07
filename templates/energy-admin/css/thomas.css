@@ -1,0 +1,279 @@
+.bannerForest{
+    height: 98vh;
+    min-height: 650px;
+    background: url(../img/grafica.gif) no-repeat bottom;
+    background-size: contain;
+    position: relative;
+}
+.banner-footer {
+    bottom: 25px;
+    position: absolute;
+    width: 100%;
+}
+.goodPractives {
+    position: absolute;
+    right: 90px;
+    top: 50px;
+    width: 200px;
+    text-align: center;
+}
+.goodPractives > a{
+    background: #51a332;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 6px;
+}
+h2.title {
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 2.5rem;
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+.colDiv{
+    flex:1;
+}
+/* industry */
+section#industry{
+    margin: 50px auto;
+    overflow: hidden;
+    background: #f2f2f2;
+    color: #51a345;
+    padding: 30px 0px;
+}
+section#industry h2{
+    color: #51a332;
+    padding-bottom: 10px;
+}
+section#industry h5 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-family: century;
+}
+section#industry span{
+    color: #87868a;
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 13px;
+}
+div#graficaIndustrial{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+section#industry > p {
+    font-weight: bold;
+    text-align: justify;
+    width: 90%;
+    margin: 17px auto;
+    max-width: 1000px;
+}
+/* industry */
+/* Progress */
+section.flex.progress {
+    width: 90%;
+    margin: 30px auto;
+    align-items:center;
+}
+section.flex.progress h2.title{
+    max-width: 500px;
+}
+section.flex.progress p {
+    color: #868589;
+    line-height: 25px;
+    width: 95%;
+    text-align: justify;
+    max-width: 500px;
+    margin: 0px auto;
+}
+text.highcharts-credits, .highcharts-button{
+    display: none !important;
+}
+section.progress img{
+    width: 500px;
+}
+.countCo{
+    position: relative;
+}
+
+h3#countCo1, 
+h3#countCo2,
+h3#countCo3{
+    position: absolute;
+}
+
+h3#countCo1 {
+    top: 63px;
+    left: 210px;
+    color: #afaeb4;
+    font-size: 47px;
+}
+h3#countCo2 {
+    top: 380px;
+    left: 367px;
+    color: #8cc640;
+    font-size: 37px;
+}
+h3#countCo3 {
+    top: 381px;
+    left: 75px;
+    color: #51a332;
+    font-size: 37px;
+}
+/* Progress */
+/* pulping */
+section.pulping{
+    color: #fff;
+    padding: 50px;
+    flex-flow: column;
+    align-items: flex-end;
+    background: url(../img/Parlante_Fondo.svg) no-repeat left center #51a332;
+}
+section.pulping h2.title{
+    color: #fff;
+    text-align: right;
+    width: 100%;
+    max-width: 100%;
+}
+section.pulping > p {
+    width: 800px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+section.pulping > p > a{
+    color: #fff;
+    font-weight: bold;
+}
+/* pulping */
+/* biggest */
+section.biggest {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 40px 10px;
+}
+section.biggest p {
+    color: #868589;
+    width: 90%;
+    margin: 0px auto;
+    max-width: 680px;
+}
+section.biggest p > span, section.biggest p > b{
+    font-size: 2rem;
+    color: #51a332;
+    font-family: Bebas-Bold;
+}
+/* biggest */
+/* implementing */
+section.implementing {
+    width: 90%;
+    margin: 0px auto;
+}
+section.implementing p {
+    color: #868589;
+    text-align: justify;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+section.implementing p.panVerde{
+    background: #51a332;
+    padding: 12px;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+}
+p.panVerde > a{
+    color: #fff;
+}
+/* implementing */
+/* Facing */
+.intFut img{
+    width: 200px;
+    height: auto;
+}
+.flex.intFut {
+    align-items: center;
+    justify-content: center;
+}
+.flex.countFuter {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+.pdT {
+    padding: 30px;
+    transition: 0.2s all linear;
+}
+.pdT:hover{
+    transform:scale(1.04);
+}
+.pdT p {
+    color: #868589;
+    text-align: justify;
+    line-height: 25px;
+}
+.desFut p{
+    text-align: center;
+}
+.pdT h2 {
+    font-size: 31px;
+    color: #51a332;
+    margin: 10px 0px;
+    text-align: center;
+}
+.pdT h2>span{
+    font-size: 12px;
+}
+.pdT p>b{
+    color: #51a332;
+}
+
+/* LAtes Data */
+section.latesData {
+    text-align: center;
+    width: 90%;
+    margin: 80px auto;
+}
+section.latesData h2{
+    font-size: 34pt;
+    margin-bottom: 30px;
+}
+section.latesData p{
+    color: #868589;
+}
+section.latesData a{
+    color: #009347;
+}
+
+/* Facing */
+#latest b{
+    color: #51a332;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Bebas-Bold;
+    letter-spacing: 2px;
+}
+section#latest {
+    padding: 40px 0px;
+}
+#latest p{
+    width: 80%;
+    margin: 0px auto;
+}
+#latest a {
+    color: #87868a !important;
+    font-size: 26px;
+    font-family: Bebas-Bold;
+    text-decoration: underline;
+    line-height: 30px;
+}

@@ -1,0 +1,181 @@
+@media screen and (max-width: 1270px)  {
+	.options, #seccion3 h2, #seccion4 h2{
+		width: 90%;
+		margin: auto;
+	}
+	.col1-sec3 img {
+	    width: 100%;
+	}
+}
+@media screen and (max-width: 1060px)  {
+	.option-1 {
+	    width: 150px;
+	}
+}
+@media screen and (max-height: 700px){
+	.ttlBanner {
+	    margin-top: -40px;
+	}
+}
+@media screen and (max-width: 980px)  {
+	.content-sec3 {
+	    flex-flow: column;
+	}
+	.actionBtn > a{
+		font-size: 12px;
+	    width: 140px;
+	    height: 35px;
+	}
+	.actionBtn {
+	    max-width: 640px;
+	}
+	.pSec{
+		display: block;
+	}
+	.col1-sec3 img {
+	    width: 80%;
+	}
+	.overF {
+	    overflow: scroll;
+	}
+	.options{
+		width: 676px;
+	    margin: auto;
+	    flex-flow: row;
+	}
+	.option-1{
+		width: 150px;
+		height: 180px;
+	}
+	.contenidoItem{
+		flex-flow: column;
+	}
+}
+@media screen and (max-width: 800px)  {
+	#seccion3 h2, #seccion4 h2 {
+	    font-size: 35pt;
+	}
+	#demographics .item1-Col1 img, #resourceEficent .item1-Col1 img, #market .item1-Col1 img {
+	    width: 100%;
+	}
+	.tablaGraf {
+	    position: absolute;
+	    bottom: 50px;
+	    left: 20px;
+	}
+	.itemGraf {
+	    display: flex;
+	    width: 100%;
+	    text-align: center;
+	    margin: 0px auto;
+	}
+	.tablaGraf span {
+	    margin-right: 5px;
+	    display: inline-table;
+	}
+}
+@media screen and (max-width: 600px)  {
+	#seccion2, .col2-sec3{
+	    padding: 40px;
+	}
+	#seccion3 p {
+	    width: 100%;
+	}
+	#demographics .graphicTab h2 {
+	    width: 90%;
+	    margin: 20px 0px;
+	}
+	.optionsBtn{
+		flex-flow:column;
+	}
+	.optionsBtn a{
+		width: 90%;
+    	margin: auto;
+    	margin-bottom: 20px;
+    	text-align: center;
+	}
+	.ImgFlash {
+	    height: 66vh;
+	    background: url(../img/flash.gif) bottom no-repeat;
+		background-size: contain;
+	}
+	.ttlBanner {
+	    margin-top: 0px;
+	    font-size: 33pt;
+	    line-height: 26pt;
+	    margin-bottom: 30px;
+	}
+	#seccion3 h2, #seccion4 h2 {
+	    font-size: 30pt;
+	}
+	#demographics .item1-Col1 img, #resourceEficent .item1-Col1 img, #market .item1-Col1 img {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.contenidoItem {
+	    padding: 25px !important;
+	}
+	.contenidoItem ul{
+		padding: 0px !important;
+	}
+	#climate .item1-Col1 img, #manufacturing .item1-Col1 img, #otherTrends .item1-Col1 img {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.demograhpGrap {
+	    background-size: 300px;
+	    width: 300px;
+	    height: 300px;
+	}
+	.demogCount1 {
+	    left: 0px;
+	}
+	#seccion3 h4 {
+	    font-size: 1.5rem;
+	    width: 90%;
+	}
+	#seccion2 p {
+	    font-size: 12pt;
+	}
+	h3#demG1 {
+	    font-size: 46px;
+	    margin-top: 13px;
+	    margin-left: 42px;
+	}
+	h3#demG2 {
+	    margin-top: 57px;
+	    font-size: 40px;
+	    margin-left: 31px;
+	}
+	h3#demG3 {
+	    margin-left: 242px;
+	    margin-top: -156px;
+	    font-size: 47px;
+	}
+	h3#demG4 {
+	    margin-left: 192px;
+	    margin-top: 71px;
+	    font-size: 40px;
+	}
+	.graficasEmisions #emmisions2015{
+	    max-width: 300px;
+	    margin: 0px auto;
+	}
+	.graficasEmisions #emmisions2050{
+	    max-width: 200px;
+	    margin: 0px auto;
+	}
+}
+@media screen and (max-width: 370px)  {
+	.actionBtn > a {
+	    width: 130px;
+	}
+}
+@media screen and (max-width: 330px)  {
+	#resourceEficent .tabs {
+	    margin-top: -120px;
+	}
+	#resourceEficent{
+		margin-top: 80px;
+	}
+}

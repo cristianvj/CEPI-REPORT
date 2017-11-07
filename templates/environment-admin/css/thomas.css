@@ -1,0 +1,270 @@
+.colDiv {
+    flex: 1;
+}
+/* Banner */
+.banner{
+    flex-flow: column;
+    height: 100vh;
+    min-height: 530px;
+    justify-content: center;
+}
+.ImgFlash{
+    width: 90%;
+    height: 80vh;
+    max-width: 1000px;
+    min-height: 400px;
+    margin: 0px auto;
+    background: url(../img/grafica.gif) center no-repeat;
+    background-size: contain;
+}
+.googPractive {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+.googPractive a{
+    color: #fff;
+    background: #54a435;
+    padding: 10px 20px;
+    border-radius: 10px;
+    right: 90px;
+}
+/* Seccion 2 */
+#seccion2{
+    padding: 90px;
+    text-align: justify;
+    background: #51a332;
+}
+#seccion2 p{
+    font-size: 14pt;
+    color: #fff;
+    line-height: 27px;
+}
+#seccion2 p:first-child {
+    margin-bottom: 20px;
+}
+#seccion2 p:nth-child(2) {
+    margin-bottom: 20px;
+}
+/* Seccion 2 */
+
+
+/* producing */
+section.producing {
+    background: #f4f4f4;
+    padding: 40px 0px;
+}
+.contProduc {
+    width: 90%;
+    margin: 20px auto;
+}
+.contProduc p {
+    color: #868589;
+    line-height: 22px;
+    text-align: justify;
+}
+/* producing */
+
+/* environment */
+section.environment {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+    position: relative;
+    color: #87868a;
+}
+section.environment h2.title{
+    max-width: 900px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+section.environment p> b{
+    font-weight: bold;
+    font-size: 17px;
+}
+.imgEnvironment {
+    width: 900px;
+    margin: 0px auto;
+    margin-right: -10px;
+    position: relative;
+}
+.imgEnvironment h3{
+    position: absolute;
+    font-size: 34px;
+}
+h3#countEnvir1 {
+    top: 115px;
+    left: 63px;
+    width: 153px;
+    text-align: right;
+    color: #0d60b4;
+}
+h3#countEnvir2 {
+    top: 224px;
+    left: 83px;
+    width: 126px;
+    text-align: right;
+    color: #25b6cb;
+}
+h3#countEnvir3 {
+    top: 324px;
+    left: 50px;
+    width: 135px;
+    text-align: right;
+    color: #32b5c9;
+}
+h3#countEnvir4 {
+    top: 487px;
+    left: 53px;
+    width: 112px;
+    text-align: right;
+    color: #51a332;
+}
+h3#countEnvir5 {
+    top: 664px;
+    left: 290px;
+    color: #8cc34a;
+    width: 89px;
+}
+h3#countEnvir6 {
+    top: 681px;
+    left: 564px;
+    color: #8cc34a;
+}
+h3#countEnvir7 {
+    top: 569px;
+    left: 638px;
+    color: #51a332;
+}
+h3#countEnvir8 {
+    top: 481px;
+    left: 750px;
+    color: #009347;
+}
+h3#countEnvir9 {
+    top: 280px;
+    left: 631px;
+    color: #26b6cc;
+}
+h3#countEnvir10 {
+    top: 159px;
+    left: 614px;
+    color: #0d60b4;
+}
+h3#countEnvir11 {
+    top: 68px;
+    left: 359px;
+    width: 127px;
+    color: #0d60b4;
+}
+.tablaEdit {
+    position: absolute;
+    bottom: 80px;
+    text-align: left;
+    left: 80px;
+}
+.tablaEdit p {
+    margin-bottom: 8px;
+    font-family: century-bold;
+}
+.tablaEdit p:nth-child(1){
+    color: #0d60b4;
+}
+.tablaEdit p:nth-child(2){
+    color: #32b5c9;
+}
+.tablaEdit p:nth-child(3){
+    color: #51a332;
+}
+.tablaEdit p:nth-child(4){
+    color: #8cc34a;
+}
+.tablaEdit p:nth-child(5){
+    color: #009347;
+}
+.tablaEdit p:nth-child(6){
+    color: #868589;
+}
+img.imgEnvir{
+    margin: 15px 0px;
+    max-width: 1200px;
+}
+/* environment */
+
+/* supporting */
+section.supporting {
+    background: #f4f4f4;
+    padding: 50px 0px;
+}
+.contSuport {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+}
+.contSuport h2.title {
+    max-width: 910px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.contSuport b {
+    color: #51a332;
+}
+.contSuport p {
+    margin-bottom: 20px;
+    line-height: 22px;
+    color: #868589;
+    text-align: justify;
+}
+/* supporting */
+
+
+/* Latest */
+#latest b{
+    color: #51a332;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Bebas-Bold;
+    letter-spacing: 2px;
+}
+h2.title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section#latest {
+    padding: 40px 0px;
+}
+#latest p{
+    width: 80%;
+    margin: 0px auto;
+}
+#latest a {
+    color: #87868a !important;
+    font-size: 26px;
+    font-family: Bebas-Bold;
+    text-decoration: underline;
+    line-height: 30px;
+}
+#latest h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+
+/* LAtes Data */
+section.latesData {
+    text-align: center;
+    width: 90%;
+    margin: 80px auto;
+}
+section.latesData h2{
+    font-size: 34pt;
+    margin-bottom: 30px;
+}
+section.latesData p{
+    color: #868589;
+}
+section.latesData a{
+    color: #009347;
+}

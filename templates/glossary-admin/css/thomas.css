@@ -1,0 +1,43 @@
+.banner{
+    height: 100%;
+    min-height: 650px;
+    position: relative;
+}
+h2.title {
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 3rem;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.colDiv{
+    flex:1;
+}
+.contFilt {
+    position: relative;
+    margin-top: 20vh;
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.contFilt > p {
+    margin-bottom: 20px;
+    color: #87868a;
+    font-size: 20px;
+}
+.search {
+    width: 100%;
+    margin: 30px 0px;
+}
+.search input[type="text"] {
+    width: 400px;
+    border-radius: 5px;
+    border: solid 1px #87868a;
+    padding: 10px;
+}
+i.fa.fa-search.buscar {
+    margin-left: -30px;
+    color: #87868a;
+}

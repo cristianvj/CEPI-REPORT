@@ -1,0 +1,467 @@
+.banner{
+    height: 100%;
+    min-height: 650px;
+    position: relative;
+}
+h2.title {
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 3em;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0px auto;
+}
+h2.title-sankey {
+    padding: 4px 0px;
+    text-align: center;
+    font-size: 1.8em;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0px auto;
+}
+p>a{
+    color: #51a332;
+    font-weight: bold;
+}
+
+.colDiv{
+    flex:1;
+}
+.contFilt {
+    position: relative;
+    margin-top: 20vh;
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.contFilt > p {
+    margin-bottom: 20px;
+    color: #87868a;
+    font-size: 20px;
+}
+.flex.contBusqueda {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.itemEmpresa {
+    background: #f0f1f5;
+    box-shadow: 1px 2px 10px -2px rgba(0, 0, 0, 0.3);
+    width: 354px;
+    position: relative;
+    margin-right: 20px;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 0.1s all linear;
+}
+.itemEmpresa:hover{
+    transform: scale(1.04);
+}
+.itemEmpresa h2 {
+    font-size: 24px;
+    width: 90%;
+    border-bottom: solid 2px;
+    margin: 20px auto;
+}
+.itemEmpresa img{
+    width: 100%;
+    height: auto;
+}
+.itemEmpresa p{
+    font-size: 18px;
+    width: 90%;
+    margin: 0px auto;
+    color: #87868a;
+    margin-bottom: 20px;
+}
+.right{
+    width: 90%;
+    text-align: right;
+}
+
+/* Interna */
+.intCont {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    flex-flow: column;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+.imgSlide {
+    width: 1106px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.imgSlide img {
+    width: 354px;
+    height: auto;
+}
+.intCont p {
+    max-width: 1106px;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 23px;
+    color: #87868a;
+}
+.intCont a{
+    text-align: center;
+    text-decoration: underline;
+    margin: 40px 0px;
+    font-size: 1.5rem;
+    color: #87868a;
+}
+/* Charts */
+
+select.charts{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+    color: #AEADB3;
+}
+select.charts option{
+    background-color: #e0e0e0;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 150%;
+    color: #AEADB3;
+}
+select.charts:focus{ 
+    outline: none;
+}
+select.charts option:focus{ 
+    outline: none;
+}
+.caja{
+    margin:20px auto;        
+    border:1px solid #e0e0e0;
+    height:30px;
+    width: 110%;
+    overflow: hidden;
+    position:relative;
+    background-color: #e0e0e0;
+}
+.caja::after{
+     content:"\025be";
+     display:table-cell;
+     text-align:center;
+     padding-top:7px;
+     width:30px;
+     height:30px;
+     background-color:#e0e0e0;
+     position:absolute;
+     top:0;
+     right:0px;
+     pointer-events: none;
+     color: #AEADB3;
+}
+
+/* /Charts */
+
+/* Tabs */
+
+.tab-links li a{
+    border: 1px solid #51a332;
+    font-weight: bold;
+    padding: .4em;
+    border-radius: .4em;
+    font-size: .9em;
+}
+.tab-links li{
+    margin: .8em .2em;
+}
+.tab-links li a{
+    color: #51a332;
+}
+.tab-links li a:hover{
+    background-color: #51a332;
+}
+.tab-links li a:hover{
+    color: #fff;
+}
+.active a{
+    background-color: #51a332;
+}
+.active a{
+    color: #fff !important;
+}
+.tab{
+   display: none;
+}
+.tab.active{
+    display: block;
+}
+
+/* /Tabs */
+
+
+.footer-latest{
+    text-align: center;
+}
+.footer-latest p{
+    font-size: .8em;
+    color: #87868a
+}
+
+
+/* Tables latests */
+#charts-latest{
+    width:80%; 
+    max-height:1130px; 
+    margin: 0em 5% 8em 5%
+}
+#title-table{
+    padding-bottom: 3em;
+}
+#title-table>h2{
+    font-size: 2em;
+}
+#title-table>h3{
+    font-family: century;
+    font-size: .8em;
+    color: #868589;
+}
+#table-key{
+    font-family: century;
+    border-collapse: collapse;
+    width: 100%;
+}
+#table-key td, th {
+    text-align: left;
+    padding: 8px;
+}
+tr.sum>.td-data, #table-key .td-title, .tbody {
+    color: #87868A !important;
+    font-weight: bold !important;
+}
+.tbody {
+    border-bottom: 1px solid #87868A;
+}
+#table-key .td-data {
+    color: #51a332;
+}
+#table-key tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* /Tables latests */
+
+/* Styles charts */
+.highcharts-title span, .highcharts-title tspan{
+    fill: #868589;
+    font-family: Bebas-Bold !important;
+}
+.highcharts-subtitle tspan {
+    fill: #868589;
+    font-size: 1.3em;
+}
+/* Style chart map wood */
+
+/* end Style chart map wood */
+#map-wood{
+    width: 100%;
+    height: 500px;
+    background: url(../img/wood-map.png) center no-repeat;
+    background-size: contain;
+}
+/* end Style chart map wood */
+
+/* Style chart map water profile */
+#water-profile{
+    width: 100%;
+    height: 600px;
+    background: url(../img/water-profile.png) center no-repeat;
+    background-size: contain;
+}
+/* end Style chart map water profile */
+
+/* sankey environment */
+.environment {
+    width: 100%;
+    margin: 60px auto;
+    text-align: center;
+    position: relative;
+    color: #87868a;
+}
+.environment h2.title{
+    max-width: 900px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.environment p> b{
+    font-weight: bold;
+    font-size: 17px;
+}
+.imgEnvironment {
+    width: 900px;
+    margin: 0px auto;
+    margin-right: -10px;
+    position: relative;
+}
+.imgEnvironment h3{
+    position: absolute;
+    font-size: 34px;
+}
+h3#countEnvir1 {
+    top: 115px;
+    left: 63px;
+    width: 153px;
+    text-align: right;
+    color: #0d60b4;
+}
+h3#countEnvir2 {
+    top: 224px;
+    left: 83px;
+    width: 126px;
+    text-align: right;
+    color: #25b6cb;
+}
+h3#countEnvir3 {
+    top: 324px;
+    left: 50px;
+    width: 135px;
+    text-align: right;
+    color: #32b5c9;
+}
+h3#countEnvir4 {
+    top: 487px;
+    left: 53px;
+    width: 112px;
+    text-align: right;
+    color: #51a332;
+}
+h3#countEnvir5 {
+    top: 664px;
+    left: 290px;
+    color: #8cc34a;
+    width: 89px;
+}
+h3#countEnvir6 {
+    top: 681px;
+    left: 564px;
+    color: #8cc34a;
+}
+h3#countEnvir7 {
+    top: 569px;
+    left: 638px;
+    color: #51a332;
+}
+h3#countEnvir8 {
+    top: 481px;
+    left: 750px;
+    color: #009347;
+}
+h3#countEnvir9 {
+    top: 280px;
+    left: 631px;
+    color: #26b6cc;
+}
+h3#countEnvir10 {
+    top: 159px;
+    left: 614px;
+    color: #0d60b4;
+}
+h3#countEnvir11 {
+    top: 68px;
+    left: 359px;
+    width: 127px;
+    color: #0d60b4;
+}
+.tablaEdit {
+    position: absolute;
+    bottom: 80px;
+    text-align: left;
+    left: 80px;
+}
+.tablaEdit p {
+    margin-bottom: 8px;
+    font-family: century-bold;
+}
+.tablaEdit p:nth-child(1){
+    color: #0d60b4;
+}
+.tablaEdit p:nth-child(2){
+    color: #32b5c9;
+}
+.tablaEdit p:nth-child(3){
+    color: #51a332;
+}
+.tablaEdit p:nth-child(4){
+    color: #8cc34a;
+}
+.tablaEdit p:nth-child(5){
+    color: #009347;
+}
+.tablaEdit p:nth-child(6){
+    color: #868589;
+}
+img.imgEnvir{
+    margin: 15px 0px;
+    max-width: 1200px;
+}
+p {
+    color: #868589;
+}
+/* environment */
+
+/* styles map cepi trade flows */
+.grafica{
+    padding: 0 !important;
+}
+.height-map{
+    height: 38em; 
+}
+.map-trade-fows{
+    position: relative;
+}
+.map-trade-fows img{
+    width: 1300px;
+}
+#countFost1, #countFost2, #countFost3, #countFost4,
+#countFost5, #countFost6,#countFost7,#countFost8,
+#countFost9,#countFost10{
+    position: absolute;
+    font-size: 1.3em;
+    font-family: century;
+}
+#countFost1{
+    top: 240px;
+    left: 450px;
+    color: #8cc640;
+}
+#countFost2{
+    top: 370px;
+    left: 450px;
+    color: #8cc640;
+}
+#countFost3{
+    top: 230px;
+    left: 760px;
+    color: #009347;
+}
+#countFost4{
+    top: 270px;
+    left: 810px;
+    color: #8cc640;
+}
+#countFost5{
+    top: 340px;
+    left: 840px;
+    color: #009347;
+}
+#countFost6{
+    top: 390px;
+    left: 840px;
+    color: #8cc640;
+}

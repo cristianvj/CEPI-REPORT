@@ -17,7 +17,7 @@
 		</a>
 	</div>
 	<div class="div-item" id="item-sustainability">
-		<a href="<?php echo $ruta ?>templates/sustainability/index.php">
+		<a href="<?php echo $ruta ?>templates/sustainability<?php if(isset($pageAdmin)){echo '-admin';}?>/index.php">
 			<img id="icon-sustainability" src="<?php echo $ruta ?>img/public/icons-menu/sustainability.png" alt="">
 			Sustainability Vision
 		</a>

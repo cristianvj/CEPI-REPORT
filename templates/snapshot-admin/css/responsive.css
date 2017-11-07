@@ -1,0 +1,624 @@
+@media screen and (max-width: 1130px)  {
+	.certified{
+		padding: 40px 10px;
+	}
+	.keyStatistics{
+		flex-flow: column;
+	}
+}
+@media screen and (max-width: 980px)  {
+	.chart1Slide2{
+   		width: 700px !important;
+	}
+	.contenido2 {
+	     width: 397px;
+	}
+	.cont2Div {
+    	width: 360px;
+	}
+	.key-col2 img {
+	    width: 100%;
+	}
+	.imgSlide1 {
+	    height: 500px;
+	    background: url(../img/seccion2/slide1.gif) top no-repeat;
+	    background-size: 800px;
+	}
+
+}
+
+@media screen and (max-width: 878px)  {
+	.figureCepi{
+	    background: url(../img/Grafico2.svg) center no-repeat;
+	    background-size: 600px;
+	    height: 2500px;
+	    width: 600px;
+	}
+	#count1 {
+	    margin-left: 210px;
+	    font-size: 51pt;
+	    margin-top: 149px;
+	}
+	#count2 {
+	    margin-top: 660px;
+	    margin-left: 275px;
+	    font-size: 22pt;
+	}
+	#count3 {
+	    margin-top: 660px;
+	    margin-left: 359px;
+	    font-size: 22pt;
+	}
+	#count4 {
+	    margin-top: 691px;
+	    margin-left: 115px;
+	}
+	#count5 {
+	    margin-top: 836px;
+	    margin-left: 259px;
+	    font-size: 48pt;
+	}
+	#count6 {
+	    margin-top: 1291px;
+	    margin-left: 78px;
+	    font-size: 45pt;
+	}
+	#count11 {
+	    margin-top: 992px;
+	    margin-left: 390px;
+	    font-size: 53pt;
+	}
+	#count12 {
+	    margin-top: 1689px;
+	    margin-left: 132px;
+	    font-size: 50pt;
+	}
+	#count13 {
+	    margin-top: 2116px;
+	    margin-left: 378px;
+	    font-size: 54px;
+	}
+	#count14 {
+	    margin-top: 1641px;
+	    margin-left: 435px;
+	    font-size: 68px;
+	}
+	#count15 {
+	    margin-top: 2388px;
+	    margin-left: 125px;
+	    font-size: 47pt;
+	}
+	#count16 {
+	    margin-top: 1183px;
+	    margin-left: 239px;
+	    font-size: 51pt;
+	}
+	#count17 {
+	    margin-top: 1922px;
+	    margin-left: 205px;
+	    font-size: 56pt;
+	}
+	#count18 {
+	    margin-top: 2202px;
+	    margin-left: 127px;
+	    font-size: 51pt;
+	}
+	#countPto18 {
+	    margin-top: 2218px;
+	    margin-left: 155px;
+	}
+	#count18_2 {
+	    margin-top: 2202px;
+	    margin-left: 162px;
+	    font-size: 51pt;
+	}
+	#count19 {
+	    margin-top: 1948px;
+	    margin-left: 395px;
+	    font-size: 58pt;
+	}
+	#pt1 {
+	    margin-top: 1977px;
+	    margin-left: 426px;
+	    font-size: 39px;
+	}
+	#count19_2 {
+	    margin-top: 1949px;
+	    margin-left: 434px;
+	    font-size: 57pt;
+	}
+	#count7 {
+	    margin-left: 163px;
+	    margin-top: 304px;
+	    font-size: 51pt;
+	}
+	#count8 {
+	    margin-top: 427px;
+	    margin-left: 448px;
+	    font-size: 48pt;
+	}
+	#count10 {
+	    margin-top: 1025px;
+	    margin-left: 194px;
+	    font-size: 52pt;
+	}
+	#count20 {
+	    margin-top: 254px;
+	    margin-left: 339px;
+	    font-size: 43pt;
+	}
+
+
+	/* Responsive Map */
+	.map-trade-fows img{
+    	width: 700px;
+	}
+	#countProduction,#countConsuption,
+	#countFost1, #countFost2, #countFost3, #countFost4,
+	#countFost5, #countFost6,#countFost7,#countFost8,
+	#countFost9,#countFost10,#countFost11,#countFost12,
+	#countFost13,#countFost14,#countFost15,#countFost16,
+	#countFost17,#countFost18,#countFost19,#countFost20,
+	#countFost21,#countFost22{
+	    position: absolute;
+	    font-size: .48em;
+	    font-family: century;
+	}
+	#countProduction{
+	    top: 130px;
+	    left: 110px;
+	}
+	#countConsuption{
+	    top: 148px;
+	    left: 110px;   
+	}
+	#countFost1{
+	    top: 75px;
+	    left: 220px;
+	}
+	#countFost2{
+	    top: 90px;
+	    left: 220px;
+	}
+	#countFost3{
+	    top: 46px;
+	    left: 368px;
+	}
+	#countFost4{
+	    top: 63px;
+	    left: 368px;
+	}
+	#countFost5{
+	    top: 68px;
+	    left: 468px;
+	}
+	#countFost6{
+	    top: 83px;
+	    left: 468px;
+	}
+	#countFost7{
+	    top: 118px;
+	    left: 488px;
+	}
+	#countFost8{
+	    top: 133px;
+	    left: 492px;
+	}
+	#countFost9{
+	    top: 150px;
+	    left: 395px;
+	}
+	#countFost10{
+	    top: 165px;
+	    left: 393px;
+	}
+	#countFost11{
+	    top: 168px;
+	    left: 252px;
+	}
+	#countFost12{
+	    top: 183px;
+	    left: 252px;
+	}
+	#countFost13{
+	    top: 75px;
+	    left: 320px;
+	}
+	#countFost14{
+	    top: 95px;
+	    left: 320px;
+	}
+	#countFost15{
+	    top: 70px;
+	    left: 440px;
+	}
+	#countFost16{
+	    top: 90px;
+	    left: 440px;
+	}
+	#countFost17{
+	    top: 110px;
+	    left: 460px;
+	}
+	#countFost18{
+	    top: 135px;
+	    left: 460px;
+	}
+	#countFost19{
+	    top: 130px;
+	    left: 405px;
+	}
+	#countFost20{
+	    top: 130px;
+	    left: 377px;
+	}
+	#countFost21{
+	    top: 135px;
+	    left: 300px;
+	}
+	#countFost22{
+	    top: 150px;
+	    left: 320px;
+	}
+
+}
+@media screen and (max-width: 805px)  {
+	.sec-graf1 {
+	    height: 434px;
+	}
+	.sec-graf2 {
+	    height: 400px;
+	}
+	.sec-graf1 h2 {
+	    font-size: 26pt;
+	}
+	#grafica1 span:first-child, #grafica2 span:first-child, .informCount h3 {
+		font-size: 14pt !important;
+
+	}
+	#grafica1 span, #grafica2 span {
+	    font-size: 15pt !important;
+	}
+	.contenido2 {
+	    width: 366px;
+	}
+	.cont2Div {
+	    width: 336px;
+	}
+	div.graficas h4.ttlPorc{
+		left: 182px;
+		font-size: 19px;
+	}
+
+	div.graficas h4 {
+	    font-size: 23px;
+	    line-height: 19px;
+	}
+}
+@media screen and (max-width: 760px)  {
+	.certified{
+	    align-items: flex-end;
+	    flex-flow: column;
+	    height: 100%;
+   		padding-top: 50px;
+	}
+	.certif-col2 img {
+	    width: 320px;
+	}
+	.cepFig-pie {
+	    width: 87%;
+	}
+	.descripcionItem {
+    	height: 370px;
+	    flex-flow: column;
+	}
+	.imgCirculo{
+		margin: 20px 0px;
+	}
+	.enlaceCirculo, .finCirculo{
+		display: none;
+	}
+	.peque {
+	    height: 526px !important;
+	}
+	.openGraf1, .openGraf2 {
+    height: 880px !important;
+	}
+	.openGraf3, .openGraf4 {
+	    height: 640px !important;
+	}
+	.chart1Slide2 {
+	    width: 100% !important;
+	}
+
+	.imgSlide1 {
+	    height: 300px;
+	    background: url(../img/seccion2/slide1.gif) top no-repeat;
+	    background-size: 320px;
+	}
+}
+@media screen and (max-width: 660px)  {
+	.openGraf1, .openGraf2 {
+	    height: 950px !important;
+	}
+}
+@media screen and (max-width: 630px)  {
+	.sec-graf1 {
+	    height: 448px;
+	}
+	.sec-graf2 {
+	    height: 407px;
+	}
+}
+@media screen and (max-width: 600px)  {
+	.sec-graf1 {
+	    height: 480px;
+	}
+	.informCount{
+	    margin: auto;
+	    margin-bottom: 30px;
+	    margin-top: 40px;
+	}
+	.sec-graf1 h2 {
+	    width: 90%;
+	    margin: auto;
+	}
+	section.parVerde {
+	    padding: 50px 30px;
+	}
+	h2.title {
+	    font-size: 26pt;
+	    margin-bottom: 0px;
+	}
+	.cepiFigures p {
+	    width: 90%;
+	}
+}
+
+@media screen and (max-width: 560px)  {
+	.figureCepi {
+	    background: url(../img/Grafico2.svg) center no-repeat;
+	    background-size: 320px;
+	    height: 1340px;
+	    width: 320px;
+	}
+	#count1 {
+	    margin-left: 107px;
+	    font-size: 32pt;
+	    margin-top: 81px;
+	}
+	#count2 {
+	    margin-top: 349px;
+	    margin-left: 141px;
+	    font-size: 18pt;
+	}
+	#count3 {
+	    margin-top: 349px;
+	    margin-left: 187px;
+	    font-size: 18pt;
+	}
+	#count4 {
+	    margin-top: 366px;
+	    margin-left: 49px;
+	    font-size: 16pt;
+	}
+	#count5 {
+	    margin-top: 446px;
+	    margin-left: 133px;
+	    font-size: 31pt;
+	}
+	#count6 {
+	    margin-top: 689px;
+	    margin-left: 41px;
+	    font-size: 28pt;
+	}
+	#count11 {
+	    margin-top: 530px;
+	    margin-left: 207px;
+	    font-size: 31pt;
+	}
+	#count12 {
+	    margin-top: 900px;
+	    margin-left: 67px;
+	    font-size: 32pt;
+	}
+	#count13 {
+	    margin-top: 1124px;
+	    margin-left: 189px;
+	    font-size: 45px;
+	}
+	#count14 {
+	    margin-top: 875px;
+	    margin-left: 228px;
+	    font-size: 43px;
+	}
+	#count15 {
+	    margin-top: 1275px;
+	    margin-left: 63px;
+	    font-size: 29pt;
+	}
+	#count16 {
+	    margin-top: 631px;
+	    margin-left: 126px;
+	    font-size: 32pt;
+	}
+	#count17 {
+	    margin-top: 1026px;
+	    margin-left: 108px;
+	    font-size: 31pt;
+	}
+	#count18 {
+	    margin-top: 1174px;
+	    margin-left: 58px;
+	    font-size: 30pt;
+	}
+	#countPto18 {
+	    margin-top: 1170px;
+	    margin-left: 76px;
+	}
+	#count18_2 {
+	    margin-top: 2202px;
+	    margin-left: 162px;
+	    font-size: 51pt;
+	}
+	#count19 {
+	    margin-top: 1041px;
+	    margin-left: 206px;
+	    font-size: 32pt;
+	}
+	#pt1 {
+	    margin-top: 1043px;
+	    margin-left: 225px;
+	    font-size: 39px;
+	}
+	#count19_2 {
+	    margin-top: 1041px;
+	    margin-left: 231px;
+	    font-size: 32pt;
+	}
+	#count7 {
+	    margin-left: 83px;
+	    margin-top: 165px;
+	    font-size: 31pt
+	}
+	#count8 {
+	    margin-top: 230px;
+	    margin-left: 237px;
+	    font-size: 27pt;
+	}
+	#count10 {
+	    margin-top: 545px;
+	    margin-left: 95px;
+	    font-size: 36pt;
+	}
+	#count20 {
+	    margin-top: 127px;
+	    margin-left: 171px;
+	    font-size: 33pt;
+	}
+	#grafica1 span, #grafica2 span{
+	    transform: rotate(-90deg) !important;
+	    top: 211px !important;
+	    overflow:inherit !important;
+	    display: flex !important;
+        justify-content: flex-end;
+	}
+}
+@media screen and (max-width: 520px)  {
+	.sec-graf1 {
+	    height: 440px;
+	}
+	.sec-graf2 {
+	    height: 426px;
+	}
+	.imgSlide1 {
+	    height: 280px;
+	}
+	.sec-graf1 h2 {
+	    font-size: 20pt;
+	}
+	.key-col1{
+		text-align: center;
+	}
+	.key-col1 p {
+	    width: 90%;
+	}
+	#main-slider-space{
+	    height: 485px;
+	}
+	#slide2 h2 {
+	    font-size: 14pt;
+	    width: 100%;
+	}
+	.gifPaper{
+		height: 390px
+	}
+	div.graficas h4.ttlPorc {
+	    left: 123px;
+	}
+}
+@media screen and (max-width: 510px)  {
+.sec-graf1 {
+    height: 465px;
+}
+}
+@media screen and (max-width: 410px)  {
+	.certif-col1 p {
+	    width: 80%;
+	}
+	.cepFig-pie {
+	    width: 100%;
+	}
+	.key-col1 p {
+	    width: 90%;
+	}
+	#main-slider-space {
+	    height: 371px;
+	}
+
+	.sec-graf1 {
+	    height: 476px;
+	}
+	.banner {
+	    height: 85vh;
+	}
+	.flex.graficas{
+		margin-top: 30px;
+	}
+	div.graficas h4 {
+	    font-size: 19px;
+	}
+	div.graficas h4.ttlPorc {
+	    left: 100px;
+	}
+	.sec-graf1 {
+	    height: 476px;
+	}
+}
+@media screen and (max-width: 385px)  {
+	.sec-graf2 {
+	    height: 435px;
+	}
+	.sec-graf3{
+		height: 170px;
+	}
+	.sec-graf4{
+		height: 174px
+	}
+	.sec-graf2 {
+	    height: 453px;
+	}
+}
+@media screen and (max-width: 330px)  {
+	 .ImgFlash{
+	   height: 70vh;
+	 }
+	.shared {
+	    width: 40px;
+	    height: 40px;
+	    font-size: 13pt;
+	 }
+	.angleDown i {
+	    width: 40px;
+	    height: 40px;
+	 }
+	.sec-graf2 {
+	    height: 455px;
+	}
+	.descripcionItem {
+	    height: 415px;
+	    padding: 10px 0px;
+	}
+	.sec-graf3 {
+	    height: 170px;
+	}
+	.sec-graf4 {
+	    height: 195px;
+	}
+	.openGraf3, .openGraf4 {
+	    height: 615px !important;
+	}
+	.openGraf1, .openGraf2 {
+   		height: 902px !important;
+	}
+}

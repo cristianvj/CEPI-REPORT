@@ -436,3 +436,15 @@ div.footer-col2 a#ftrEnlace{
 .show-sm{
   display: none;
 }
+
+
+/* Admin backend styles */
+section.admin{
+  padding: 8em 0 3em 0;
+}
+section.admin h1{
+  color: #51a332;
+  font-family: bebas-bold;
+  text-align: center;
+  font-size: 4em;
+}
