@@ -11,18 +11,20 @@
 		<section class="admin">
 			<h1>Admin Circular Economy</h1>
 		</section>
-		<section id="extracting" class="flex extracting">
-			<div class="colDiv">
-				<h2 class="title"><input type="text" name="" placeholder="Extracting Full Value of Wood Components"></h2>
-				<p><textarea placeholder="Write here"></textarea></p>
-			</div>
-			<div class="colDiv imgRight">
-				<img src="img/Grafico.svg">
-				<h4 id="countCasc1"><input type="number" name="" placeholder="1"></h4>
-				<h4 id="countCasc2"><input type="number" name="" placeholder="2.38"></h4>
-				<h4 id="countCasc3"><input type="number" name="" placeholder="1"></h4>
-			</div>
-		</section>
+		<form>
+			<section id="extracting" class="flex extracting">
+				<div class="colDiv">
+					<h2 class="title"><input type="text" name="" placeholder="Extracting Full Value of Wood Components"></h2>
+					<p><textarea placeholder="Write here"></textarea></p>
+				</div>
+				<div class="colDiv imgRight">
+					<img src="img/Grafico.svg">
+					<h4 id="countCasc1"><input type="number" name="" placeholder="1"></h4>
+					<h4 id="countCasc2"><input type="number" name="" placeholder="2.38"></h4>
+					<h4 id="countCasc3"><input type="number" name="" placeholder="1"></h4>
+				</div>
+			</section>
+		</form>
 		<div class="div-menu">
 			<span class="btn-menu" onclick="openNav()">&#9776;</span>
 			<?php include('../../components/menu.php'); ?>

@@ -248,3 +248,18 @@ section.latesData p{
 section.latesData a{
     color: #009347;
 }
+
+
+/* Styles Circular Admin */
+    
+form section h2 input{
+    width: 23em;
+    font-size: .5em;
+}
+form section p textarea{
+    width: 23em;
+    font-size: .5em;
+}
+/* End styles Circular Admin */
+
+
