@@ -49,7 +49,7 @@ Moreover, promoting the use the cascading principle where wood is first used as 
 					<h4 id="countCasc3"><input class="number-s1" type="number" name="" value="1"></h4>
 				</div>
 			</section>
-			<div class="btn-div">
+			<div class="btn-div-green">
 				<input class="btn-save-white" type="submit" name="save" value="Save Section">
 			</div>
 		</form>
@@ -79,15 +79,26 @@ Moreover, promoting the use the cascading principle where wood is first used as 
 
 						</div>
 					</div>
-					<div class="colDiv">
-						<p><b>Paper recycling in Europe reached the record level of 71.5% in 2015,</b> keeping fibres longer in the loop and extending the benefits of their renewable origin. Our industry is now seeking to make another move forward with an enhanced rate of 74% by 2020.</p>
-						<p>In some regions, recycling rates reaches 75%, which is likely the practical maximum rate.</p>
-						<p>Paper is recycled on average 3,5 times a year in Europe, while over 50% of the raw material for Europe’s paper industry is recycled paper.</p>
-						<p>Some paper products cannot be recovered for recycling because they are kept for long periods of time (books) or archived (records); others are destroyed or contaminated when used (e.g. tissue and hygienic paper).</p>
-						<p>Paper cannot be recycled indefinitely as fibres get too short and worn out to be useful in creating a new sheet of paper. Hence, virgin fibre grades are needed to continue the cycle. New fibres come from renewable, sustainably-managed forests, continuing the loop.</p>
+					<div class="colDiv txtarea-edit">
+						<textarea name="editor1" rows="300">
+							<p><b>Paper recycling in Europe reached the record level of 71.5% in 2015,</b> keeping fibres longer in the loop and extending the benefits of their renewable origin. Our industry is now seeking to make another move forward with an enhanced rate of 74% by 2020.</p>
+							<p>In some regions, recycling rates reaches 75%, which is likely the practical maximum rate.</p>
+							<p>Paper is recycled on average 3,5 times a year in Europe, while over 50% of the raw material for Europe’s paper industry is recycled paper.</p>
+							<p>Some paper products cannot be recovered for recycling because they are kept for long periods of time (books) or archived (records); others are destroyed or contaminated when used (e.g. tissue and hygienic paper).</p>
+							<p>Paper cannot be recycled indefinitely as fibres get too short and worn out to be useful in creating a new sheet of paper. Hence, virgin fibre grades are needed to continue the cycle. New fibres come from renewable, sustainably-managed forests, continuing the loop.</p>
+						</textarea>
+						<script>
+							CKEDITOR.replace( 'editor1',
+							{
+				    			language: 'en' 
+				    		});
+						</script>
 					</div>
 				</div>
 			</section>
+			<div class="btn-div-white">
+				<input class="btn-save-green" type="submit" name="save" value="Save Section">
+			</div>
 		</form>
 
 		<footer class="flex">

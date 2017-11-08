@@ -49,6 +49,12 @@
 				<link rel="stylesheet" href="'.$ruta.'templates/'.$pageName.'/css/responsive.css">
 				';
 		}
+		if (isset($pageAdmin)) {
+			echo 
+			'
+			<script src="https://cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
+			';
+		}
 		
 	?>
 
