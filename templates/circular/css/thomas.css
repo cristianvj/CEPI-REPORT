@@ -253,12 +253,68 @@ section.latesData a{
 /* Styles Circular Admin */
     
 form section h2 input{
-    width: 23em;
-    font-size: .5em;
+    color: #51a332;
+    width: 22em;
+    font-size: .45em;
+    padding: .5em;
+    font-family: bebas-bold;
+    text-align: center;
 }
 form section p textarea{
-    width: 23em;
-    font-size: .5em;
+    color: #868589;
+    width: 34em;
+    font-size: 1em;
+    padding: 2em;
+}
+label{
+    font-family: century;
+    font-size: 1em;
+    line-height: 20px;
+    color: #87868a;
+}
+.worldwide h2 input{
+    color: #51a332;
+    width: 22em;
+    font-size: .65em;
+    padding: .3em;
+    font-family: bebas-bold;
+    text-align: center;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+.number-s1{
+    width: 2.5em;
+    font-size: .4em;
+    text-align: center;
+    color: #51a332;
+    font-weight: bold;
+    padding: .2em 0;
+}
+#countCasc1 input{
+    position: absolute;
+    left: -45px;
+}
+#countCasc2 input{
+    position: absolute;
+    left: 20px;
+}
+#countCasc3 input{
+    position: absolute;
+    left: -45px;
+}
+.data-chart{
+  text-align: center;
+  line-height: 2.5em;
+}
+.data-chart input{
+    width: 3em;
+    padding: .2em 0;
+    text-align: center;
+    color: #51a332;
+    font-size: 1em;
+    font-weight: bold;
 }
 /* End styles Circular Admin */
 
