@@ -101,29 +101,153 @@ Moreover, promoting the use the cascading principle where wood is first used as 
 			</div>
 		</form>
 
-		<footer class="flex">
-			<div class="footer-col1" data-anim-type="fade-in-right" data-anim-delay="0">
-				<h2>Contact Persons</h2>
-				<div class="flex int-ftr">
-					<div class="ft-int-col1">
-						<p>Industrial Policy Director<br>Bernard Lampard</p>
-						<p>Industrial Policy Director<br>Bernard Lampard</p>
-					</div>
-					<div class="ft-int-col2">
-						<p>Statistics Manager<br>Ariane Crèvecouer</p>
-						<p>Statistics Manager<br>Ariane Crèvecouer</p>
+		<form>
+			<section class="fostering">
+				<h2 class="title"><input type="text" name="" value="Fostering a European network for industrial symbiosis"></h2>
+				<textarea rows="10">
+When different organisations get together in a network to foster eco-innovation and long-term culture change, it is called industrial symbiosis.
+
+Creating and sharing knowledge through these networks means different parts of the supply chain can share their expertise and together create new solutions for the future which they might not have thought up on their own.
+
+What all synergies have in common is that they reduce costs and generate new value for the companies involved, as well as creating significant environmental benefits such as reduced landfill and greenhouse gases. In addition, the synergies generated through economic activity have further social benefits with the creation of new businesses and jobs.
+				</textarea>
+				<div class="imgFostering">
+					<h3 id="countFost1"><input type="number" name="" value="45">%</h3>
+					<h3 id="countFost2"><input type="number" name="" value="25">%</h3>
+					<h3 id="countFost3"><input type="number" name="" value="30">%</h3>
+					<a href="img/unnamed.png" data-fancybox="images" data-caption="Fostering a European network">
+					<img src="img/unnamed.jpg">
+					</a>
+				</div>
+			</section>
+
+			<section class="paper">
+				<textarea name="editor2">
+					<p>The paper and board production process, especially when carried out with paper for recycling as the raw material, leads to the generation of large amounts of side streams --mainly sludge, rejects and process water.</p>
+					<p>The REFFIBRE PROJECT (2014-2016) identified a number of side stream valorisation opportunities, either already on the market or in various stages of development. Find out more <a target="_blank" href="http://reffibre.eu/news/watch-the-video.html">here.</a></p>
+				</textarea>
+				<script type="text/javascript">
+					CKEDITOR.replace( 'editor2',
+							{
+				    			language: 'en' 
+				    		});
+				</script>
+			</section>
+			<div class="btn-div-green">
+				<input class="btn-save-white" type="submit" name="save" value="Save Section">
+			</div>
+		</form>
+
+
+		<form>
+			<section class="latesData">
+				<h2>Latest Data</h2>
+				<textarea name="editor3" rows="10">
+					<p><a href="<?php echo $ruta ?>templates/latest/index.php">Click here</a> to see to see our All Latest Data / Want more detailed data? Become a subscriber <a href="http://www.cepi.org/node/13432" target="_blank">here</a></p>
+				</textarea>
+				<script type="text/javascript">
+					CKEDITOR.replace( 'editor3',
+						{
+			    			language: 'en' 
+			    		});
+				</script>
+				<div class="chart-container">
+					<div class="grafica">
+						<h2>Data Chart</h2>
+						<h2><input type="" name="" value="European Recycling Rate in the World"></h2>
+						<p><input type="" name="" value="CEPI Statistics - Status as of 2015"></p>
+						<label>EU-28+2 (in %):</label>
+						<input type="number" name="" value="71.5"><br><br>
+						<label>CEPI Countries (in %):</label>
+						<input type="number" name="" value="71.3"><br><br>
+						<label>North America (in %):</label>
+						<input type="number" name="" value="67.3"><br><br>
+						<label>Total World (in %):</label>
+						<input type="number" name="" value="58.6"><br><br>
+						<label>Asia (in %):</label>
+						<input type="number" name="" value="53.1"><br><br>
+						<label>Latin America (in %):</label>
+						<input type="number" name="" value="45.9"><br><br>
+						<label>Africa (in %):</label>
+						<input type="number" name="" value="35.1"><br><br>
 					</div>
 				</div>
+			</section>
+			<div class="btn-div-white">
+				<input class="btn-save-green" type="submit" name="save" value="Save Section">
+			</div>
+		</form>
+
+		<section id="latest">
+			<h2 class="title"><input type="" name="" value="Latest position papers"></h2>
+		</br></br>
+			<div class="flex contForest">
+				<div class="colDiv textarea">
+					<textarea name="editor4">
+						<p><b>17.oct.2016</b><br><br>
+						<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a></p>
+					</textarea>
+				</div>
+				<div class="colDiv textarea">
+					<textarea name="editor5">
+						<p><b>17.oct.2016</b><br><br>
+						<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</a></p>
+					</textarea>
+				</div>
+			</div>
+			<script type="text/javascript">
+				CKEDITOR.replace( 'editor4',
+					{
+		    			language: 'en' 
+		    		});
+				CKEDITOR.replace( 'editor5',
+					{
+		    			language: 'en' 
+		    		});
+			</script>
+		</section>
+
+		<footer class="flex">
+			<div class="footer-col1" data-anim-type="fade-in-right" data-anim-delay="0">
+				<textarea name="editor6">
+					<h2>Contact Persons</h2>
+					<div class="flex int-ftr">
+						<div class="ft-int-col1">
+							<p>Industrial Policy Director<br>Bernard Lampard</p>
+							<p>Industrial Policy Director<br>Bernard Lampard</p>
+						</div>
+						<div class="ft-int-col2">
+							<p>Statistics Manager<br>Ariane Crèvecouer</p>
+							<p>Statistics Manager<br>Ariane Crèvecouer</p>
+						</div>
+					</div>
+				</textarea>
 			</div>
 			<div class="flex footer-col2" data-anim-type="fade-in-left" data-anim-delay="0">
-				<h2>2050 ROADMAP</h2>
-				<p><a target="_blank" href="https://www.dropbox.com/sh/kava5amd6qxrb7r/AADlUbICEk2OSQofaNrCVLjKa?dl=">Click here</a> to learn more about our 2050 Roadmap to a low- carbon bioeconomy: Investing in Europe for Industry Transformation.</p>
+				<textarea name="editor7">
+					<h2>2050 ROADMAP</h2>
+					<p><a target="_blank" href="https://www.dropbox.com/sh/kava5amd6qxrb7r/AADlUbICEk2OSQofaNrCVLjKa?dl=">Click here</a> to learn more about our 2050 Roadmap to a low- carbon bioeconomy: Investing in Europe for Industry Transformation.</p>
+				</textarea>
 			</div>
-
+			<script type="text/javascript">
+				CKEDITOR.replace( 'editor6',
+					{
+		    			language: 'en' 
+		    		});
+				CKEDITOR.replace( 'editor7',
+					{
+		    			language: 'en' 
+		    		});
+			</script>
 			<a class="ancla" href=".bannerForest">
 				<img class="footerFlecha" src="<?php echo $ruta; ?>img/public/Boton_Flecha-73.svg">
 			</a>
 		</footer>
+		<div class="btn-div-green">
+			<input class="btn-save-white" type="submit" name="save" value="Save Section">
+		</div>
 
 	<!-- /Contenido -->
 

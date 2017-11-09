@@ -272,10 +272,10 @@ label{
     line-height: 20px;
     color: #87868a;
 }
-.worldwide h2 input{
+.worldwide h2 input, .chart-container .grafica h2 input, #latest .title input{
     color: #51a332;
     width: 22em;
-    font-size: .65em;
+    font-size: .80em;
     padding: .3em;
     font-family: bebas-bold;
     text-align: center;
@@ -315,6 +315,40 @@ label{
     color: #51a332;
     font-size: 1em;
     font-weight: bold;
+}
+.fostering h2 input{
+    font-size: .6em;
+}
+.fostering textarea{
+    color: #87868a;
+    width: 90%;
+    font-size: 1em;
+    padding: 2em;
+}
+.imgFostering input{
+    width: 2em;
+    font-size: .5em;
+    position: relative;
+    top: -5px;
+    color: #51a332;
+}
+.chart-container .grafica p input{
+    color: #87868a;
+    width: 22em;
+    font-size: 1.5em;
+    padding: .3em;
+    margin: 0 0 2em 0;
+    font-family: ;
+    text-align: center;
+}
+.chart-container .grafica input{
+    width: 3.5em;
+    font-size: 1em;
+    padding: .3em;
+    color: #87868a;
+}
+.contForest .textarea{
+    padding: 0 2em;
 }
 /* End styles Circular Admin */
 
