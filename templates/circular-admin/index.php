@@ -31,9 +31,11 @@
 		
 			<section id="extracting" class="flex extracting">
 				<div class="colDiv center">
-					<h2 class="title"><input type="text" name="" value="Extracting Full Value of Wood Components"></h2>
+					<h2 class="title">
+						<input type="text" value="Extracting Full Value of Wood Components" name="txt_extracting_title">
+					</h2>
 					<p>
-						<textarea rows="14" >
+						<textarea rows="14" name="txa_extracting_content">
 The life cycle of a paper product is composed of a series of value adding steps, from the extraction of natural resources until the end of the paper product’s life.
 
 In the circular economy, the end of the paper product’s life is reconnected with its production by reusing the already extracted resources which are contained in used products.
@@ -226,7 +228,7 @@ What all synergies have in common is that they reduce costs and generate new val
 			</a>
 		</footer>
 		<div class="btn-div-green">
-			<input class="btn-save-white" type="submit" name="save" value="Save Section">
+			<input class="btn-save-white" type="submit" value="Save Section">
 		</div>
 	</form>
 
