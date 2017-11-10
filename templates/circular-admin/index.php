@@ -4,7 +4,7 @@
 	include('../../components/header.php');
 ?>
 <body class="body-circular">
-
+	<form action="<?php echo $ruta; ?>components/update.php" method="POST">
 		<header>
 			<a id="cd-logo" href="#0"><img src="<?php echo $ruta; ?>img/public/logo.svg" alt="Homepage"></a>
 		</header>
@@ -28,7 +28,7 @@
 		</section>
 
 
-		<form>
+		
 			<section id="extracting" class="flex extracting">
 				<div class="colDiv center">
 					<h2 class="title"><input type="text" name="" value="Extracting Full Value of Wood Components"></h2>
@@ -49,13 +49,7 @@ Moreover, promoting the use the cascading principle where wood is first used as 
 					<h4 id="countCasc3"><input class="number-s1" type="number" name="" value="1"></h4>
 				</div>
 			</section>
-			<div class="btn-div-green">
-				<input class="btn-save-white" type="submit" name="save" value="Save Section">
-			</div>
-		</form>
-		
 
-		<form>
 			<section class="worldwide">
 				<h2 class="title"><input type="text" name="" value="A worldwide leader IN paper recycling"></h2>
 				<div class="flex contWorld">
@@ -96,12 +90,7 @@ Moreover, promoting the use the cascading principle where wood is first used as 
 					</div>
 				</div>
 			</section>
-			<div class="btn-div-white">
-				<input class="btn-save-green" type="submit" name="save" value="Save Section">
-			</div>
-		</form>
 
-		<form>
 			<section class="fostering">
 				<h2 class="title"><input type="text" name="" value="Fostering a European network for industrial symbiosis"></h2>
 				<textarea rows="10">
@@ -133,13 +122,7 @@ What all synergies have in common is that they reduce costs and generate new val
 				    		});
 				</script>
 			</section>
-			<div class="btn-div-green">
-				<input class="btn-save-white" type="submit" name="save" value="Save Section">
-			</div>
-		</form>
 
-
-		<form>
 			<section class="latesData">
 				<h2>Latest Data</h2>
 				<textarea name="editor3" rows="10">
@@ -173,10 +156,7 @@ What all synergies have in common is that they reduce costs and generate new val
 					</div>
 				</div>
 			</section>
-			<div class="btn-div-white">
-				<input class="btn-save-green" type="submit" name="save" value="Save Section">
-			</div>
-		</form>
+
 
 		<section id="latest">
 			<h2 class="title"><input type="" name="" value="Latest position papers"></h2>
@@ -248,6 +228,7 @@ What all synergies have in common is that they reduce costs and generate new val
 		<div class="btn-div-green">
 			<input class="btn-save-white" type="submit" name="save" value="Save Section">
 		</div>
+	</form>
 
 	<!-- /Contenido -->
 
