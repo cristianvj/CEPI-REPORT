@@ -2,8 +2,7 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-	<meta charset="UTF-8">
-	<meta charset="character_set">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<!-- Global Styles -->
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=0,maximum-scale=1,user-scalable=no">
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700' rel='stylesheet' type='text/css'>

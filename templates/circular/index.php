@@ -27,7 +27,9 @@
 
 		<section id="extracting" class="flex extracting">
 			<div class="colDiv">
-				<h2 class="title"><?php echo $reg['scc_extracting_title']; ?></h2>
+				<h2 class="title">
+					<?php echo $reg['scc_extracting_title']; ?>
+				</h2>
 				<p>
 					<?php echo $reg['scc_extracting_content']; ?>
 				</p>
