@@ -52,7 +52,7 @@
 		if (isset($pageAdmin)) {
 			echo 
 			'
-			<script src="https://cdn.ckeditor.com/4.7.3/standard/ckeditor.js"></script>
+			<script src="//cdn.ckeditor.com/4.7.3/basic/ckeditor.js"></script>
 			';
 		}
 		

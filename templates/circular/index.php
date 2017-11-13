@@ -236,15 +236,15 @@ Highcharts.chart('recoveryGraf', {
     colorByPoint: true,
     colors: ['#005eb8', '#56b6cc', '#8bc540'],
     data: [{
-      name: 'Potential for further recovery:6%',
+      name: 'Potential for further recovery: <?php echo $reg['scc_worldwide_chart_one']; ?>%',
       y: <?php echo $reg['scc_worldwide_chart_one']; ?>,
       drilldown: null
     }, {
-      name: 'Non-recoverable<br>(e.g. tissue,wallpaper,etc):22%',
+      name: 'Non-recoverable<br>(e.g. tissue,wallpaper,etc):<?php echo $reg['scc_worldwide_chart_two']; ?>%',
       y: <?php echo $reg['scc_worldwide_chart_two']; ?>,
       drilldown: null
     }, {
-      name: 'Recycled: 72%<br>Click to Drilldown',
+      name: 'Recycled: <?php echo $reg['scc_worldwide_chart_tree']; ?>%<br>Click to Drilldown',
       y: <?php echo $reg['scc_worldwide_chart_tree']; ?>,
       drilldown: 'Recycleds'
     }]
@@ -255,8 +255,8 @@ Highcharts.chart('recoveryGraf', {
       id: 'Recycleds',
       colors: ['#57a133', '#8bc540'],
       data: [
-        ['Exported 16%', <?php echo $reg['scc_worldwide_chart_recycled_one']; ?>],
-        ['Used in Europe 84%', <?php echo $reg['scc_worldwide_chart_recycled_two']; ?>,]
+        ['Exported <?php echo $reg['scc_worldwide_chart_recycled_one']; ?>%', <?php echo $reg['scc_worldwide_chart_recycled_one']; ?>],
+        ['Used in Europe <?php echo $reg['scc_worldwide_chart_recycled_two']; ?>%', <?php echo $reg['scc_worldwide_chart_recycled_two']; ?>,]
       ]
     }]
   }
